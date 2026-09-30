@@ -1,0 +1,23 @@
+{
+  "all_checks_passed": true,
+  "direction_action_checks": 112,
+  "rational_switch_checks": 64,
+  "nality_pair_checks": 128,
+  "other_directions_fixed": [
+    1,
+    6,
+    7
+  ],
+  "direction_rule": "a -> a + q * nu(a) * CS, nu(a)=a1+a2; CS=6",
+  "switched_pairs": [
+    [
+      "БЛ",
+      "БЭ"
+    ],
+    [
+      "ЧЭ",
+      "ЧЛ"
+    ]
+  ],
+  "scope": "Frozen 16 permutations and eight incidence specifications; prose and images excluded."
+}

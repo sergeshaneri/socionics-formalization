@@ -1,0 +1,917 @@
+{
+  "b_id": 0,
+  "c_id": 0,
+  "z": 1,
+  "B": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "C": [
+    1,
+    2,
+    4
+  ],
+  "type_generator_names": [
+    "Вертность",
+    "Нальность",
+    "Субъективисты/Объективисты",
+    "Демократия/Аристократия"
+  ],
+  "selected_generator_signs": [
+    0,
+    1,
+    1,
+    1
+  ],
+  "first_type": "СЭИ",
+  "first_aspect": "БС",
+  "actual_first_aspect_function": 1,
+  "function_positive_poles": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "first_alignment": true,
+  "first_model_full_identity": true,
+  "original_15_positive_invariants": false,
+  "original_trait_values": [
+    {
+      "trait": "Вертность",
+      "sign": 0
+    },
+    {
+      "trait": "Нальность",
+      "sign": 1
+    },
+    {
+      "trait": "статик/динамик",
+      "sign": 0
+    },
+    {
+      "trait": "Беспечные/Предусмотрительные",
+      "sign": 1
+    },
+    {
+      "trait": "Уступчивые/Упрямые",
+      "sign": 1
+    },
+    {
+      "trait": "Интуиты/Сенсорики",
+      "sign": 0
+    },
+    {
+      "trait": "Логики/Этики",
+      "sign": 0
+    },
+    {
+      "trait": "Субъективисты/Объективисты",
+      "sign": 1
+    },
+    {
+      "trait": "Рассудительные/Решительные",
+      "sign": 1
+    },
+    {
+      "trait": "Конструктивисты/Эмотивисты",
+      "sign": 0
+    },
+    {
+      "trait": "Тактики/Стратеги",
+      "sign": 0
+    },
+    {
+      "trait": "Демократия/Аристократия",
+      "sign": 1
+    },
+    {
+      "trait": "Позитивизм/Негативизм",
+      "sign": 0
+    },
+    {
+      "trait": "Квестимы/Деклатимы",
+      "sign": 0
+    },
+    {
+      "trait": "Процесс/Результат",
+      "sign": 1
+    }
+  ],
+  "global_transported_formula_compatibility": true,
+  "original_parent_map": true,
+  "type_order": [
+    "СЭИ",
+    "ИЛЭ",
+    "ЛИИ",
+    "ЭСЭ",
+    "ЛСИ",
+    "ЭИЭ",
+    "ИЭИ",
+    "СЛЭ",
+    "ЭСИ",
+    "ЛИЭ",
+    "ИЛИ",
+    "СЭЭ",
+    "СЛИ",
+    "ИЭЭ",
+    "ЭИИ",
+    "ЛСЭ"
+  ],
+  "aspect_order": [
+    "БС",
+    "ЧИ",
+    "БЛ",
+    "ЧЭ",
+    "БЭ",
+    "ЧЛ",
+    "БИ",
+    "ЧС"
+  ],
+  "actual_functions_in_aspect_order": [
+    1,
+    5,
+    6,
+    2,
+    8,
+    4,
+    3,
+    7
+  ],
+  "reference_function_order": [
+    1,
+    5,
+    6,
+    2,
+    8,
+    4,
+    3,
+    7
+  ],
+  "type_columns": [
+    {
+      "template_mask": 0,
+      "source_mask": 0,
+      "source_trait": "Существование",
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 1,
+      "source_mask": 1,
+      "source_trait": "Вертность",
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 14,
+      "source_mask": 14,
+      "source_trait": "Беспечные/Предусмотрительные",
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 15,
+      "source_mask": 15,
+      "source_trait": "Интуиты/Сенсорики",
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 8,
+      "source_mask": 8,
+      "source_trait": "Демократия/Аристократия",
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 9,
+      "source_mask": 9,
+      "source_trait": "Позитивизм/Негативизм",
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 6,
+      "source_mask": 6,
+      "source_trait": "Уступчивые/Упрямые",
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 7,
+      "source_mask": 7,
+      "source_trait": "Логики/Этики",
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 4,
+      "source_mask": 4,
+      "source_trait": "Субъективисты/Объективисты",
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 5,
+      "source_mask": 5,
+      "source_trait": "Конструктивисты/Эмотивисты",
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 10,
+      "source_mask": 10,
+      "source_trait": "Процесс/Результат",
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 11,
+      "source_mask": 11,
+      "source_trait": "Квестимы/Деклатимы",
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 12,
+      "source_mask": 12,
+      "source_trait": "Рассудительные/Решительные",
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 13,
+      "source_mask": 13,
+      "source_trait": "Тактики/Стратеги",
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 2,
+      "source_mask": 2,
+      "source_trait": "Нальность",
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 3,
+      "source_mask": 3,
+      "source_trait": "статик/динамик",
+      "selected_source_sign": 0
+    }
+  ],
+  "aspect_columns": [
+    {
+      "template_mask": 0,
+      "source_mask": 0,
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 1,
+      "source_mask": 1,
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 6,
+      "source_mask": 6,
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 7,
+      "source_mask": 7,
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 4,
+      "source_mask": 4,
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 5,
+      "source_mask": 5,
+      "selected_source_sign": 0
+    },
+    {
+      "template_mask": 2,
+      "source_mask": 2,
+      "selected_source_sign": 1
+    },
+    {
+      "template_mask": 3,
+      "source_mask": 3,
+      "selected_source_sign": 0
+    }
+  ],
+  "type_matrix": [
+    {
+      "type": "СЭИ",
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "ИЛЭ",
+      "signs": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "ЛИИ",
+      "signs": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "ЭСЭ",
+      "signs": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "ЛСИ",
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "ЭИЭ",
+      "signs": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "ИЭИ",
+      "signs": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "СЛЭ",
+      "signs": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "ЭСИ",
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "ЛИЭ",
+      "signs": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "ИЛИ",
+      "signs": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "СЭЭ",
+      "signs": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "СЛИ",
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "ИЭЭ",
+      "signs": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "ЭИИ",
+      "signs": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "ЛСЭ",
+      "signs": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "aspect_matrix": [
+    {
+      "aspect": "БС",
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "aspect": "ЧИ",
+      "signs": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "aspect": "БЛ",
+      "signs": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "aspect": "ЧЭ",
+      "signs": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "aspect": "БЭ",
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "aspect": "ЧЛ",
+      "signs": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "aspect": "БИ",
+      "signs": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "aspect": "ЧС",
+      "signs": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "abstract_levels": [
+    [
+      {
+        "code": 0,
+        "types": [
+          "СЭИ",
+          "ЛИИ",
+          "ЛСИ",
+          "ИЭИ",
+          "ЭСИ",
+          "ИЛИ",
+          "СЛИ",
+          "ЭИИ"
+        ],
+        "aspects": [
+          "БС",
+          "БЛ",
+          "БЭ",
+          "БИ"
+        ]
+      },
+      {
+        "code": 1,
+        "types": [
+          "ИЛЭ",
+          "ЭСЭ",
+          "ЭИЭ",
+          "СЛЭ",
+          "ЛИЭ",
+          "СЭЭ",
+          "ИЭЭ",
+          "ЛСЭ"
+        ],
+        "aspects": [
+          "ЧИ",
+          "ЧЭ",
+          "ЧЛ",
+          "ЧС"
+        ]
+      }
+    ],
+    [
+      {
+        "code": 0,
+        "types": [
+          "СЭИ",
+          "ИЭИ",
+          "ИЛИ",
+          "СЛИ"
+        ],
+        "aspects": [
+          "БС",
+          "БИ"
+        ]
+      },
+      {
+        "code": 1,
+        "types": [
+          "ИЛЭ",
+          "СЛЭ",
+          "СЭЭ",
+          "ИЭЭ"
+        ],
+        "aspects": [
+          "ЧИ",
+          "ЧС"
+        ]
+      },
+      {
+        "code": 2,
+        "types": [
+          "ЛИИ",
+          "ЛСИ",
+          "ЭСИ",
+          "ЭИИ"
+        ],
+        "aspects": [
+          "БЛ",
+          "БЭ"
+        ]
+      },
+      {
+        "code": 3,
+        "types": [
+          "ЭСЭ",
+          "ЭИЭ",
+          "ЛИЭ",
+          "ЛСЭ"
+        ],
+        "aspects": [
+          "ЧЭ",
+          "ЧЛ"
+        ]
+      }
+    ],
+    [
+      {
+        "code": 0,
+        "types": [
+          "СЭИ",
+          "ИЭИ"
+        ],
+        "aspects": [
+          "БС"
+        ]
+      },
+      {
+        "code": 1,
+        "types": [
+          "ИЛЭ",
+          "СЛЭ"
+        ],
+        "aspects": [
+          "ЧИ"
+        ]
+      },
+      {
+        "code": 2,
+        "types": [
+          "ЛИИ",
+          "ЛСИ"
+        ],
+        "aspects": [
+          "БЛ"
+        ]
+      },
+      {
+        "code": 3,
+        "types": [
+          "ЭСЭ",
+          "ЭИЭ"
+        ],
+        "aspects": [
+          "ЧЭ"
+        ]
+      },
+      {
+        "code": 4,
+        "types": [
+          "ИЛИ",
+          "СЛИ"
+        ],
+        "aspects": [
+          "БИ"
+        ]
+      },
+      {
+        "code": 5,
+        "types": [
+          "СЭЭ",
+          "ИЭЭ"
+        ],
+        "aspects": [
+          "ЧС"
+        ]
+      },
+      {
+        "code": 6,
+        "types": [
+          "ЭСИ",
+          "ЭИИ"
+        ],
+        "aspects": [
+          "БЭ"
+        ]
+      },
+      {
+        "code": 7,
+        "types": [
+          "ЛИЭ",
+          "ЛСЭ"
+        ],
+        "aspects": [
+          "ЧЛ"
+        ]
+      }
+    ]
+  ]
+}

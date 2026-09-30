@@ -1,0 +1,245 @@
+{
+  "formulas": {
+    "passes": 1657,
+    "fails": 63
+  },
+  "by_file": {
+    "04-4-svezhak.md": {
+      "passes": 683,
+      "fails": 21
+    },
+    "05-oktohotomii.md": {
+      "passes": 974,
+      "fails": 42
+    }
+  },
+  "parsed_formula_count": 1720,
+  "skipped_count": 12,
+  "block_headers": 243,
+  "invalid_block_headers": [
+    {
+      "file": "04-4-svezhak.md",
+      "line": 413,
+      "section": "7. # Верт = Наль Х Таль (7,c)",
+      "section_num": 7,
+      "types": [
+        "СЭИ",
+        "ИЭЭ",
+        "ИЛИ",
+        "СЛИ"
+      ],
+      "distinct": true,
+      "direction": [
+        0,
+        5,
+        8,
+        12
+      ],
+      "affine": false,
+      "constant_traits": []
+    },
+    {
+      "file": "04-4-svezhak.md",
+      "line": 737,
+      "section": "13. # Бс/Пр = Тк/Ст Х Таль (13,a)",
+      "section_num": 13,
+      "types": [
+        "СЭИ",
+        "ЭИИ",
+        "ЛИЭ",
+        "СЛИ"
+      ],
+      "distinct": true,
+      "direction": [
+        0,
+        6,
+        8,
+        15
+      ],
+      "affine": false,
+      "constant_traits": []
+    },
+    {
+      "file": "04-4-svezhak.md",
+      "line": 1512,
+      "section": "26. # +/- =  Пц/Рз Х Таль (26,c)",
+      "section_num": 26,
+      "types": [
+        "ЭСЭ",
+        "ИЭИ",
+        "ЛИЭ",
+        "ЛСИ"
+      ],
+      "distinct": true,
+      "direction": [
+        0,
+        7,
+        9,
+        12
+      ],
+      "affine": false,
+      "constant_traits": []
+    },
+    {
+      "file": "04-4-svezhak.md",
+      "line": 1802,
+      "section": "31. # Ус/Уп = ?/!  Х Тк/Ст (31,a)",
+      "section_num": 31,
+      "types": [
+        "ЭСЭ",
+        "ЛСЭ",
+        "ИЛИ",
+        "ИЭЭ"
+      ],
+      "distinct": true,
+      "direction": [
+        0,
+        6,
+        8,
+        15
+      ],
+      "affine": false,
+      "constant_traits": []
+    }
+  ]
+}
+First errors [
+  {
+    "file": "04-4-svezhak.md",
+    "line": 414,
+    "section_num": 7,
+    "types": [
+      "СЭИ",
+      "ИЭЭ",
+      "ИЛИ",
+      "СЛИ"
+    ],
+    "kind": "subset",
+    "formula": "[БС БИ | Интровертные Иррациональные Динамичные] → (1 3 | экстравертные акцептные ментальные)",
+    "satisfying_types": [
+      "СЭИ",
+      "ИЭИ",
+      "ИЛИ",
+      "СЛИ"
+    ],
+    "counterexamples": [
+      "ИЭЭ"
+    ],
+    "status": "fails"
+  },
+  {
+    "file": "04-4-svezhak.md",
+    "line": 415,
+    "section_num": 7,
+    "types": [
+      "СЭИ",
+      "ИЭЭ",
+      "ИЛИ",
+      "СЛИ"
+    ],
+    "kind": "subset",
+    "formula": "[ЧИ ЧС | Экстравертные Иррациональные Статичные] → (5 7 | интровертные акцептные витальные)",
+    "satisfying_types": [
+      "СЭИ",
+      "ИЭИ",
+      "ИЛИ",
+      "СЛИ"
+    ],
+    "counterexamples": [
+      "ИЭЭ"
+    ],
+    "status": "fails"
+  },
+  {
+    "file": "04-4-svezhak.md",
+    "line": 416,
+    "section_num": 7,
+    "types": [
+      "СЭИ",
+      "ИЭЭ",
+      "ИЛИ",
+      "СЛИ"
+    ],
+    "kind": "subset",
+    "formula": "[БЛ БЭ | Интровертные Рациональные Статичные] → (6 8 | экстравертные продуктивные витальные)",
+    "satisfying_types": [
+      "СЭИ",
+      "ИЭИ",
+      "ИЛИ",
+      "СЛИ"
+    ],
+    "counterexamples": [
+      "ИЭЭ"
+    ],
+    "status": "fails"
+  },
+  {
+    "file": "04-4-svezhak.md",
+    "line": 417,
+    "section_num": 7,
+    "types": [
+      "СЭИ",
+      "ИЭЭ",
+      "ИЛИ",
+      "СЛИ"
+    ],
+    "kind": "subset",
+    "formula": "[ЧЭ ЧЛ | Экстравертные Рациональные Динамичные] → (2 4 | интровертные продуктивные ментальные)",
+    "satisfying_types": [
+      "СЭИ",
+      "ИЭИ",
+      "ИЛИ",
+      "СЛИ"
+    ],
+    "counterexamples": [
+      "ИЭЭ"
+    ],
+    "status": "fails"
+  },
+  {
+    "file": "04-4-svezhak.md",
+    "line": 738,
+    "section_num": 13,
+    "types": [
+      "СЭИ",
+      "ЭИИ",
+      "ЛИЭ",
+      "СЛИ"
+    ],
+    "kind": "subset",
+    "formula": "[БС | Интровертные Дельта Вовлеченные Альфа Явные Иррациональные Динамичные] → (1 4 | оценочные инертные ментальные)",
+    "satisfying_types": [
+      "СЭИ",
+      "ЭИЭ",
+      "ЛИЭ",
+      "СЛИ"
+    ],
+    "counterexamples": [
+      "ЭИИ"
+    ],
+    "status": "fails"
+  },
+  {
+    "file": "04-4-svezhak.md",
+    "line": 739,
+    "section_num": 13,
+    "types": [
+      "СЭИ",
+      "ЭИИ",
+      "ЛИЭ",
+      "СЛИ"
+    ],
+    "kind": "subset",
+    "formula": "[ЧИ | Экстравертные Дельта Отвлеченные Альфа Неявные Иррациональные Статичные] → (5 8 | оценочные контактные витальные)",
+    "satisfying_types": [
+      "СЭИ",
+      "ЭИЭ",
+      "ЛИЭ",
+      "СЛИ"
+    ],
+    "counterexamples": [
+      "ЭИИ"
+    ],
+    "status": "fails"
+  }
+]

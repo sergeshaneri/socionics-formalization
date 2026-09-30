@@ -1,0 +1,27 @@
+[
+  {
+    "path": "inputs/formuly-dihotomij-arp.md",
+    "bytes": 1742947,
+    "sha256": "06e8fe2344369fa815cf4a6731ce59d0863f7a418b2d011fdef09b92cf78755f"
+  },
+  {
+    "path": "inputs/generations-list.md",
+    "bytes": 509,
+    "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5"
+  },
+  {
+    "path": "inputs/markdown таблицы.md",
+    "bytes": 6029,
+    "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74"
+  },
+  {
+    "path": "inputs/spisok-formul-arp.md",
+    "bytes": 8904,
+    "sha256": "26e005a9fa33e238554581b054cd32c34ce8f718b07aea1c3e98d06f75876efd"
+  },
+  {
+    "path": "inputs/Полная Формализация соционики.md",
+    "bytes": 1961536,
+    "sha256": "b1891d6caf6803ccaa40f3e856c00694ffb85aa33987622e7c8a27bef8d7a998"
+  }
+]

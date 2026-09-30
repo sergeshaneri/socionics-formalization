@@ -1,0 +1,57 @@
+[
+  {
+    "path": "project_sources/01-generations-list.md",
+    "bytes": 509,
+    "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5"
+  },
+  {
+    "path": "project_sources/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
+    "bytes": 2522,
+    "sha256": "3e36ff5cc85d6e763c41e30cf294d878686b10231df8352fd244850e1b5c5979"
+  },
+  {
+    "path": "project_sources/03-markdown-.md",
+    "bytes": 6029,
+    "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74"
+  },
+  {
+    "path": "project_sources/04-4-svezhak.md",
+    "bytes": 180169,
+    "sha256": "37fe6fd18c7c79f096b3234cda0c111ffcc19cfdd6731bf1c162064a338e6019"
+  },
+  {
+    "path": "project_sources/05-oktohotomii.md",
+    "bytes": 484914,
+    "sha256": "5ab9ffda5bb417b42eab4e41128ae918ae5400041c7a66751131e0181b975ebf"
+  },
+  {
+    "path": "project_sources/06-md",
+    "bytes": 659186,
+    "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f"
+  },
+  {
+    "path": "project_sources/07-md",
+    "bytes": 1136724,
+    "sha256": "f279abc0fb2ce14bb38778c3d8ef72d416e6be7edc5c983c11132af27b981e3b"
+  },
+  {
+    "path": "project_sources/08-formuly-dihotomij-arp.md",
+    "bytes": 1742947,
+    "sha256": "06e8fe2344369fa815cf4a6731ce59d0863f7a418b2d011fdef09b92cf78755f"
+  },
+  {
+    "path": "project_sources/09-tencer-minaev-and-reinin-dichotomies-formulae.md",
+    "bytes": 6469,
+    "sha256": "64c64c31fa378c4a471ed0338e964658e9e9142e3c35c0db1f45668b12bf7e35"
+  },
+  {
+    "path": "upload/Pasted markdown.md",
+    "bytes": 28230,
+    "sha256": "796e8d46c320a7b4618ec7338f6e73f023f022d490d3adbcb38f5888d5a86522"
+  },
+  {
+    "path": "upload/Twisting Elementary Abelian Groups via Cocycles_ From E16 to D8 x C2.pdf",
+    "bytes": 420154,
+    "sha256": "18b23e56695fd7a57b9213fd7ec4d8e92374335cbfeef758d4d13a1dd8bfa24a"
+  }
+]

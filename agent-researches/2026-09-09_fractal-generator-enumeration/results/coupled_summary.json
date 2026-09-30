@@ -1,0 +1,2468 @@
+{
+  "prefix_coupled_strict_generations_fixed": {
+    "type_bases": 64,
+    "cases": 64,
+    "first_alignment": 64,
+    "full_identity": 8,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      }
+    ]
+  },
+  "prefix_coupled_strict_generations_all": {
+    "type_bases": 64,
+    "cases": 1024,
+    "first_alignment": 768,
+    "full_identity": 96,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      },
+      "СЭИ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      },
+      "ЭСЭ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      },
+      "ЛИИ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      },
+      "СЭЭ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      },
+      "ИЛИ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      },
+      "ЛИЭ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      },
+      "ЭСИ": {
+        "cases": 64,
+        "first_alignment": 64,
+        "full_identity": 8
+      },
+      "СЛЭ": {
+        "cases": 64,
+        "first_alignment": 32,
+        "full_identity": 4
+      },
+      "ИЭИ": {
+        "cases": 64,
+        "first_alignment": 32,
+        "full_identity": 4
+      },
+      "ЭИЭ": {
+        "cases": 64,
+        "first_alignment": 32,
+        "full_identity": 4
+      },
+      "ЛСИ": {
+        "cases": 64,
+        "first_alignment": 32,
+        "full_identity": 4
+      },
+      "ИЭЭ": {
+        "cases": 64,
+        "first_alignment": 32,
+        "full_identity": 4
+      },
+      "СЛИ": {
+        "cases": 64,
+        "first_alignment": 32,
+        "full_identity": 4
+      },
+      "ЛСЭ": {
+        "cases": 64,
+        "first_alignment": 32,
+        "full_identity": 4
+      },
+      "ЭИИ": {
+        "cases": 64,
+        "first_alignment": 32,
+        "full_identity": 4
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 1,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 2,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 3,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 4,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 5,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛИ",
+        "first_aspect": "БИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 6,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 7,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 10,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 11,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 14,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 15,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 8,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 9,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 12,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 13,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭИ",
+        "first_aspect": "БИ"
+      }
+    ]
+  },
+  "prefix_coupled_ancient_first_fixed": {
+    "type_bases": 192,
+    "cases": 192,
+    "first_alignment": 192,
+    "full_identity": 8,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      }
+    ]
+  },
+  "prefix_coupled_ancient_first_all": {
+    "type_bases": 192,
+    "cases": 3072,
+    "first_alignment": 2304,
+    "full_identity": 96,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      },
+      "СЭИ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      },
+      "ЭСЭ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      },
+      "ЛИИ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      },
+      "СЭЭ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      },
+      "ИЛИ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      },
+      "ЛИЭ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      },
+      "ЭСИ": {
+        "cases": 192,
+        "first_alignment": 192,
+        "full_identity": 8
+      },
+      "СЛЭ": {
+        "cases": 192,
+        "first_alignment": 96,
+        "full_identity": 4
+      },
+      "ИЭИ": {
+        "cases": 192,
+        "first_alignment": 96,
+        "full_identity": 4
+      },
+      "ЭИЭ": {
+        "cases": 192,
+        "first_alignment": 96,
+        "full_identity": 4
+      },
+      "ЛСИ": {
+        "cases": 192,
+        "first_alignment": 96,
+        "full_identity": 4
+      },
+      "ИЭЭ": {
+        "cases": 192,
+        "first_alignment": 96,
+        "full_identity": 4
+      },
+      "СЛИ": {
+        "cases": 192,
+        "first_alignment": 96,
+        "full_identity": 4
+      },
+      "ЛСЭ": {
+        "cases": 192,
+        "first_alignment": 96,
+        "full_identity": 4
+      },
+      "ЭИИ": {
+        "cases": 192,
+        "first_alignment": 96,
+        "full_identity": 4
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 1,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 2,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 3,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 4,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 5,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛИ",
+        "first_aspect": "БИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 6,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 7,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 10,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 11,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 14,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 15,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 8,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 9,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 12,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 13,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭИ",
+        "first_aspect": "БИ"
+      }
+    ]
+  },
+  "prefix_coupled_unrestricted_fixed": {
+    "type_bases": 10752,
+    "cases": 10752,
+    "first_alignment": 10752,
+    "full_identity": 64,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      }
+    ]
+  },
+  "prefix_coupled_unrestricted_all": {
+    "type_bases": 10752,
+    "cases": 172032,
+    "first_alignment": 96768,
+    "full_identity": 576,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      },
+      "СЭИ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      },
+      "ЭСЭ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      },
+      "ЛИИ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      },
+      "СЭЭ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      },
+      "ИЛИ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      },
+      "ЛИЭ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      },
+      "ЭСИ": {
+        "cases": 10752,
+        "first_alignment": 10752,
+        "full_identity": 64
+      },
+      "СЛЭ": {
+        "cases": 10752,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ИЭИ": {
+        "cases": 10752,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ЭИЭ": {
+        "cases": 10752,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ЛСИ": {
+        "cases": 10752,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ИЭЭ": {
+        "cases": 10752,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "СЛИ": {
+        "cases": 10752,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ЛСЭ": {
+        "cases": 10752,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ЭИИ": {
+        "cases": 10752,
+        "first_alignment": 1344,
+        "full_identity": 8
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 1,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 2,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 3,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 4,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 5,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛИ",
+        "first_aspect": "БИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 6,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 7,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 10,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 11,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 14,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 15,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 80,
+        "c_id": 2,
+        "z": 4,
+        "B": [
+          1,
+          2,
+          14,
+          4
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 80,
+        "c_id": 2,
+        "z": 5,
+        "B": [
+          1,
+          2,
+          14,
+          4
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭИ",
+        "first_aspect": "БИ"
+      },
+      {
+        "b_id": 80,
+        "c_id": 2,
+        "z": 8,
+        "B": [
+          1,
+          2,
+          14,
+          4
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 80,
+        "c_id": 2,
+        "z": 9,
+        "B": [
+          1,
+          2,
+          14,
+          4
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛИ",
+        "first_aspect": "БС"
+      }
+    ]
+  },
+  "full_original_projection_strict_generations_fixed": {
+    "type_bases": 16,
+    "cases": 16,
+    "first_alignment": 16,
+    "full_identity": 2,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      }
+    ]
+  },
+  "full_original_projection_strict_generations_all": {
+    "type_bases": 16,
+    "cases": 256,
+    "first_alignment": 192,
+    "full_identity": 24,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      },
+      "СЭИ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      },
+      "ЭСЭ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      },
+      "ЛИИ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      },
+      "СЭЭ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      },
+      "ИЛИ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      },
+      "ЛИЭ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      },
+      "ЭСИ": {
+        "cases": 16,
+        "first_alignment": 16,
+        "full_identity": 2
+      },
+      "СЛЭ": {
+        "cases": 16,
+        "first_alignment": 8,
+        "full_identity": 1
+      },
+      "ИЭИ": {
+        "cases": 16,
+        "first_alignment": 8,
+        "full_identity": 1
+      },
+      "ЭИЭ": {
+        "cases": 16,
+        "first_alignment": 8,
+        "full_identity": 1
+      },
+      "ЛСИ": {
+        "cases": 16,
+        "first_alignment": 8,
+        "full_identity": 1
+      },
+      "ИЭЭ": {
+        "cases": 16,
+        "first_alignment": 8,
+        "full_identity": 1
+      },
+      "СЛИ": {
+        "cases": 16,
+        "first_alignment": 8,
+        "full_identity": 1
+      },
+      "ЛСЭ": {
+        "cases": 16,
+        "first_alignment": 8,
+        "full_identity": 1
+      },
+      "ЭИИ": {
+        "cases": 16,
+        "first_alignment": 8,
+        "full_identity": 1
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 1,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 2,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 3,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 4,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 5,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛИ",
+        "first_aspect": "БИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 6,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 7,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 10,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 11,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 14,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 15,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 8,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 9,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 12,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 13,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭИ",
+        "first_aspect": "БИ"
+      }
+    ]
+  },
+  "full_original_projection_ancient_first_fixed": {
+    "type_bases": 48,
+    "cases": 48,
+    "first_alignment": 48,
+    "full_identity": 2,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      }
+    ]
+  },
+  "full_original_projection_ancient_first_all": {
+    "type_bases": 48,
+    "cases": 768,
+    "first_alignment": 576,
+    "full_identity": 24,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      },
+      "СЭИ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      },
+      "ЭСЭ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      },
+      "ЛИИ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      },
+      "СЭЭ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      },
+      "ИЛИ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      },
+      "ЛИЭ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      },
+      "ЭСИ": {
+        "cases": 48,
+        "first_alignment": 48,
+        "full_identity": 2
+      },
+      "СЛЭ": {
+        "cases": 48,
+        "first_alignment": 24,
+        "full_identity": 1
+      },
+      "ИЭИ": {
+        "cases": 48,
+        "first_alignment": 24,
+        "full_identity": 1
+      },
+      "ЭИЭ": {
+        "cases": 48,
+        "first_alignment": 24,
+        "full_identity": 1
+      },
+      "ЛСИ": {
+        "cases": 48,
+        "first_alignment": 24,
+        "full_identity": 1
+      },
+      "ИЭЭ": {
+        "cases": 48,
+        "first_alignment": 24,
+        "full_identity": 1
+      },
+      "СЛИ": {
+        "cases": 48,
+        "first_alignment": 24,
+        "full_identity": 1
+      },
+      "ЛСЭ": {
+        "cases": 48,
+        "first_alignment": 24,
+        "full_identity": 1
+      },
+      "ЭИИ": {
+        "cases": 48,
+        "first_alignment": 24,
+        "full_identity": 1
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 1,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 2,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 3,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 4,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 5,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛИ",
+        "first_aspect": "БИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 6,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 7,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 10,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 11,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 14,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 15,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 8,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 9,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 12,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 13,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭИ",
+        "first_aspect": "БИ"
+      }
+    ]
+  },
+  "full_original_projection_unrestricted_fixed": {
+    "type_bases": 1344,
+    "cases": 1344,
+    "first_alignment": 1344,
+    "full_identity": 8,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      }
+    ]
+  },
+  "full_original_projection_unrestricted_all": {
+    "type_bases": 1344,
+    "cases": 21504,
+    "first_alignment": 12096,
+    "full_identity": 72,
+    "by_first_type": {
+      "ИЛЭ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "СЭИ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ЭСЭ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ЛИИ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "СЭЭ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ИЛИ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ЛИЭ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "ЭСИ": {
+        "cases": 1344,
+        "first_alignment": 1344,
+        "full_identity": 8
+      },
+      "СЛЭ": {
+        "cases": 1344,
+        "first_alignment": 168,
+        "full_identity": 1
+      },
+      "ИЭИ": {
+        "cases": 1344,
+        "first_alignment": 168,
+        "full_identity": 1
+      },
+      "ЭИЭ": {
+        "cases": 1344,
+        "first_alignment": 168,
+        "full_identity": 1
+      },
+      "ЛСИ": {
+        "cases": 1344,
+        "first_alignment": 168,
+        "full_identity": 1
+      },
+      "ИЭЭ": {
+        "cases": 1344,
+        "first_alignment": 168,
+        "full_identity": 1
+      },
+      "СЛИ": {
+        "cases": 1344,
+        "first_alignment": 168,
+        "full_identity": 1
+      },
+      "ЛСЭ": {
+        "cases": 1344,
+        "first_alignment": 168,
+        "full_identity": 1
+      },
+      "ЭИИ": {
+        "cases": 1344,
+        "first_alignment": 168,
+        "full_identity": 1
+      }
+    },
+    "witnesses": [
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 0,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 1,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 2,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 3,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 4,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "СЭЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 5,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ИЛИ",
+        "first_aspect": "БИ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 6,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЛИЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 0,
+        "c_id": 0,
+        "z": 7,
+        "B": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          4
+        ],
+        "first_type": "ЭСИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 10,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСЭ",
+        "first_aspect": "ЧЛ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 11,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИИ",
+        "first_aspect": "БЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 14,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЭИЭ",
+        "first_aspect": "ЧЭ"
+      },
+      {
+        "b_id": 16,
+        "c_id": 2,
+        "z": 15,
+        "B": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ЛСИ",
+        "first_aspect": "БЛ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 8,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭЭ",
+        "first_aspect": "ЧИ"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 9,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛИ",
+        "first_aspect": "БС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 12,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "СЛЭ",
+        "first_aspect": "ЧС"
+      },
+      {
+        "b_id": 84,
+        "c_id": 2,
+        "z": 13,
+        "B": [
+          1,
+          2,
+          14,
+          8
+        ],
+        "C": [
+          1,
+          2,
+          6
+        ],
+        "first_type": "ИЭИ",
+        "first_aspect": "БИ"
+      }
+    ]
+  }
+}

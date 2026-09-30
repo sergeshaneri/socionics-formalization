@@ -1,0 +1,8 @@
+{
+  "rawSourceSignMismatches": [],
+  "notes": [
+    "The computation derives type signs from the 15 explicit formula predicates and validates XOR closure independently.",
+    "Long formula source has repeated BI and missing BL in democracy matching; see line 679. Canonical predicates are parsed from spisok-formul-arp.md.",
+    "Cycle predicate allows cyclic rotation, preserves orientation; fixed-start sensitivity is also computed."
+  ]
+}

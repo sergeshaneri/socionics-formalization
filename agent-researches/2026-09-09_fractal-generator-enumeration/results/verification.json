@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "source_hashes_verified": true,
+  "allTypeBases": 20160,
+  "allAspectBases": 168,
+  "directAspectCases": 21504,
+  "outcomeRowsVerified": 322560,
+  "factorizedExpandedCases": 54190080,
+  "independentGlobalDerivation": [
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 0,
+      "first_type": "ИЛЭ"
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 1,
+      "first_type": "СЭИ"
+    },
+    {
+      "b_id": 68,
+      "c_id": 0,
+      "z": 2,
+      "first_type": "ЭСЭ"
+    },
+    {
+      "b_id": 68,
+      "c_id": 0,
+      "z": 3,
+      "first_type": "ЛИИ"
+    },
+    {
+      "b_id": 68,
+      "c_id": 2,
+      "z": 14,
+      "first_type": "ЭИЭ"
+    },
+    {
+      "b_id": 68,
+      "c_id": 2,
+      "z": 15,
+      "first_type": "ЛСИ"
+    },
+    {
+      "b_id": 68,
+      "c_id": 0,
+      "z": 6,
+      "first_type": "ЛИЭ"
+    },
+    {
+      "b_id": 68,
+      "c_id": 0,
+      "z": 7,
+      "first_type": "ЭСИ"
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 4,
+      "first_type": "СЭЭ"
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 5,
+      "first_type": "ИЛИ"
+    },
+    {
+      "b_id": 68,
+      "c_id": 2,
+      "z": 10,
+      "first_type": "ЛСЭ"
+    },
+    {
+      "b_id": 68,
+      "c_id": 2,
+      "z": 11,
+      "first_type": "ЭИИ"
+    }
+  ],
+  "excludedBySharedSigns": [
+    {
+      "first_type": "СЛЭ",
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        6
+      ],
+      "type_offset": 8,
+      "required_aspect_offset": 4,
+      "inherited_type_offset": 0,
+      "reason": "Inherited signs disagree under the shared-origin convention"
+    },
+    {
+      "first_type": "ИЭИ",
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        6
+      ],
+      "type_offset": 9,
+      "required_aspect_offset": 5,
+      "inherited_type_offset": 1,
+      "reason": "Inherited signs disagree under the shared-origin convention"
+    },
+    {
+      "first_type": "ИЭЭ",
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        6
+      ],
+      "type_offset": 12,
+      "required_aspect_offset": 0,
+      "inherited_type_offset": 4,
+      "reason": "Inherited signs disagree under the shared-origin convention"
+    },
+    {
+      "first_type": "СЛИ",
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        6
+      ],
+      "type_offset": 13,
+      "required_aspect_offset": 1,
+      "inherited_type_offset": 5,
+      "reason": "Inherited signs disagree under the shared-origin convention"
+    }
+  ],
+  "method": "Derived affine transformations directly from relative Model A rows, independently of transported-formula evaluation."
+}

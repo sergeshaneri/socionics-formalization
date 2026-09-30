@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.obsidian/
+.handoff/
+*.swp
+.DS_Store

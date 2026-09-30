@@ -1,0 +1,66 @@
+﻿id,direction_codes,dual_masks,group_type,L_invariant,R_invariant
+D01,0 2 4 6 8 10 12 14,1,D8,True,True
+D02,0 1 4 5 8 9 12 13,2,C2^3,True,True
+D03,0 3 4 7 8 11 12 15,3,D8,True,True
+D04,0 1 2 3 8 9 10 11,4,,False,False
+D05,0 2 5 7 8 10 13 15,5,,False,False
+D06,0 1 6 7 8 9 14 15,6,,False,False
+D07,0 3 5 6 8 11 13 14,7,,False,False
+D08,0 1 2 3 4 5 6 7,8,,False,False
+D09,0 2 4 6 9 11 13 15,9,,False,False
+D10,0 1 4 5 10 11 14 15,10,,False,False
+D11,0 3 4 7 9 10 13 14,11,,False,False
+D12,0 1 2 3 12 13 14 15,12,C2^3,True,True
+D13,0 2 5 7 9 11 12 14,13,D8,True,True
+D14,0 1 6 7 10 11 12 13,14,C4xC2,True,True
+D15,0 3 5 6 9 10 12 15,15,D8,True,True
+O01,0 1,2 4 6 8 10 12 14,C2,True,True
+O02,0 2,1 4 5 8 9 12 13,C2,False,True
+O03,0 3,3 4 7 8 11 12 15,C2,False,True
+O04,0 4,1 2 3 8 9 10 11,C2,True,False
+O05,0 5,2 5 7 8 10 13 15,C2,True,False
+O06,0 6,1 6 7 8 9 14 15,,False,False
+O07,0 7,3 5 6 8 11 13 14,,False,False
+O08,0 8,1 2 3 4 5 6 7,C2,True,False
+O09,0 9,2 4 6 9 11 13 15,C2,True,False
+O10,0 10,1 4 5 10 11 14 15,,False,False
+O11,0 11,3 4 7 9 10 13 14,,False,False
+O12,0 12,1 2 3 12 13 14 15,C2,True,True
+O13,0 13,2 5 7 9 11 12 14,C2,True,True
+O14,0 14,1 6 7 10 11 12 13,C2,False,True
+O15,0 15,3 5 6 9 10 12 15,C2,False,True
+T01,0 2 8 10,1 4 5,,False,False
+T02,0 2 12 14,1 12 13,C2^2,True,True
+T03,0 2 4 6,1 8 9,,False,False
+T04,0 4 10 14,1 10 11,,False,False
+T05,0 6 10 12,1 14 15,C4,True,True
+T06,0 6 8 14,1 6 7,,False,False
+T07,0 4 8 12,1 2 3,C2^2,True,True
+T08,0 2 13 15,5 9 12,C2^2,False,True
+T09,0 2 5 7,5 8 13,,False,False
+T10,0 7 10 13,5 11 14,,False,False
+T11,0 5 10 15,5 10 15,,False,False
+T12,0 5 8 13,2 5 7,C2^2,True,False
+T13,0 7 8 15,3 5 6,,False,False
+T14,0 1 2 3,4 8 12,C2^2,False,True
+T15,0 2 9 11,4 9 13,,False,False
+T16,0 3 9 10,4 11 15,,False,False
+T17,0 1 10 11,4 10 14,,False,False
+T18,0 3 8 11,3 4 7,,False,False
+T19,0 1 8 9,2 4 6,C2^2,True,False
+T20,0 3 13 14,7 11 12,C2^2,False,True
+T21,0 1 14 15,6 10 12,C2^2,False,True
+T22,0 1 12 13,2 12 14,C2^2,True,True
+T23,0 3 12 15,3 12 15,C2^2,True,True
+T24,0 7 9 14,6 11 13,,False,False
+T25,0 5 11 14,7 10 13,,False,False
+T26,0 7 11 12,3 13 14,C4,True,True
+T27,0 5 9 12,2 13 15,C2^2,True,True
+T28,0 4 9 13,2 9 11,C2^2,True,False
+T29,0 4 11 15,3 9 10,,False,False
+T30,0 6 11 13,7 9 14,,False,False
+T31,0 6 9 15,6 9 15,,False,False
+T32,0 3 4 7,3 8 11,,False,False
+T33,0 1 4 5,2 8 10,C2^2,True,False
+T34,0 1 6 7,6 8 14,,False,False
+T35,0 3 5 6,7 8 15,,False,False

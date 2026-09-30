@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "checks": {
+    "model_bijections": 16,
+    "permutation_products": 256,
+    "associativity_and_two_brace_identities": 4096,
+    "central_cocycle_triples": 512,
+    "relative_operator_pairs": 256,
+    "fourier_action_entries": 8192,
+    "exact_catalogue_blocks": 290,
+    "support_closure_theorem_blocks": 290,
+    "8T9_conjugated_elements": 16,
+    "old_and_GN_affine_model_entries": 256,
+    "TM_corrected_predicate_entries": 128,
+    "explicit_common_automorphisms": 32,
+    "subspace_algebraic_criteria": 67
+  },
+  "TM_corrected_formulas": [
+    {
+      "label": "1-delta",
+      "functions": [
+        1,
+        5
+      ],
+      "aspects": [
+        "ЧИ",
+        "БС",
+        "ЧЛ",
+        "БЭ"
+      ],
+      "mask": 5,
+      "constant_flip": 0,
+      "positive_types": [
+        "ИЛЭ",
+        "ЛИЭ",
+        "СЛИ",
+        "ЛСЭ",
+        "ИЭЭ",
+        "ЭИИ",
+        "СЭИ",
+        "ЭСИ"
+      ]
+    },
+    {
+      "label": "1-detached",
+      "functions": [
+        1,
+        7
+      ],
+      "aspects": [
+        "ЧИ",
+        "БИ",
+        "ЧЛ",
+        "БЛ"
+      ],
+      "mask": 4,
+      "constant_flip": 0,
+      "positive_types": [
+        "ИЛЭ",
+        "ИЛИ",
+        "ЛИЭ",
+        "ЛИИ",
+        "ЛСЭ",
+        "ЛСИ",
+        "ИЭЭ",
+        "ИЭИ"
+      ]
+    },
+    {
+      "label": "2-beta",
+      "functions": [
+        2,
+        6
+      ],
+      "aspects": [
+        "ЧЭ",
+        "БЛ",
+        "ЧС",
+        "БИ"
+      ],
+      "mask": 9,
+      "constant_flip": 0,
+      "positive_types": [
+        "ИЛЭ",
+        "ЛИЭ",
+        "СЛЭ",
+        "ЛСИ",
+        "ИЭИ",
+        "ЭИЭ",
+        "СЭИ",
+        "ЭСИ"
+      ]
+    },
+    {
+      "label": "2-detached corrected",
+      "functions": [
+        2,
+        8
+      ],
+      "aspects": [
+        "ЧИ",
+        "БИ",
+        "ЧЛ",
+        "БЛ"
+      ],
+      "mask": 8,
+      "constant_flip": 0,
+      "positive_types": [
+        "ИЛЭ",
+        "ИЛИ",
+        "ЛИЭ",
+        "ЛИИ",
+        "СЛЭ",
+        "СЛИ",
+        "ЭИЭ",
+        "ЭИИ"
+      ]
+    },
+    {
+      "label": "2-alpha",
+      "functions": [
+        2,
+        6
+      ],
+      "aspects": [
+        "ЧИ",
+        "БС",
+        "ЧЭ",
+        "БЛ"
+      ],
+      "mask": 11,
+      "constant_flip": 0,
+      "positive_types": [
+        "ИЛЭ",
+        "ЛИИ",
+        "СЛЭ",
+        "ЛСЭ",
+        "ИЭИ",
+        "ЭИИ",
+        "СЭИ",
+        "ЭСЭ"
+      ]
+    },
+    {
+      "label": "2-implicit corrected",
+      "functions": [
+        2,
+        8
+      ],
+      "aspects": [
+        "ЧИ",
+        "БИ",
+        "ЧЭ",
+        "БЭ"
+      ],
+      "mask": 10,
+      "constant_flip": 1,
+      "positive_types": [
+        "ЛИЭ",
+        "ЛИИ",
+        "ИЭЭ",
+        "ИЭИ",
+        "ЭИЭ",
+        "ЭИИ",
+        "СЭЭ",
+        "СЭИ"
+      ]
+    },
+    {
+      "label": "1-alpha",
+      "functions": [
+        1,
+        5
+      ],
+      "aspects": [
+        "ЧИ",
+        "БС",
+        "ЧЭ",
+        "БЛ"
+      ],
+      "mask": 7,
+      "constant_flip": 0,
+      "positive_types": [
+        "ИЛЭ",
+        "ЛИИ",
+        "СЛИ",
+        "ЛСИ",
+        "ИЭЭ",
+        "ЭИЭ",
+        "СЭИ",
+        "ЭСЭ"
+      ]
+    },
+    {
+      "label": "1-implicit",
+      "functions": [
+        1,
+        7
+      ],
+      "aspects": [
+        "ЧИ",
+        "БИ",
+        "ЧЭ",
+        "БЭ"
+      ],
+      "mask": 6,
+      "constant_flip": 0,
+      "positive_types": [
+        "ИЛЭ",
+        "ИЛИ",
+        "ИЭЭ",
+        "ИЭИ",
+        "ЭИЭ",
+        "ЭИИ",
+        "ЭСЭ",
+        "ЭСИ"
+      ]
+    }
+  ],
+  "catalogue_counts": {
+    "D": 15,
+    "O": 15,
+    "T": 35
+  }
+}

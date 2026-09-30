@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "D01+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЭ},\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "D01-",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{2,4,5,7\\}"
+  },
+  {
+    "id": "D02+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "D02-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "D03+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "D03-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЭ},\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "D04+",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2\\})\\cap \\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "D04-",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2\\})\\cap \\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЛ}\\}\\rvert=1"
+  },
+  {
+    "id": "D05+",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{2,5\\})\\cap \\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "D05-",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{2,5\\})\\cap \\{\\text{ЧИ},\\text{БС},\\text{БЛ},\\text{ЧЛ}\\}\\rvert=1"
+  },
+  {
+    "id": "D06+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "D06-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "D07+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "D07-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЭ},\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "D08+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "D08-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БЭ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "D09+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БС},\\text{БЛ},\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "D09-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "D10+",
+    "mode": "process",
+    "latex": "\\varphi_T(2)=\\sigma(\\varphi_T(1))"
+  },
+  {
+    "id": "D10-",
+    "mode": "process",
+    "latex": "\\varphi_T(2)=\\sigma^{-1}(\\varphi_T(1))"
+  },
+  {
+    "id": "D11+",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2\\})\\cap \\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "D11-",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2\\})\\cap \\{\\text{ЧИ},\\text{БС},\\text{БЛ},\\text{ЧЛ}\\}\\rvert=1"
+  },
+  {
+    "id": "D12+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "D12-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БЭ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "D13+",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "D13-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЛ},\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "D14+",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{1,3,5,7\\}"
+  },
+  {
+    "id": "D14-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "D15+",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{1,2,3,4\\}"
+  },
+  {
+    "id": "D15-",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЭ},\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T01.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "T01.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T01.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T01.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T02.1",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{2,5\\})\\cap \\{\\text{БС},\\text{БЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "T02.2",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{2,5\\})\\cap \\{\\text{ЧИ},\\text{ЧЛ}\\}\\rvert=1"
+  },
+  {
+    "id": "T02.3",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{2,5\\})\\cap \\{\\text{БС},\\text{БЛ}\\}\\rvert=1"
+  },
+  {
+    "id": "T02.4",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{2,5\\})\\cap \\{\\text{ЧИ},\\text{ЧЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "T03.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T03.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T03.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БС},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T03.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "T04.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БС},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T04.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "T04.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T04.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T05.1",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(3,4),(6,7),(8,5)\\}\\bigr)=\\{(\\text{ЧИ},\\text{БЛ}),(\\text{ЧЭ},\\text{БИ}),(\\text{ЧЛ},\\text{БС}),(\\text{ЧС},\\text{БЭ})\\}"
+  },
+  {
+    "id": "T05.2",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(3,4),(6,7),(8,5)\\}\\bigr)=\\{(\\text{БС},\\text{ЧЭ}),(\\text{БЛ},\\text{ЧС}),(\\text{БЭ},\\text{ЧИ}),(\\text{БИ},\\text{ЧЛ})\\}"
+  },
+  {
+    "id": "T05.3",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(3,4),(6,7),(8,5)\\}\\bigr)=\\{(\\text{ЧИ},\\text{БЭ}),(\\text{ЧЭ},\\text{БС}),(\\text{ЧЛ},\\text{БИ}),(\\text{ЧС},\\text{БЛ})\\}"
+  },
+  {
+    "id": "T05.4",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(3,4),(6,7),(8,5)\\}\\bigr)=\\{(\\text{БС},\\text{ЧЛ}),(\\text{БЛ},\\text{ЧИ}),(\\text{БЭ},\\text{ЧС}),(\\text{БИ},\\text{ЧЭ})\\}"
+  },
+  {
+    "id": "T06.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "T06.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T06.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T06.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T07.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{1,3\\}"
+  },
+  {
+    "id": "T07.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{5,7\\}"
+  },
+  {
+    "id": "T07.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "T07.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{2,4\\}"
+  },
+  {
+    "id": "T08.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})\\subseteq\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "T08.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})\\subseteq\\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T08.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})\\subseteq\\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T08.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})\\subseteq\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "T09.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{БЭ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T09.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T09.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БЛ},\\text{БИ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T09.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧЭ},\\text{ЧС}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T10.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T10.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧС},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T10.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БЭ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "T10.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧС},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БЭ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "T11.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БЭ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T11.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{ЧЛ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T11.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧЭ},\\text{БИ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T11.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БЛ},\\text{ЧС}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T12.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС}\\}"
+  },
+  {
+    "id": "T12.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T12.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T12.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{3,7\\}"
+  },
+  {
+    "id": "T13.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T13.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "T13.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T13.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T14.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})\\subseteq\\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T14.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})\\subseteq\\{\\text{БС},\\text{ЧЭ},\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T14.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})\\subseteq\\{\\text{БС},\\text{ЧЭ},\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T14.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{1,4,6,7\\}"
+  },
+  {
+    "id": "T15.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧЭ},\\text{ЧС}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T15.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БЛ},\\text{БИ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T15.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T15.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{БЭ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T16.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T16.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БЛ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T16.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БЭ},\\text{ЧС}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T16.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧЛ},\\text{БИ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T17.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{БЛ},\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T17.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЭ},\\text{БЭ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T17.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЭ},\\text{БЭ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{БЛ},\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T17.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T18.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T18.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "T18.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T18.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T19.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{1,7\\}"
+  },
+  {
+    "id": "T19.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{3,5\\}"
+  },
+  {
+    "id": "T19.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T19.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "T20.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})\\subseteq\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T20.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})\\subseteq\\{2,3,6,7\\}"
+  },
+  {
+    "id": "T20.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})\\subseteq\\{\\text{ЧЛ},\\text{БЭ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "T20.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})\\subseteq\\{1,4,5,8\\}"
+  },
+  {
+    "id": "T21.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})\\subseteq\\{1,4,6,7\\}"
+  },
+  {
+    "id": "T21.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})\\subseteq\\{2,3,5,8\\}"
+  },
+  {
+    "id": "T21.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})\\subseteq\\{\\text{БС},\\text{БЛ},\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T21.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})\\subseteq\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T22.1",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(3,4),(5,6),(7,8)\\}\\bigr)=\\{(\\text{ЧИ},\\text{БЛ}),(\\text{БС},\\text{ЧЭ}),(\\text{ЧС},\\text{БЭ}),(\\text{БИ},\\text{ЧЛ})\\}"
+  },
+  {
+    "id": "T22.2",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(3,4),(5,6),(7,8)\\}\\bigr)=\\{(\\text{ЧЭ},\\text{БС}),(\\text{БЛ},\\text{ЧИ}),(\\text{ЧЛ},\\text{БИ}),(\\text{БЭ},\\text{ЧС})\\}"
+  },
+  {
+    "id": "T22.3",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(3,4),(5,6),(7,8)\\}\\bigr)=\\{(\\text{ЧЭ},\\text{БИ}),(\\text{БЛ},\\text{ЧС}),(\\text{ЧЛ},\\text{БС}),(\\text{БЭ},\\text{ЧИ})\\}"
+  },
+  {
+    "id": "T22.4",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(3,4),(5,6),(7,8)\\}\\bigr)=\\{(\\text{ЧИ},\\text{БЭ}),(\\text{БС},\\text{ЧЛ}),(\\text{ЧС},\\text{БЛ}),(\\text{БИ},\\text{ЧЭ})\\}"
+  },
+  {
+    "id": "T23.1",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2\\})\\cap \\{\\text{ЧИ},\\text{БЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "T23.2",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2\\})\\cap \\{\\text{БС},\\text{ЧЛ}\\}\\rvert=1"
+  },
+  {
+    "id": "T23.3",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2\\})\\cap \\{\\text{БС},\\text{ЧЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "T23.4",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2\\})\\cap \\{\\text{ЧИ},\\text{БЛ}\\}\\rvert=1"
+  },
+  {
+    "id": "T24.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{БЛ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T24.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T24.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БЭ},\\text{БИ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T24.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧЛ},\\text{ЧС}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T25.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T25.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{БЛ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T25.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БЭ},\\text{БИ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T25.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧЛ},\\text{ЧС}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T26.1",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(2,3),(3,4),(4,1)\\}\\bigr)=\\{(\\text{ЧИ},\\text{БЛ}),(\\text{БЛ},\\text{ЧС}),(\\text{БЭ},\\text{ЧИ}),(\\text{ЧС},\\text{БЭ})\\}"
+  },
+  {
+    "id": "T26.2",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(2,3),(3,4),(4,1)\\}\\bigr)=\\{(\\text{БС},\\text{ЧЭ}),(\\text{ЧЭ},\\text{БИ}),(\\text{ЧЛ},\\text{БС}),(\\text{БИ},\\text{ЧЛ})\\}"
+  },
+  {
+    "id": "T26.3",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(2,3),(3,4),(4,1)\\}\\bigr)=\\{(\\text{БС},\\text{ЧЛ}),(\\text{ЧЭ},\\text{БС}),(\\text{ЧЛ},\\text{БИ}),(\\text{БИ},\\text{ЧЭ})\\}"
+  },
+  {
+    "id": "T26.4",
+    "mode": "relation",
+    "latex": "\\varphi_T^{(2)}\\bigl(\\{(1,2),(2,3),(3,4),(4,1)\\}\\bigr)=\\{(\\text{ЧИ},\\text{БЭ}),(\\text{БЛ},\\text{ЧИ}),(\\text{БЭ},\\text{ЧС}),(\\text{ЧС},\\text{БЛ})\\}"
+  },
+  {
+    "id": "T27.1",
+    "mode": "partition",
+    "latex": "\\varphi_T(\\{\\{2,3,5,6\\},\\{1,4,7,8\\}\\})=\\{\\{\\text{БС},\\text{ЧЭ},\\text{БЛ},\\text{ЧС}\\},\\{\\text{ЧИ},\\text{ЧЛ},\\text{БЭ},\\text{БИ}\\}\\}"
+  },
+  {
+    "id": "T27.2",
+    "mode": "partition",
+    "latex": "\\varphi_T(\\{\\{2,3,5,6\\},\\{1,4,7,8\\}\\})=\\{\\{\\text{БС},\\text{ЧЛ},\\text{БЭ},\\text{ЧС}\\},\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ},\\text{БИ}\\}\\}"
+  },
+  {
+    "id": "T27.3",
+    "mode": "partition",
+    "latex": "\\varphi_T(\\{\\{2,3,5,6\\},\\{1,4,7,8\\}\\})=\\{\\{\\text{ЧИ},\\text{БС},\\text{БЛ},\\text{ЧЛ}\\},\\{\\text{ЧЭ},\\text{БЭ},\\text{ЧС},\\text{БИ}\\}\\}"
+  },
+  {
+    "id": "T27.4",
+    "mode": "partition",
+    "latex": "\\varphi_T(\\{\\{2,3,5,6\\},\\{1,4,7,8\\}\\})=\\{\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЭ}\\},\\{\\text{БЛ},\\text{ЧЛ},\\text{ЧС},\\text{БИ}\\}\\}"
+  },
+  {
+    "id": "T28.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T28.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{2,6\\}"
+  },
+  {
+    "id": "T28.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{4,8\\}"
+  },
+  {
+    "id": "T28.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T29.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T29.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T29.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "T29.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T30.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "T30.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ},\\text{БЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T30.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БЭ},\\text{ЧС},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БС},\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T30.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БЭ},\\text{ЧС},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЛ},\\text{ЧС},\\text{БИ}\\}"
+  },
+  {
+    "id": "T31.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БЛ},\\text{ЧС}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T31.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧЭ},\\text{БИ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T31.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{ЧЛ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T31.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БЭ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "T32.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "T32.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "T32.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T32.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T33.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{БЛ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "T33.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "T33.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{4,6\\}"
+  },
+  {
+    "id": "T33.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{2,8\\}"
+  },
+  {
+    "id": "T34.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЭ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T34.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЛ},\\text{ЧЛ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЭ},\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T34.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЭ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЭ},\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "T34.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЛ},\\text{ЧЛ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "T35.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T35.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БЛ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T35.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧЛ},\\text{БИ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "T35.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БЭ},\\text{ЧС}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "O01.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "O01.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЛ}\\}\\ \\land\\ \\psi_T(\\text{ЧИ})\\in\\{2,6\\}"
+  },
+  {
+    "id": "O01.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БЭ}\\}\\ \\land\\ \\psi_T(\\text{ЧИ})\\in\\{2,6\\}"
+  },
+  {
+    "id": "O01.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{3,7\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "O01.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БЭ}\\}\\ \\land\\ \\psi_T(\\text{ЧИ})\\in\\{4,8\\}"
+  },
+  {
+    "id": "O01.6",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{3,7\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O01.7",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O01.8",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЛ}\\}\\ \\land\\ \\psi_T(\\text{ЧИ})\\in\\{4,8\\}"
+  },
+  {
+    "id": "O02.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})=\\{1,6\\}"
+  },
+  {
+    "id": "O02.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})=\\{2,5\\}"
+  },
+  {
+    "id": "O02.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})=\\{3,6\\}"
+  },
+  {
+    "id": "O02.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})=\\{2,7\\}"
+  },
+  {
+    "id": "O02.5",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})=\\{3,8\\}"
+  },
+  {
+    "id": "O02.6",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})=\\{4,7\\}"
+  },
+  {
+    "id": "O02.7",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})=\\{1,8\\}"
+  },
+  {
+    "id": "O02.8",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ}\\})=\\{4,5\\}"
+  },
+  {
+    "id": "O03.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})=\\{\\text{ЧИ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "O03.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})=\\{\\text{БС},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "O03.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})=\\{\\text{БС},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "O03.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})=\\{\\text{ЧИ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "O03.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})=\\{\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O03.6",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})=\\{\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O03.7",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})=\\{\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O03.8",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{БС},\\text{ЧЭ}\\})=\\{1,4\\}"
+  },
+  {
+    "id": "O04.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{БЛ}\\}"
+  },
+  {
+    "id": "O04.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "O04.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{БЛ}\\}"
+  },
+  {
+    "id": "O04.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "O04.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O04.6",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O04.7",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O04.8",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O05.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "O05.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "O05.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЭ}\\}"
+  },
+  {
+    "id": "O05.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЛ}\\}"
+  },
+  {
+    "id": "O05.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O05.6",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O05.7",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O05.8",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O06.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)=\\text{БЛ}"
+  },
+  {
+    "id": "O06.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)=\\text{ЧЭ}"
+  },
+  {
+    "id": "O06.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})=6"
+  },
+  {
+    "id": "O06.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})=2"
+  },
+  {
+    "id": "O06.5",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})=8"
+  },
+  {
+    "id": "O06.6",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})=4"
+  },
+  {
+    "id": "O06.7",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)=\\text{БЭ}"
+  },
+  {
+    "id": "O06.8",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(2)=\\text{ЧЛ}"
+  },
+  {
+    "id": "O07.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ}\\})\\subseteq\\{1,2,6,7\\}"
+  },
+  {
+    "id": "O07.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "O07.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{1,2,6,7\\}"
+  },
+  {
+    "id": "O07.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{2,3,5,6\\}"
+  },
+  {
+    "id": "O07.5",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{3,4,5,8\\}"
+  },
+  {
+    "id": "O07.6",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{1,4,7,8\\}"
+  },
+  {
+    "id": "O07.7",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ}\\})\\subseteq\\{3,4,5,8\\}"
+  },
+  {
+    "id": "O07.8",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ}\\})\\subseteq\\{1,4,7,8\\}"
+  },
+  {
+    "id": "O08.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})=\\{1,8\\}"
+  },
+  {
+    "id": "O08.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})=\\{4,5\\}"
+  },
+  {
+    "id": "O08.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})=\\{3,6\\}"
+  },
+  {
+    "id": "O08.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})=\\{2,7\\}"
+  },
+  {
+    "id": "O08.5",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})=\\{1,6\\}"
+  },
+  {
+    "id": "O08.6",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})=\\{2,5\\}"
+  },
+  {
+    "id": "O08.7",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})=\\{3,8\\}"
+  },
+  {
+    "id": "O08.8",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЛ}\\})=\\{4,7\\}"
+  },
+  {
+    "id": "O09.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})=\\{\\text{БЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O09.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})=\\{\\text{ЧЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O09.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})=\\{\\text{БС},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "O09.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{2,3\\})=\\{\\text{ЧИ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O09.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})=\\{\\text{БС},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "O09.6",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})=\\{\\text{ЧИ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O09.7",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})=\\{\\text{БЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O09.8",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(\\{1,2\\})=\\{\\text{ЧЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O10.1",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2,3,5\\})\\cap \\{\\text{БС},\\text{ЧЭ},\\text{ЧЛ},\\text{БЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "O10.2",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2,3,5\\})\\cap \\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "O10.3",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2,3,5\\})\\cap \\{\\text{БС},\\text{ЧЭ},\\text{ЧЛ},\\text{БЭ}\\}\\rvert=3"
+  },
+  {
+    "id": "O10.4",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2,3,5\\})\\cap \\{\\text{ЧИ},\\text{БЛ},\\text{ЧЛ},\\text{БЭ}\\}\\rvert=3"
+  },
+  {
+    "id": "O10.5",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2,3,5\\})\\cap \\{\\text{БС},\\text{ЧЭ},\\text{БЛ},\\text{ЧЛ}\\}\\rvert=3"
+  },
+  {
+    "id": "O10.6",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2,3,5\\})\\cap \\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ},\\text{БЭ}\\}\\rvert=3"
+  },
+  {
+    "id": "O10.7",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2,3,5\\})\\cap \\{\\text{БС},\\text{ЧЭ},\\text{БЛ},\\text{ЧЛ}\\}\\rvert=1"
+  },
+  {
+    "id": "O10.8",
+    "mode": "intersection",
+    "latex": "\\lvert\\varphi_T(\\{1,2,3,5\\})\\cap \\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ},\\text{БЭ}\\}\\rvert=1"
+  },
+  {
+    "id": "O11.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{1,7\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЛ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "O11.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{3,5\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O11.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЭ}\\}\\ \\land\\ \\psi_T(\\text{ЧИ})\\in\\{4,6\\}"
+  },
+  {
+    "id": "O11.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{ЧЛ}\\}\\ \\land\\ \\psi_T(\\text{ЧИ})\\in\\{2,8\\}"
+  },
+  {
+    "id": "O11.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЛ},\\text{ЧЛ}\\}\\ \\land\\ \\psi_T(\\text{ЧИ})\\in\\{4,6\\}"
+  },
+  {
+    "id": "O11.6",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЭ},\\text{БЭ}\\}\\ \\land\\ \\psi_T(\\text{ЧИ})\\in\\{2,8\\}"
+  },
+  {
+    "id": "O11.7",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{3,5\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЛ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "O11.8",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})\\in\\{1,7\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O12.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)=\\text{ЧИ}"
+  },
+  {
+    "id": "O12.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)=\\text{БС}"
+  },
+  {
+    "id": "O12.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)=\\text{ЧЭ}"
+  },
+  {
+    "id": "O12.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)=\\text{БЛ}"
+  },
+  {
+    "id": "O12.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)=\\text{ЧЛ}"
+  },
+  {
+    "id": "O12.6",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)=\\text{БЭ}"
+  },
+  {
+    "id": "O12.7",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})=3"
+  },
+  {
+    "id": "O12.8",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\text{ЧИ})=7"
+  },
+  {
+    "id": "O13.1",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "O13.2",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{1,2,5,8\\}"
+  },
+  {
+    "id": "O13.3",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ}\\})\\subseteq\\{1,4,5,6\\}"
+  },
+  {
+    "id": "O13.4",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ}\\})\\subseteq\\{1,2,5,8\\}"
+  },
+  {
+    "id": "O13.5",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ}\\})\\subseteq\\{3,4,6,7\\}"
+  },
+  {
+    "id": "O13.6",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{ЧЭ},\\text{БЛ}\\})\\subseteq\\{2,3,7,8\\}"
+  },
+  {
+    "id": "O13.7",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{3,4,6,7\\}"
+  },
+  {
+    "id": "O13.8",
+    "mode": "inclusion",
+    "latex": "\\psi_T(\\{\\text{ЧИ},\\text{БС},\\text{ЧЭ}\\})\\subseteq\\{2,3,7,8\\}"
+  },
+  {
+    "id": "O14.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O14.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O14.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{ЧЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O14.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{БЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "O14.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O14.6",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЭ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "O14.7",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЛ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O14.8",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЭ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O15.1",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O15.2",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БИ}\\}"
+  },
+  {
+    "id": "O15.3",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БС},\\text{ЧЭ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "O15.4",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧИ},\\text{БЛ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O15.5",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БС},\\text{ЧЛ}\\}"
+  },
+  {
+    "id": "O15.6",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЭ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧИ},\\text{БЭ}\\}"
+  },
+  {
+    "id": "O15.7",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{БЭ},\\text{ЧС}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{БЛ},\\text{ЧС}\\}"
+  },
+  {
+    "id": "O15.8",
+    "mode": "inclusion",
+    "latex": "\\varphi_T(1)\\in\\{\\text{ЧЛ},\\text{БИ}\\}\\ \\land\\ \\varphi_T(2)\\in\\{\\text{ЧЭ},\\text{БИ}\\}"
+  }
+]

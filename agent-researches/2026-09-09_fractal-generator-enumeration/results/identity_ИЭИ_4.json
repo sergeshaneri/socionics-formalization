@@ -1,0 +1,1178 @@
+[
+  {
+    "c_id": 0,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 1,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 2,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 3,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 4,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 5,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 6,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 7,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 8,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 9,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 10,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 11,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 12,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 13,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 14,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 15,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 16,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 17,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 18,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 19,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 20,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 21,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 22,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 23,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 24,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 25,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 26,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 27,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 28,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 29,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 30,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 31,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 32,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 33,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 34,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 35,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 36,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 37,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 38,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 39,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 40,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 41,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 42,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 43,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 44,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 45,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 46,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 47,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 48,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 49,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 50,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 51,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 52,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 53,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 54,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 55,
+    "first_aspect": "ЧС",
+    "function_of_first_aspect": 5,
+    "full_identity": false,
+    "function_pole_bits": "0101010"
+  },
+  {
+    "c_id": 56,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 57,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 58,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 59,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 60,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 61,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 62,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 63,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 64,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 65,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 66,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 67,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 68,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 69,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 70,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 71,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 72,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 73,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 74,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 75,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 76,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 77,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 78,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 79,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 80,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 81,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 82,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 83,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 84,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 85,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 86,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 87,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 88,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 89,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 90,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 91,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 92,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 93,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 94,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 95,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 96,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 97,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 98,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 99,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 100,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 101,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 102,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 103,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 104,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 105,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 106,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 107,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 108,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 109,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 110,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 111,
+    "first_aspect": "ЧЭ",
+    "function_of_first_aspect": 2,
+    "full_identity": false,
+    "function_pole_bits": "0011001"
+  },
+  {
+    "c_id": 112,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 113,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 114,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 115,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 116,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 117,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 118,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 119,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 120,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 121,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 122,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 123,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 124,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 125,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 126,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 127,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 128,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 129,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 130,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 131,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 132,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 133,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 134,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 135,
+    "first_aspect": "БС",
+    "function_of_first_aspect": 3,
+    "full_identity": false,
+    "function_pole_bits": "1000011"
+  },
+  {
+    "c_id": 136,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 137,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 138,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 139,
+    "first_aspect": "БЭ",
+    "function_of_first_aspect": 8,
+    "full_identity": false,
+    "function_pole_bits": "1110000"
+  },
+  {
+    "c_id": 140,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 141,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 142,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 143,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 144,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 145,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 146,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 147,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 148,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 149,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 150,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 151,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 152,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 153,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 154,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 155,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 156,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 157,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 158,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 159,
+    "first_aspect": "БЛ",
+    "function_of_first_aspect": 6,
+    "full_identity": false,
+    "function_pole_bits": "1001100"
+  },
+  {
+    "c_id": 160,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 161,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 162,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 163,
+    "first_aspect": "БИ",
+    "function_of_first_aspect": 1,
+    "full_identity": false,
+    "function_pole_bits": "1111111"
+  },
+  {
+    "c_id": 164,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 165,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 166,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  },
+  {
+    "c_id": 167,
+    "first_aspect": "ЧЛ",
+    "function_of_first_aspect": 4,
+    "full_identity": false,
+    "function_pole_bits": "0100101"
+  }
+]

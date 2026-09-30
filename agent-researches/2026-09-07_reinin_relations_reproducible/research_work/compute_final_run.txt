@@ -1,0 +1,37 @@
+c Экстраверсия 0
+c Иррациональность 0
+c Интуиция n*R + l*R
+c Логика n*R + l*R
+traits {'Существование': 0, 'Экстраверсия': 1, 'Беспечность': 5, 'Интуиция': 4, 'Демократизм': 12, 'Позитивизм': 13, 'Уступчивость': 9, 'Логика': 8, 'Весёлые': 11, 'Конструктивизм': 10, 'Правые': 14, 'Квестимность': 15, 'Рассудительность': 7, 'Тактика': 6, 'Иррациональность': 2, 'Статика': 3}
+codes [('ИЛЭ', 0, (0, 1, 2, 3, 4, 5, 6, 7), 1), ('ИЛИ', 1, (6, 7, 4, 5, 2, 3, 0, 1), 2), ('ЛИЭ', 2, (7, 6, 5, 4, 3, 2, 1, 0), 2), ('ЛИИ', 3, (1, 0, 3, 2, 5, 4, 7, 6), 2), ('СЛЭ', 4, (2, 1, 0, 3, 6, 5, 4, 7), 2), ('СЛИ', 5, (4, 7, 6, 5, 0, 3, 2, 1), 2), ('ЛСЭ', 6, (5, 6, 7, 4, 1, 2, 3, 0), 4), ('ЛСИ', 7, (3, 0, 1, 2, 7, 4, 5, 6), 4), ('ИЭЭ', 8, (0, 3, 2, 1, 4, 7, 6, 5), 2), ('ИЭИ', 9, (6, 5, 4, 7, 2, 1, 0, 3), 2), ('ЭИЭ', 10, (7, 4, 5, 6, 3, 0, 1, 2), 4), ('ЭИИ', 11, (1, 2, 3, 0, 5, 6, 7, 4), 4), ('СЭЭ', 12, (2, 3, 0, 1, 6, 7, 4, 5), 2), ('СЭИ', 13, (4, 5, 6, 7, 0, 1, 2, 3), 2), ('ЭСЭ', 14, (5, 4, 7, 6, 1, 0, 3, 2), 2), ('ЭСИ', 15, (3, 2, 1, 0, 7, 6, 5, 4), 2)]
+center ['ИЛЭ', 'ИЛИ', 'СЭЭ', 'СЭИ'] commutators [0, 12]
+image correction [0, 12]
+M_type_aspect ['e + u', 'e + n + v + n*v + l*v + n*w + l*w', 'e + r + n + n*v + l*v + w + n*w + l*w']
+HF value counts Counter({0: 896, 8: 72, -8: 56})
+HF character coefficients {'(0, 0)': {0: 16}, '(1, 1)': {1: 16}, '(2, 2)': {5: 8, 9: 8}, '(2, 4)': {5: 8, 9: -8}, '(3, 3)': {4: 8, 8: 8}, '(3, 5)': {4: 8, 8: -8}, '(4, 2)': {7: 8, 11: -8}, '(4, 4)': {7: 8, 11: 8}, '(5, 3)': {6: 8, 10: -8}, '(5, 5)': {6: 8, 10: 8}, '(6, 6)': {2: 16}, '(7, 7)': {3: 16}}
+joint 32 32 64 intersection ['ИЛЭ', 'ИЛИ', 'ЛИЭ', 'ЛИИ', 'СЭЭ', 'СЭИ', 'ЭСЭ', 'ЭСИ'] ['ИЛЭ', 'ИЛИ', 'СЛЭ', 'СЛИ', 'ИЭЭ', 'ИЭИ', 'СЭЭ', 'СЭИ']
+GL 20160 ringAut 32
+dual Aut orbits [{1, 3, 13, 15}, {4, 5, 6, 7, 8, 9, 10, 11}, {12}, {14}, {2}]
+subspace categories Counter({(4, False, False, False): 20, (8, False, False, False): 8, (4, True, True, True): 7, (8, True, True, True): 7, (2, False, True, True): 4, (2, True, False, True): 4, (2, False, False, False): 4, (4, False, True, True): 4, (4, True, False, True): 4, (2, True, True, True): 3, (1, True, True, True): 1, (16, True, True, True): 1})
+Aut orbits partitions {1: [4, 1, 2, 4, 4], 2: [4, 1, 4, 4, 2, 16, 2, 2], 3: [1, 8, 1, 1, 4]}
+all subgroups Counter({4: 15, 2: 11, 8: 7, 16: 1, 1: 1}) nonadditive 0
+degree8 point stabilizer ['ИЛЭ', 'ИЭЭ']
+degree8 block systems [{'H': [0, 2, 4, 6, 8, 10, 12, 14], 'blocks': [[1, 3, 6, 8], [2, 4, 5, 7]]}, {'H': [0, 5, 8, 13], 'blocks': [[1, 5], [2, 6], [3, 7], [4, 8]]}, {'H': [0, 1, 4, 5, 8, 9, 12, 13], 'blocks': [[1, 3, 5, 7], [2, 4, 6, 8]]}, {'H': [0, 4, 8, 12], 'blocks': [[1, 3], [2, 4], [5, 7], [6, 8]]}, {'H': [0, 1, 8, 9], 'blocks': [[1, 7], [2, 8], [3, 5], [4, 6]]}, {'H': [0, 3, 4, 7, 8, 11, 12, 15], 'blocks': [[1, 2, 3, 4], [5, 6, 7, 8]]}]
+Aut rep 16 orbits [{1, 3}, {4, 5, 6, 7, 8, 9, 10, 11}, {12}, {13, 15}, {14}, {2}]
+dichotomy minimal [{'name': 'Экстраверсия', 'atom_count': 30, 'minimal_atom': {'aspects': ['ЧИ'], 'functions': [1, 3, 6, 8]}}, {'name': 'Беспечность', 'atom_count': 6, 'minimal_atom': {'aspects': ['ЧИ'], 'functions': [1, 4, 5, 8]}}, {'name': 'Интуиция', 'atom_count': 6, 'minimal_atom': {'aspects': ['ЧИ'], 'functions': [1, 2, 7, 8]}}, {'name': 'Демократизм', 'atom_count': 0}, {'name': 'Позитивизм', 'atom_count': 0}, {'name': 'Уступчивость', 'atom_count': 6, 'minimal_atom': {'aspects': ['ЧЭ'], 'functions': [2, 3, 6, 7]}}, {'name': 'Логика', 'atom_count': 6, 'minimal_atom': {'aspects': ['ЧЭ'], 'functions': [3, 4, 5, 6]}}, {'name': 'Весёлые', 'atom_count': 6, 'minimal_atom': {'aspects': ['ЧЭ'], 'functions': [1, 2, 5, 6]}}, {'name': 'Конструктивизм', 'atom_count': 6, 'minimal_atom': {'aspects': ['ЧЭ'], 'functions': [1, 4, 6, 7]}}, {'name': 'Правые', 'atom_count': 0}, {'name': 'Квестимность', 'atom_count': 0}, {'name': 'Рассудительность', 'atom_count': 6, 'minimal_atom': {'aspects': ['ЧИ'], 'functions': [1, 2, 5, 6]}}, {'name': 'Тактика', 'atom_count': 6, 'minimal_atom': {'aspects': ['ЧИ'], 'functions': [1, 4, 6, 7]}}, {'name': 'Иррациональность', 'atom_count': 30, 'minimal_atom': {'aspects': ['ЧИ'], 'functions': [1, 3, 5, 7]}}, {'name': 'Статика', 'atom_count': 30, 'minimal_atom': {'aspects': ['ЧИ'], 'functions': [1, 2, 3, 4]}}]
+rectangle closure counts Counter({(4, (4, 4, 4, 4)): 29, (2, (2, 2, 2, 2, 2, 2, 2, 2)): 14, (8, (8, 8)): 11, (4, (8, 8, 8, 8)): 6, (8, (16, 16)): 4, (2, (4, 4, 4, 4, 4, 4, 4, 4)): 1})
+dichotomy matching counts [('Экстраверсия', 0), ('Беспечность', 0), ('Интуиция', 0), ('Демократизм', 4), ('Позитивизм', 2), ('Уступчивость', 0), ('Логика', 0), ('Весёлые', 0), ('Конструктивизм', 0), ('Правые', 0), ('Квестимность', 2), ('Рассудительность', 0), ('Тактика', 0), ('Иррациональность', 6), ('Статика', 0)]
+8T9 conjugator [1, 4, 8, 5, 2, 7, 3, 6]
+cyclic formula [('Правые', {'aspects': [['ЧИ', 'БС'], ['ЧЭ', 'БЛ'], ['ЧС', 'БИ'], ['ЧЛ', 'БЭ']], 'functions': [[1, 5], [2, 6], [3, 7], [4, 8]]})]
+1-delta e + n + r*n + r*l 8
+1-detached n + r*n + r*l 8
+2-beta e + r*n + l + r*l 8
+2-detached-literal 1 0
+2-detached-corrected r*n + l + r*l 8
+2-alpha e + r + r*n + l + r*l 8
+2-implicit 1 0
+1-alpha e + r + n + r*n + r*l 8
+1-implicit r + n + r*n + r*l 8
+Reinin-TM common partitions {2: 3, 4: 7, 8: 7}
+GN function formula {'Mental': 'u + v + w', 'Accepting': 'v + w', 'Bold': 'u', 'Energetic': 'v + u*v + u*w', 'Excitable': 'u + u*v + w + u*w', 'Impressionable': 'u*v + w + u*w', 'Tensioned': 'u + v + u*v + u*w'}
+GN maps anf ['e + u', 'r + v', 'e + e*r + n + r*u + e*v + n*v + l*v + w']

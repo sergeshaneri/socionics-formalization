@@ -1,0 +1,967 @@
+{
+  "testedFirstModelIdentities": 59136,
+  "criterion": "All 16 types and all 15 signed traits: formula structures transported by L on aspects must equal the transformed character table specified by B,z. Functions fixed.",
+  "summary": {
+    "strict_generations_fixed": {
+      "global_success": 1,
+      "by_first_type": {
+        "ИЛЭ": 1
+      },
+      "prefix_coupled_success": 1,
+      "full_original_projection_success": 1
+    },
+    "strict_generations_all": {
+      "global_success": 12,
+      "by_first_type": {
+        "ИЛЭ": 1,
+        "СЭИ": 1,
+        "СЭЭ": 1,
+        "ИЛИ": 1,
+        "ЭСЭ": 1,
+        "ЛИИ": 1,
+        "ЛИЭ": 1,
+        "ЭСИ": 1,
+        "ЛСЭ": 1,
+        "ЭИИ": 1,
+        "ЭИЭ": 1,
+        "ЛСИ": 1
+      },
+      "prefix_coupled_success": 8,
+      "full_original_projection_success": 8
+    },
+    "ancient_first_fixed": {
+      "global_success": 1,
+      "by_first_type": {
+        "ИЛЭ": 1
+      },
+      "prefix_coupled_success": 1,
+      "full_original_projection_success": 1
+    },
+    "ancient_first_all": {
+      "global_success": 12,
+      "by_first_type": {
+        "ИЛЭ": 1,
+        "СЭИ": 1,
+        "СЭЭ": 1,
+        "ИЛИ": 1,
+        "ЭСЭ": 1,
+        "ЛИИ": 1,
+        "ЛИЭ": 1,
+        "ЭСИ": 1,
+        "ЛСЭ": 1,
+        "ЭИИ": 1,
+        "ЭИЭ": 1,
+        "ЛСИ": 1
+      },
+      "prefix_coupled_success": 8,
+      "full_original_projection_success": 8
+    },
+    "unrestricted_fixed": {
+      "global_success": 1,
+      "by_first_type": {
+        "ИЛЭ": 1
+      },
+      "prefix_coupled_success": 1,
+      "full_original_projection_success": 1
+    },
+    "unrestricted_all": {
+      "global_success": 12,
+      "by_first_type": {
+        "ИЛЭ": 1,
+        "СЭИ": 1,
+        "СЭЭ": 1,
+        "ИЛИ": 1,
+        "ЭСЭ": 1,
+        "ЛИИ": 1,
+        "ЛИЭ": 1,
+        "ЭСИ": 1,
+        "ЛСЭ": 1,
+        "ЭИИ": 1,
+        "ЭИЭ": 1,
+        "ЛСИ": 1
+      },
+      "prefix_coupled_success": 8,
+      "full_original_projection_success": 8
+    }
+  },
+  "successes": [
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 0,
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        4
+      ],
+      "first_type": "ИЛЭ",
+      "first_aspect": "ЧИ",
+      "type_order": [
+        "ИЛЭ",
+        "СЭИ",
+        "ЭСЭ",
+        "ЛИИ",
+        "ЭИЭ",
+        "ЛСИ",
+        "СЛЭ",
+        "ИЭИ",
+        "ЛИЭ",
+        "ЭСИ",
+        "СЭЭ",
+        "ИЛИ",
+        "ИЭЭ",
+        "СЛИ",
+        "ЛСЭ",
+        "ЭИИ"
+      ],
+      "aspect_order": [
+        "ЧИ",
+        "БС",
+        "ЧЭ",
+        "БЛ",
+        "ЧЛ",
+        "БЭ",
+        "ЧС",
+        "БИ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Субъективисты/Объективисты",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prefix_coupled": true,
+      "full_original_projection": true,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 1,
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        4
+      ],
+      "first_type": "СЭИ",
+      "first_aspect": "БС",
+      "type_order": [
+        "СЭИ",
+        "ИЛЭ",
+        "ЛИИ",
+        "ЭСЭ",
+        "ЛСИ",
+        "ЭИЭ",
+        "ИЭИ",
+        "СЛЭ",
+        "ЭСИ",
+        "ЛИЭ",
+        "ИЛИ",
+        "СЭЭ",
+        "СЛИ",
+        "ИЭЭ",
+        "ЭИИ",
+        "ЛСЭ"
+      ],
+      "aspect_order": [
+        "БС",
+        "ЧИ",
+        "БЛ",
+        "ЧЭ",
+        "БЭ",
+        "ЧЛ",
+        "БИ",
+        "ЧС"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Субъективисты/Объективисты",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "prefix_coupled": true,
+      "full_original_projection": true,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 4,
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        4
+      ],
+      "first_type": "СЭЭ",
+      "first_aspect": "ЧС",
+      "type_order": [
+        "СЭЭ",
+        "ИЛИ",
+        "ЛИЭ",
+        "ЭСИ",
+        "ЛСЭ",
+        "ЭИИ",
+        "ИЭЭ",
+        "СЛИ",
+        "ЭСЭ",
+        "ЛИИ",
+        "ИЛЭ",
+        "СЭИ",
+        "СЛЭ",
+        "ИЭИ",
+        "ЭИЭ",
+        "ЛСИ"
+      ],
+      "aspect_order": [
+        "ЧС",
+        "БИ",
+        "ЧЛ",
+        "БЭ",
+        "ЧЭ",
+        "БЛ",
+        "ЧИ",
+        "БС"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Субъективисты/Объективисты",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "prefix_coupled": true,
+      "full_original_projection": true,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 5,
+      "B": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        4
+      ],
+      "first_type": "ИЛИ",
+      "first_aspect": "БИ",
+      "type_order": [
+        "ИЛИ",
+        "СЭЭ",
+        "ЭСИ",
+        "ЛИЭ",
+        "ЭИИ",
+        "ЛСЭ",
+        "СЛИ",
+        "ИЭЭ",
+        "ЛИИ",
+        "ЭСЭ",
+        "СЭИ",
+        "ИЛЭ",
+        "ИЭИ",
+        "СЛЭ",
+        "ЛСИ",
+        "ЭИЭ"
+      ],
+      "aspect_order": [
+        "БИ",
+        "ЧС",
+        "БЭ",
+        "ЧЛ",
+        "БЛ",
+        "ЧЭ",
+        "БС",
+        "ЧИ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Субъективисты/Объективисты",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "prefix_coupled": true,
+      "full_original_projection": true,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 68,
+      "c_id": 0,
+      "z": 2,
+      "B": [
+        1,
+        2,
+        12,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        4
+      ],
+      "first_type": "ЭСЭ",
+      "first_aspect": "ЧЭ",
+      "type_order": [
+        "ЭСЭ",
+        "ЛИИ",
+        "ИЛЭ",
+        "СЭИ",
+        "ИЭЭ",
+        "СЛИ",
+        "ЛСЭ",
+        "ЭИИ",
+        "СЭЭ",
+        "ИЛИ",
+        "ЛИЭ",
+        "ЭСИ",
+        "ЭИЭ",
+        "ЛСИ",
+        "СЛЭ",
+        "ИЭИ"
+      ],
+      "aspect_order": [
+        "ЧЭ",
+        "БЛ",
+        "ЧИ",
+        "БС",
+        "ЧС",
+        "БИ",
+        "ЧЛ",
+        "БЭ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Рассудительные/Решительные",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "prefix_coupled": true,
+      "full_original_projection": true,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 68,
+      "c_id": 0,
+      "z": 3,
+      "B": [
+        1,
+        2,
+        12,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        4
+      ],
+      "first_type": "ЛИИ",
+      "first_aspect": "БЛ",
+      "type_order": [
+        "ЛИИ",
+        "ЭСЭ",
+        "СЭИ",
+        "ИЛЭ",
+        "СЛИ",
+        "ИЭЭ",
+        "ЭИИ",
+        "ЛСЭ",
+        "ИЛИ",
+        "СЭЭ",
+        "ЭСИ",
+        "ЛИЭ",
+        "ЛСИ",
+        "ЭИЭ",
+        "ИЭИ",
+        "СЛЭ"
+      ],
+      "aspect_order": [
+        "БЛ",
+        "ЧЭ",
+        "БС",
+        "ЧИ",
+        "БИ",
+        "ЧС",
+        "БЭ",
+        "ЧЛ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Рассудительные/Решительные",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "prefix_coupled": true,
+      "full_original_projection": true,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 68,
+      "c_id": 0,
+      "z": 6,
+      "B": [
+        1,
+        2,
+        12,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        4
+      ],
+      "first_type": "ЛИЭ",
+      "first_aspect": "ЧЛ",
+      "type_order": [
+        "ЛИЭ",
+        "ЭСИ",
+        "СЭЭ",
+        "ИЛИ",
+        "СЛЭ",
+        "ИЭИ",
+        "ЭИЭ",
+        "ЛСИ",
+        "ИЛЭ",
+        "СЭИ",
+        "ЭСЭ",
+        "ЛИИ",
+        "ЛСЭ",
+        "ЭИИ",
+        "ИЭЭ",
+        "СЛИ"
+      ],
+      "aspect_order": [
+        "ЧЛ",
+        "БЭ",
+        "ЧС",
+        "БИ",
+        "ЧИ",
+        "БС",
+        "ЧЭ",
+        "БЛ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Рассудительные/Решительные",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "prefix_coupled": true,
+      "full_original_projection": true,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 68,
+      "c_id": 0,
+      "z": 7,
+      "B": [
+        1,
+        2,
+        12,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        4
+      ],
+      "first_type": "ЭСИ",
+      "first_aspect": "БЭ",
+      "type_order": [
+        "ЭСИ",
+        "ЛИЭ",
+        "ИЛИ",
+        "СЭЭ",
+        "ИЭИ",
+        "СЛЭ",
+        "ЛСИ",
+        "ЭИЭ",
+        "СЭИ",
+        "ИЛЭ",
+        "ЛИИ",
+        "ЭСЭ",
+        "ЭИИ",
+        "ЛСЭ",
+        "СЛИ",
+        "ИЭЭ"
+      ],
+      "aspect_order": [
+        "БЭ",
+        "ЧЛ",
+        "БИ",
+        "ЧС",
+        "БС",
+        "ЧИ",
+        "БЛ",
+        "ЧЭ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Рассудительные/Решительные",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "prefix_coupled": true,
+      "full_original_projection": true,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 68,
+      "c_id": 2,
+      "z": 10,
+      "B": [
+        1,
+        2,
+        12,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        6
+      ],
+      "first_type": "ЛСЭ",
+      "first_aspect": "ЧЛ",
+      "type_order": [
+        "ЛСЭ",
+        "ЭИИ",
+        "ИЭЭ",
+        "СЛИ",
+        "ИЛЭ",
+        "СЭИ",
+        "ЭСЭ",
+        "ЛИИ",
+        "СЛЭ",
+        "ИЭИ",
+        "ЭИЭ",
+        "ЛСИ",
+        "ЛИЭ",
+        "ЭСИ",
+        "СЭЭ",
+        "ИЛИ"
+      ],
+      "aspect_order": [
+        "ЧЛ",
+        "БЭ",
+        "ЧИ",
+        "БС",
+        "ЧС",
+        "БИ",
+        "ЧЭ",
+        "БЛ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Рассудительные/Решительные",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "prefix_coupled": false,
+      "full_original_projection": false,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 68,
+      "c_id": 2,
+      "z": 11,
+      "B": [
+        1,
+        2,
+        12,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        6
+      ],
+      "first_type": "ЭИИ",
+      "first_aspect": "БЭ",
+      "type_order": [
+        "ЭИИ",
+        "ЛСЭ",
+        "СЛИ",
+        "ИЭЭ",
+        "СЭИ",
+        "ИЛЭ",
+        "ЛИИ",
+        "ЭСЭ",
+        "ИЭИ",
+        "СЛЭ",
+        "ЛСИ",
+        "ЭИЭ",
+        "ЭСИ",
+        "ЛИЭ",
+        "ИЛИ",
+        "СЭЭ"
+      ],
+      "aspect_order": [
+        "БЭ",
+        "ЧЛ",
+        "БС",
+        "ЧИ",
+        "БИ",
+        "ЧС",
+        "БЛ",
+        "ЧЭ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Рассудительные/Решительные",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "prefix_coupled": false,
+      "full_original_projection": false,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 68,
+      "c_id": 2,
+      "z": 14,
+      "B": [
+        1,
+        2,
+        12,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        6
+      ],
+      "first_type": "ЭИЭ",
+      "first_aspect": "ЧЭ",
+      "type_order": [
+        "ЭИЭ",
+        "ЛСИ",
+        "СЛЭ",
+        "ИЭИ",
+        "СЭЭ",
+        "ИЛИ",
+        "ЛИЭ",
+        "ЭСИ",
+        "ИЭЭ",
+        "СЛИ",
+        "ЛСЭ",
+        "ЭИИ",
+        "ЭСЭ",
+        "ЛИИ",
+        "ИЛЭ",
+        "СЭИ"
+      ],
+      "aspect_order": [
+        "ЧЭ",
+        "БЛ",
+        "ЧС",
+        "БИ",
+        "ЧИ",
+        "БС",
+        "ЧЛ",
+        "БЭ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Рассудительные/Решительные",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "prefix_coupled": false,
+      "full_original_projection": false,
+      "checked_type_trait_conditions": 240
+    },
+    {
+      "b_id": 68,
+      "c_id": 2,
+      "z": 15,
+      "B": [
+        1,
+        2,
+        12,
+        8
+      ],
+      "C": [
+        1,
+        2,
+        6
+      ],
+      "first_type": "ЛСИ",
+      "first_aspect": "БЛ",
+      "type_order": [
+        "ЛСИ",
+        "ЭИЭ",
+        "ИЭИ",
+        "СЛЭ",
+        "ИЛИ",
+        "СЭЭ",
+        "ЭСИ",
+        "ЛИЭ",
+        "СЛИ",
+        "ИЭЭ",
+        "ЭИИ",
+        "ЛСЭ",
+        "ЛИИ",
+        "ЭСЭ",
+        "СЭИ",
+        "ИЛЭ"
+      ],
+      "aspect_order": [
+        "БЛ",
+        "ЧЭ",
+        "БИ",
+        "ЧС",
+        "БС",
+        "ЧИ",
+        "БЭ",
+        "ЧЛ"
+      ],
+      "source_type_trait_names": [
+        "Вертность",
+        "Нальность",
+        "Рассудительные/Решительные",
+        "Демократия/Аристократия"
+      ],
+      "generator_positive_bits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prefix_coupled": false,
+      "full_original_projection": false,
+      "checked_type_trait_conditions": 240
+    }
+  ],
+  "failureExamples": [
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 2,
+      "first_type": "ЭСЭ",
+      "first_failure": {
+        "type": "ЭИЭ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 0,
+        "actual": 1
+      }
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 3,
+      "first_type": "ЛИИ",
+      "first_failure": {
+        "type": "ЭИЭ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 0,
+        "actual": 1
+      }
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 6,
+      "first_type": "ЛИЭ",
+      "first_failure": {
+        "type": "ЭИЭ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 1,
+        "actual": 0
+      }
+    },
+    {
+      "b_id": 0,
+      "c_id": 0,
+      "z": 7,
+      "first_type": "ЭСИ",
+      "first_failure": {
+        "type": "ЭИЭ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 1,
+        "actual": 0
+      }
+    },
+    {
+      "b_id": 1,
+      "c_id": 0,
+      "z": 0,
+      "first_type": "ИЛЭ",
+      "first_failure": {
+        "type": "СЭИ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 0,
+        "actual": 1
+      }
+    },
+    {
+      "b_id": 1,
+      "c_id": 0,
+      "z": 2,
+      "first_type": "ЭСЭ",
+      "first_failure": {
+        "type": "СЭИ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 1,
+        "actual": 0
+      }
+    },
+    {
+      "b_id": 1,
+      "c_id": 0,
+      "z": 4,
+      "first_type": "СЭЭ",
+      "first_failure": {
+        "type": "СЭИ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 1,
+        "actual": 0
+      }
+    },
+    {
+      "b_id": 1,
+      "c_id": 0,
+      "z": 6,
+      "first_type": "ЛИЭ",
+      "first_failure": {
+        "type": "СЭИ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 0,
+        "actual": 1
+      }
+    },
+    {
+      "b_id": 1,
+      "c_id": 0,
+      "z": 9,
+      "first_type": "СЭИ",
+      "first_failure": {
+        "type": "ИЛЭ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 0,
+        "actual": 1
+      }
+    },
+    {
+      "b_id": 1,
+      "c_id": 0,
+      "z": 11,
+      "first_type": "ЛИИ",
+      "first_failure": {
+        "type": "ИЛЭ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 1,
+        "actual": 0
+      }
+    },
+    {
+      "b_id": 1,
+      "c_id": 0,
+      "z": 13,
+      "first_type": "ИЛИ",
+      "first_failure": {
+        "type": "ИЛЭ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 1,
+        "actual": 0
+      }
+    },
+    {
+      "b_id": 1,
+      "c_id": 0,
+      "z": 15,
+      "first_type": "ЭСИ",
+      "first_failure": {
+        "type": "ИЛЭ",
+        "slot_trait": "Беспечные/Предусмотрительные",
+        "expected": 0,
+        "actual": 1
+      }
+    }
+  ]
+}

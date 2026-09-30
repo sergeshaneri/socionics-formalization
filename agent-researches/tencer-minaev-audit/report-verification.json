@@ -1,0 +1,13 @@
+{
+  "literal_formulas_verified": 290,
+  "model_evaluations": 4640,
+  "formula_modes": {
+    "inclusion": 250,
+    "intersection": 22,
+    "process": 2,
+    "relation": 12,
+    "partition": 4
+  },
+  "complete_invariants_verified": 65,
+  "original_nonempty_inverse_rows_match_correct_TM_pole": true
+}

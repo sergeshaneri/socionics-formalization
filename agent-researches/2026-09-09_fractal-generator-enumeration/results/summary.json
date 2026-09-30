@@ -1,0 +1,1770 @@
+{
+  "schema": 1,
+  "definition": "B: ordered basis of type characters; C: ordered basis of aspect characters; shared inherited sign z[0:3]; new sign z[3]. Fixed function labels and order.",
+  "generationDefinitions": {
+    "strict": "b1=E,b2 in {N,E+N},b3 in gen3,b4 in gen4; c1=E,c2 in {N,E+N},c3 outside ancient plane",
+    "ancient": "first two are distinct elements of ancient plane minus zero; later as strict",
+    "unrestricted": "all ordered independent bases"
+  },
+  "aggregates": {
+    "strict_generations_fixed": {
+      "type_bases": 64,
+      "aspect_bases": 8,
+      "cases": 512,
+      "first_alignment": 512,
+      "full_identity": 64,
+      "fixed_original_15_formulas": 512,
+      "full_identity_and_original_15": 64,
+      "by_first_type": {
+        "ИЛЭ": {
+          "cases": 512,
+          "first_alignment": 512,
+          "full_identity": 64
+        }
+      },
+      "first_aspect_counts": {
+        "ЧИ": 512
+      },
+      "witnesses": [
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 0,
+          "first_type": "ИЛЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ"
+          ]
+        }
+      ]
+    },
+    "strict_generations_all": {
+      "type_bases": 64,
+      "aspect_bases": 8,
+      "cases": 8192,
+      "first_alignment": 3584,
+      "full_identity": 448,
+      "fixed_original_15_formulas": 512,
+      "full_identity_and_original_15": 64,
+      "by_first_type": {
+        "ИЛЭ": {
+          "cases": 512,
+          "first_alignment": 512,
+          "full_identity": 64
+        },
+        "СЭИ": {
+          "cases": 512,
+          "first_alignment": 128,
+          "full_identity": 16
+        },
+        "ЭСЭ": {
+          "cases": 512,
+          "first_alignment": 256,
+          "full_identity": 32
+        },
+        "ЛИИ": {
+          "cases": 512,
+          "first_alignment": 128,
+          "full_identity": 16
+        },
+        "СЭЭ": {
+          "cases": 512,
+          "first_alignment": 512,
+          "full_identity": 64
+        },
+        "ИЛИ": {
+          "cases": 512,
+          "first_alignment": 128,
+          "full_identity": 16
+        },
+        "ЛИЭ": {
+          "cases": 512,
+          "first_alignment": 256,
+          "full_identity": 32
+        },
+        "ЭСИ": {
+          "cases": 512,
+          "first_alignment": 128,
+          "full_identity": 16
+        },
+        "СЛЭ": {
+          "cases": 512,
+          "first_alignment": 256,
+          "full_identity": 32
+        },
+        "ИЭИ": {
+          "cases": 512,
+          "first_alignment": 128,
+          "full_identity": 16
+        },
+        "ЭИЭ": {
+          "cases": 512,
+          "first_alignment": 256,
+          "full_identity": 32
+        },
+        "ЛСИ": {
+          "cases": 512,
+          "first_alignment": 128,
+          "full_identity": 16
+        },
+        "ИЭЭ": {
+          "cases": 512,
+          "first_alignment": 256,
+          "full_identity": 32
+        },
+        "СЛИ": {
+          "cases": 512,
+          "first_alignment": 128,
+          "full_identity": 16
+        },
+        "ЛСЭ": {
+          "cases": 512,
+          "first_alignment": 256,
+          "full_identity": 32
+        },
+        "ЭИИ": {
+          "cases": 512,
+          "first_alignment": 128,
+          "full_identity": 16
+        }
+      },
+      "first_aspect_counts": {
+        "ЧИ": 1024,
+        "БС": 1024,
+        "БИ": 1024,
+        "БЛ": 1024,
+        "БЭ": 1024,
+        "ЧЭ": 1024,
+        "ЧЛ": 1024,
+        "ЧС": 1024
+      },
+      "witnesses": [
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 0,
+          "first_type": "ИЛЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 1,
+          "first_type": "СЭИ",
+          "aspect_order": [
+            "БС",
+            "ЧИ",
+            "БЛ",
+            "ЧЭ",
+            "БЭ",
+            "ЧЛ",
+            "БИ",
+            "ЧС"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 2,
+          "first_type": "ЭСЭ",
+          "aspect_order": [
+            "ЧЭ",
+            "БЛ",
+            "ЧИ",
+            "БС",
+            "ЧС",
+            "БИ",
+            "ЧЛ",
+            "БЭ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 3,
+          "first_type": "ЛИИ",
+          "aspect_order": [
+            "БЛ",
+            "ЧЭ",
+            "БС",
+            "ЧИ",
+            "БИ",
+            "ЧС",
+            "БЭ",
+            "ЧЛ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 4,
+          "first_type": "СЭЭ",
+          "aspect_order": [
+            "ЧС",
+            "БИ",
+            "ЧЛ",
+            "БЭ",
+            "ЧЭ",
+            "БЛ",
+            "ЧИ",
+            "БС"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 5,
+          "first_type": "ИЛИ",
+          "aspect_order": [
+            "БИ",
+            "ЧС",
+            "БЭ",
+            "ЧЛ",
+            "БЛ",
+            "ЧЭ",
+            "БС",
+            "ЧИ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 6,
+          "first_type": "ЛИЭ",
+          "aspect_order": [
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ",
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 7,
+          "first_type": "ЭСИ",
+          "aspect_order": [
+            "БЭ",
+            "ЧЛ",
+            "БИ",
+            "ЧС",
+            "БС",
+            "ЧИ",
+            "БЛ",
+            "ЧЭ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 9,
+          "first_type": "СЛИ",
+          "aspect_order": [
+            "БС",
+            "ЧИ",
+            "БЭ",
+            "ЧЛ",
+            "БЛ",
+            "ЧЭ",
+            "БИ",
+            "ЧС"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 11,
+          "first_type": "ЭИИ",
+          "aspect_order": [
+            "БЭ",
+            "ЧЛ",
+            "БС",
+            "ЧИ",
+            "БИ",
+            "ЧС",
+            "БЛ",
+            "ЧЭ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 13,
+          "first_type": "ИЭИ",
+          "aspect_order": [
+            "БИ",
+            "ЧС",
+            "БЛ",
+            "ЧЭ",
+            "БЭ",
+            "ЧЛ",
+            "БС",
+            "ЧИ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 15,
+          "first_type": "ЛСИ",
+          "aspect_order": [
+            "БЛ",
+            "ЧЭ",
+            "БИ",
+            "ЧС",
+            "БС",
+            "ЧИ",
+            "БЭ",
+            "ЧЛ"
+          ]
+        },
+        {
+          "b_id": 16,
+          "B": [
+            1,
+            2,
+            6,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 10,
+          "first_type": "ЛСЭ",
+          "aspect_order": [
+            "ЧЛ",
+            "БЭ",
+            "ЧИ",
+            "БС",
+            "ЧС",
+            "БИ",
+            "ЧЭ",
+            "БЛ"
+          ]
+        },
+        {
+          "b_id": 16,
+          "B": [
+            1,
+            2,
+            6,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 14,
+          "first_type": "ЭИЭ",
+          "aspect_order": [
+            "ЧЭ",
+            "БЛ",
+            "ЧС",
+            "БИ",
+            "ЧИ",
+            "БС",
+            "ЧЛ",
+            "БЭ"
+          ]
+        },
+        {
+          "b_id": 68,
+          "B": [
+            1,
+            2,
+            12,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 8,
+          "first_type": "ИЭЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЛ",
+            "БЭ",
+            "ЧЭ",
+            "БЛ",
+            "ЧС",
+            "БИ"
+          ]
+        },
+        {
+          "b_id": 68,
+          "B": [
+            1,
+            2,
+            12,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 12,
+          "first_type": "СЛЭ",
+          "aspect_order": [
+            "ЧС",
+            "БИ",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧИ",
+            "БС"
+          ]
+        }
+      ]
+    },
+    "ancient_first_fixed": {
+      "type_bases": 192,
+      "aspect_bases": 24,
+      "cases": 4608,
+      "first_alignment": 4608,
+      "full_identity": 192,
+      "fixed_original_15_formulas": 4608,
+      "full_identity_and_original_15": 192,
+      "by_first_type": {
+        "ИЛЭ": {
+          "cases": 4608,
+          "first_alignment": 4608,
+          "full_identity": 192
+        }
+      },
+      "first_aspect_counts": {
+        "ЧИ": 4608
+      },
+      "witnesses": [
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 0,
+          "first_type": "ИЛЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ"
+          ]
+        }
+      ]
+    },
+    "ancient_first_all": {
+      "type_bases": 192,
+      "aspect_bases": 24,
+      "cases": 73728,
+      "first_alignment": 23040,
+      "full_identity": 960,
+      "fixed_original_15_formulas": 4608,
+      "full_identity_and_original_15": 192,
+      "by_first_type": {
+        "ИЛЭ": {
+          "cases": 4608,
+          "first_alignment": 4608,
+          "full_identity": 192
+        },
+        "СЭИ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ЭСЭ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ЛИИ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "СЭЭ": {
+          "cases": 4608,
+          "first_alignment": 4608,
+          "full_identity": 192
+        },
+        "ИЛИ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ЛИЭ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ЭСИ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "СЛЭ": {
+          "cases": 4608,
+          "first_alignment": 2304,
+          "full_identity": 96
+        },
+        "ИЭИ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ЭИЭ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ЛСИ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ИЭЭ": {
+          "cases": 4608,
+          "first_alignment": 2304,
+          "full_identity": 96
+        },
+        "СЛИ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ЛСЭ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        },
+        "ЭИИ": {
+          "cases": 4608,
+          "first_alignment": 768,
+          "full_identity": 32
+        }
+      },
+      "first_aspect_counts": {
+        "ЧИ": 9216,
+        "БС": 9216,
+        "БИ": 9216,
+        "БЛ": 9216,
+        "БЭ": 9216,
+        "ЧЭ": 9216,
+        "ЧЛ": 9216,
+        "ЧС": 9216
+      },
+      "witnesses": [
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 0,
+          "first_type": "ИЛЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 1,
+          "first_type": "СЭИ",
+          "aspect_order": [
+            "БС",
+            "ЧИ",
+            "БЛ",
+            "ЧЭ",
+            "БЭ",
+            "ЧЛ",
+            "БИ",
+            "ЧС"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 2,
+          "first_type": "ЭСЭ",
+          "aspect_order": [
+            "ЧЭ",
+            "БЛ",
+            "ЧИ",
+            "БС",
+            "ЧС",
+            "БИ",
+            "ЧЛ",
+            "БЭ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 3,
+          "first_type": "ЛИИ",
+          "aspect_order": [
+            "БЛ",
+            "ЧЭ",
+            "БС",
+            "ЧИ",
+            "БИ",
+            "ЧС",
+            "БЭ",
+            "ЧЛ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 4,
+          "first_type": "СЭЭ",
+          "aspect_order": [
+            "ЧС",
+            "БИ",
+            "ЧЛ",
+            "БЭ",
+            "ЧЭ",
+            "БЛ",
+            "ЧИ",
+            "БС"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 5,
+          "first_type": "ИЛИ",
+          "aspect_order": [
+            "БИ",
+            "ЧС",
+            "БЭ",
+            "ЧЛ",
+            "БЛ",
+            "ЧЭ",
+            "БС",
+            "ЧИ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 6,
+          "first_type": "ЛИЭ",
+          "aspect_order": [
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ",
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 7,
+          "first_type": "ЭСИ",
+          "aspect_order": [
+            "БЭ",
+            "ЧЛ",
+            "БИ",
+            "ЧС",
+            "БС",
+            "ЧИ",
+            "БЛ",
+            "ЧЭ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 9,
+          "first_type": "СЛИ",
+          "aspect_order": [
+            "БС",
+            "ЧИ",
+            "БЭ",
+            "ЧЛ",
+            "БЛ",
+            "ЧЭ",
+            "БИ",
+            "ЧС"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 11,
+          "first_type": "ЭИИ",
+          "aspect_order": [
+            "БЭ",
+            "ЧЛ",
+            "БС",
+            "ЧИ",
+            "БИ",
+            "ЧС",
+            "БЛ",
+            "ЧЭ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 13,
+          "first_type": "ИЭИ",
+          "aspect_order": [
+            "БИ",
+            "ЧС",
+            "БЛ",
+            "ЧЭ",
+            "БЭ",
+            "ЧЛ",
+            "БС",
+            "ЧИ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 15,
+          "first_type": "ЛСИ",
+          "aspect_order": [
+            "БЛ",
+            "ЧЭ",
+            "БИ",
+            "ЧС",
+            "БС",
+            "ЧИ",
+            "БЭ",
+            "ЧЛ"
+          ]
+        },
+        {
+          "b_id": 16,
+          "B": [
+            1,
+            2,
+            6,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 10,
+          "first_type": "ЛСЭ",
+          "aspect_order": [
+            "ЧЛ",
+            "БЭ",
+            "ЧИ",
+            "БС",
+            "ЧС",
+            "БИ",
+            "ЧЭ",
+            "БЛ"
+          ]
+        },
+        {
+          "b_id": 16,
+          "B": [
+            1,
+            2,
+            6,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 14,
+          "first_type": "ЭИЭ",
+          "aspect_order": [
+            "ЧЭ",
+            "БЛ",
+            "ЧС",
+            "БИ",
+            "ЧИ",
+            "БС",
+            "ЧЛ",
+            "БЭ"
+          ]
+        },
+        {
+          "b_id": 68,
+          "B": [
+            1,
+            2,
+            12,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 8,
+          "first_type": "ИЭЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЛ",
+            "БЭ",
+            "ЧЭ",
+            "БЛ",
+            "ЧС",
+            "БИ"
+          ]
+        },
+        {
+          "b_id": 68,
+          "B": [
+            1,
+            2,
+            12,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 12,
+          "first_type": "СЛЭ",
+          "aspect_order": [
+            "ЧС",
+            "БИ",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧИ",
+            "БС"
+          ]
+        }
+      ]
+    },
+    "unrestricted_fixed": {
+      "type_bases": 20160,
+      "aspect_bases": 168,
+      "cases": 3386880,
+      "first_alignment": 3386880,
+      "full_identity": 20160,
+      "fixed_original_15_formulas": 3386880,
+      "full_identity_and_original_15": 20160,
+      "by_first_type": {
+        "ИЛЭ": {
+          "cases": 3386880,
+          "first_alignment": 3386880,
+          "full_identity": 20160
+        }
+      },
+      "first_aspect_counts": {
+        "ЧИ": 3386880
+      },
+      "witnesses": [
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 0,
+          "first_type": "ИЛЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ"
+          ]
+        }
+      ]
+    },
+    "unrestricted_all": {
+      "type_bases": 20160,
+      "aspect_bases": 168,
+      "cases": 54190080,
+      "first_alignment": 9934848,
+      "full_identity": 59136,
+      "fixed_original_15_formulas": 3386880,
+      "full_identity_and_original_15": 20160,
+      "by_first_type": {
+        "ИЛЭ": {
+          "cases": 3386880,
+          "first_alignment": 3386880,
+          "full_identity": 20160
+        },
+        "СЭИ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ЭСЭ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ЛИИ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "СЭЭ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ИЛИ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ЛИЭ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ЭСИ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "СЛЭ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ИЭИ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ЭИЭ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ЛСИ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ИЭЭ": {
+          "cases": 3386880,
+          "first_alignment": 225792,
+          "full_identity": 1344
+        },
+        "СЛИ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ЛСЭ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        },
+        "ЭИИ": {
+          "cases": 3386880,
+          "first_alignment": 451584,
+          "full_identity": 2688
+        }
+      },
+      "first_aspect_counts": {
+        "ЧИ": 6773760,
+        "БС": 6773760,
+        "БИ": 6773760,
+        "БЛ": 6773760,
+        "БЭ": 6773760,
+        "ЧЭ": 6773760,
+        "ЧЛ": 6773760,
+        "ЧС": 6773760
+      },
+      "witnesses": [
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 0,
+          "first_type": "ИЛЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 1,
+          "first_type": "СЭИ",
+          "aspect_order": [
+            "БС",
+            "ЧИ",
+            "БЛ",
+            "ЧЭ",
+            "БЭ",
+            "ЧЛ",
+            "БИ",
+            "ЧС"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 2,
+          "first_type": "ЭСЭ",
+          "aspect_order": [
+            "ЧЭ",
+            "БЛ",
+            "ЧИ",
+            "БС",
+            "ЧС",
+            "БИ",
+            "ЧЛ",
+            "БЭ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 3,
+          "first_type": "ЛИИ",
+          "aspect_order": [
+            "БЛ",
+            "ЧЭ",
+            "БС",
+            "ЧИ",
+            "БИ",
+            "ЧС",
+            "БЭ",
+            "ЧЛ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 4,
+          "first_type": "СЭЭ",
+          "aspect_order": [
+            "ЧС",
+            "БИ",
+            "ЧЛ",
+            "БЭ",
+            "ЧЭ",
+            "БЛ",
+            "ЧИ",
+            "БС"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 5,
+          "first_type": "ИЛИ",
+          "aspect_order": [
+            "БИ",
+            "ЧС",
+            "БЭ",
+            "ЧЛ",
+            "БЛ",
+            "ЧЭ",
+            "БС",
+            "ЧИ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 6,
+          "first_type": "ЛИЭ",
+          "aspect_order": [
+            "ЧЛ",
+            "БЭ",
+            "ЧС",
+            "БИ",
+            "ЧИ",
+            "БС",
+            "ЧЭ",
+            "БЛ"
+          ]
+        },
+        {
+          "b_id": 0,
+          "B": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "c_id": 0,
+          "C": [
+            1,
+            2,
+            4
+          ],
+          "z": 7,
+          "first_type": "ЭСИ",
+          "aspect_order": [
+            "БЭ",
+            "ЧЛ",
+            "БИ",
+            "ЧС",
+            "БС",
+            "ЧИ",
+            "БЛ",
+            "ЧЭ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 9,
+          "first_type": "СЛИ",
+          "aspect_order": [
+            "БС",
+            "ЧИ",
+            "БЭ",
+            "ЧЛ",
+            "БЛ",
+            "ЧЭ",
+            "БИ",
+            "ЧС"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 11,
+          "first_type": "ЭИИ",
+          "aspect_order": [
+            "БЭ",
+            "ЧЛ",
+            "БС",
+            "ЧИ",
+            "БИ",
+            "ЧС",
+            "БЛ",
+            "ЧЭ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 13,
+          "first_type": "ИЭИ",
+          "aspect_order": [
+            "БИ",
+            "ЧС",
+            "БЛ",
+            "ЧЭ",
+            "БЭ",
+            "ЧЛ",
+            "БС",
+            "ЧИ"
+          ]
+        },
+        {
+          "b_id": 8,
+          "B": [
+            1,
+            2,
+            5,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 15,
+          "first_type": "ЛСИ",
+          "aspect_order": [
+            "БЛ",
+            "ЧЭ",
+            "БИ",
+            "ЧС",
+            "БС",
+            "ЧИ",
+            "БЭ",
+            "ЧЛ"
+          ]
+        },
+        {
+          "b_id": 16,
+          "B": [
+            1,
+            2,
+            6,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 10,
+          "first_type": "ЛСЭ",
+          "aspect_order": [
+            "ЧЛ",
+            "БЭ",
+            "ЧИ",
+            "БС",
+            "ЧС",
+            "БИ",
+            "ЧЭ",
+            "БЛ"
+          ]
+        },
+        {
+          "b_id": 16,
+          "B": [
+            1,
+            2,
+            6,
+            8
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 14,
+          "first_type": "ЭИЭ",
+          "aspect_order": [
+            "ЧЭ",
+            "БЛ",
+            "ЧС",
+            "БИ",
+            "ЧИ",
+            "БС",
+            "ЧЛ",
+            "БЭ"
+          ]
+        },
+        {
+          "b_id": 32,
+          "B": [
+            1,
+            2,
+            8,
+            4
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 4,
+          "first_type": "СЛЭ",
+          "aspect_order": [
+            "ЧС",
+            "БИ",
+            "ЧЭ",
+            "БЛ",
+            "ЧЛ",
+            "БЭ",
+            "ЧИ",
+            "БС"
+          ]
+        },
+        {
+          "b_id": 64,
+          "B": [
+            1,
+            2,
+            12,
+            4
+          ],
+          "c_id": 2,
+          "C": [
+            1,
+            2,
+            6
+          ],
+          "z": 8,
+          "first_type": "ИЭЭ",
+          "aspect_order": [
+            "ЧИ",
+            "БС",
+            "ЧЛ",
+            "БЭ",
+            "ЧЭ",
+            "БЛ",
+            "ЧС",
+            "БИ"
+          ]
+        }
+      ]
+    }
+  },
+  "parentCompatibleCounts": {
+    "strict_generations": 16,
+    "ancient_first": 48,
+    "unrestricted": 1344
+  },
+  "rawSourceSignMismatchCount": 0,
+  "allFormulaPositiveType": "ИЛЭ",
+  "totalFactorizedRows": 322560,
+  "totalExpandedCases": 54190080,
+  "assertions": "All independent-basis counts, source model bijections, character closure, predicate exclusivity, H8 tables, and formula joint uniqueness checked with Node assert."
+}
