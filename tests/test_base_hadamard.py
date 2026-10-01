@@ -100,6 +100,19 @@ class BaseHadamardTests(unittest.TestCase):
                 self.assertEqual(int(a[6] == f[6]), traits[14])
                 self.assertEqual(int(a[7] == f[7]), traits[15])
 
+    def test_vert_carefree_xnor_gives_intuition_on_active_domain(self):
+        for name in TYPES:
+            traits = self.trait_rows[name]
+            self.assertEqual(int(traits[1] == traits[2]), traits[3])
+            for position, aspect in enumerate(self.model_rows[name], 1):
+                a, f = self.aspect_rows[aspect], self.function_rows[position]
+                self.assertEqual(int(a[1] == a[2]), a[3])
+                self.assertEqual(int(f[1] == f[2]), f[3])
+                if a[6] == 1:
+                    self.assertEqual(int(a[1] == f[1]), traits[1])
+                    self.assertEqual(int(a[2] == f[2]), traits[2])
+                    self.assertEqual(int(a[3] == f[3]), traits[3])
+
     def test_carefree_judicious_xnor_gives_nality_on_active_domain(self):
         for name in TYPES:
             traits = self.trait_rows[name]
