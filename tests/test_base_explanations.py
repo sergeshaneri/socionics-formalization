@@ -74,6 +74,24 @@ class BaseExplanationsTests(unittest.TestCase):
             self.assertEqual(set(model.values()), set(self.data.function_rows), name)
             self.assertEqual(self.data.trait_rows[name][0], 1, name)
 
+    def test_cross_level_short_names_match_their_columns(self):
+        main = (BASE / '01-hadamard-and-correspondence.md').read_text(encoding='utf-8')
+        for argument, domain, columns in [('i', 'I', (2, 7, 8)),
+                                          ('f', 'F', (2, 7, 8)),
+                                          ('t', 'T', (2, 15, 16))]:
+            for alias, column in zip(('vert', 'nal', 'tal'), columns):
+                index = str(column) if column < 10 else f'{{{column}}}'
+                definition = (rf'\operatorname{{{alias}}}({argument})='
+                              rf'\operatorname{{dich{domain}}}_{index}({argument})')
+                self.assertIn(definition, main)
+        self.assertIn(r'\operatorname{crat}(t)=\operatorname{dichT}_5(t)', main)
+        for rows, columns in [(self.data.aspect_rows, (2, 7, 8)),
+                              (self.data.function_rows, (2, 7, 8)),
+                              (self.data.trait_rows, (2, 15, 16))]:
+            for obj, row in rows.items():
+                vert, nal, tal = (row[c - 1] for c in columns)
+                self.assertEqual(int(vert == nal), tal, obj)
+
     def test_technical_material_is_optional_and_separated(self):
         appendix = BASE / '01a-hadamard-technical.md'
         self.assertTrue(appendix.is_file(), 'The explanatory technical appendix is missing')
@@ -86,6 +104,44 @@ class BaseExplanationsTests(unittest.TestCase):
         self.assertNotIn(r'\sigma(a)=2a-1', main)
         self.assertIn(r'\lambda(c)', technical)
         self.assertNotIn(r'\lambda(c)', main)
+
+    def test_literal_product_examples_distinguish_the_two_groups(self):
+        text = (BASE / '01-hadamard-and-correspondence.md').read_text(encoding='utf-8')
+        header = '| Левый сомножитель | Правый сомножитель | Тип результата XNOR кодов | Тип результата композиции |'
+        self.assertTrue(header in text, 'The two group operations need literal examples')
+        table_lines = text.split(header, 1)[1].splitlines()
+        records = []
+        for line in table_lines:
+            if line.startswith('|---') or not line.strip():
+                continue
+            if not line.startswith('|'):
+                break
+            records.append(tuple(cell.strip() for cell in line.strip('|').split('|')))
+        self.assertEqual(records, [('ЭСЭ', 'ЭИЭ', 'СЛЭ', 'СЛЭ'),
+                                   ('ЭИЭ', 'ЭСЭ', 'СЛЭ', 'ИЭЭ')])
+        models = {name: {a: f for f, a in enumerate(row, 1)}
+                  for name, row in self.data.model_rows.items()}
+        base_inverse = {f: a for a, f in models['ИЛЭ'].items()}
+        permutations = {name: tuple(model[base_inverse[f]] for f in range(1, 9))
+                        for name, model in models.items()}
+        code_labels = {code: name for name, code in self.data.trait_rows.items()}
+        permutation_labels = {perm: name for name, perm in permutations.items()}
+        for left, right, code_result, permutation_result in records:
+            xnor = tuple(int(a == b) for a, b in
+                         zip(self.data.trait_rows[left], self.data.trait_rows[right]))
+            composed = tuple(permutations[left][f - 1] for f in permutations[right])
+            self.assertEqual(code_labels[xnor], code_result)
+            self.assertEqual(permutation_labels[composed], permutation_result)
+        noncommuting = False
+        for left, right in product(primary.TYPES, repeat=2):
+            xnor = tuple(int(a == b) for a, b in
+                         zip(self.data.trait_rows[left], self.data.trait_rows[right]))
+            self.assertIn(xnor, code_labels)
+            composed = tuple(permutations[left][f - 1] for f in permutations[right])
+            reversed_order = tuple(permutations[right][f - 1] for f in permutations[left])
+            self.assertIn(composed, permutation_labels)
+            noncommuting |= composed != reversed_order
+        self.assertTrue(noncommuting)
 
     def test_dependency_and_diad_membership_have_distinct_truth_sets(self):
         signatures = {

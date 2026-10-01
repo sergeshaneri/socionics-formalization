@@ -6,6 +6,7 @@ An open research corpus containing primary definitions and tables, historical re
 
 ## Navigation
 
+- [Base constructive formalization](formalization/base/00-index.md) — the main reading sequence: matrices and Churyumov correspondence, then structural formulas for Model A. Technical details and provenance are separate. These chapters are currently in Russian.
 - [`HANDOFF.md`](HANDOFF.md) — research context, mathematical setup, verified results, and open tasks for a subsequent agent. This document is currently in Russian.
 - `sources/primary/` — unchanged copies of 26 primary Markdown documents, in Russian. Draft articles are sources for formulas, not automatically accepted theorems.
 - `sources/context/gpt-output.md` — a supplied analytical text; its claims require independent verification.
