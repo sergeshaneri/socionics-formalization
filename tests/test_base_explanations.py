@@ -62,6 +62,18 @@ class BaseExplanationsTests(unittest.TestCase):
         self.assertEqual(len(permutations), 16)
         self.assertEqual(len(labels), 16)
 
+    def test_existence_formula_is_the_complete_carrier_image(self):
+        for filename in ('00-index.md', '01-hadamard-and-correspondence.md',
+                         '02-generations-and-invariant-formulas.md'):
+            text = (BASE / filename).read_text(encoding='utf-8')
+            self.assertNotIn('1=1', text, filename)
+            self.assertIn('t(I)=F', text, filename)
+        for name, row in self.data.model_rows.items():
+            model = {aspect: f for f, aspect in enumerate(row, 1)}
+            self.assertEqual(set(model), set(primary.ASPECTS), name)
+            self.assertEqual(set(model.values()), set(self.data.function_rows), name)
+            self.assertEqual(self.data.trait_rows[name][0], 1, name)
+
     def test_technical_material_is_optional_and_separated(self):
         appendix = BASE / '01a-hadamard-technical.md'
         self.assertTrue(appendix.is_file(), 'The explanatory technical appendix is missing')
@@ -144,7 +156,10 @@ class BaseExplanationsTests(unittest.TestCase):
                              for r in cycle_records)
         truth = {}
         for name, model in chapter.models.items():
-            conditions: dict[int, tuple[bool, ...]] = {1: (False, True)}
+            existence_holds = (set(model) == set(chapter.aspects)
+                               and set(model.values()) == set(chapter.functions))
+            # The constant column has no opposite pole on valid models.
+            conditions: dict[int, tuple[bool, ...]] = {1: (False, existence_holds)}
             for _, trait, column in four:
                 trait, column = int(trait), int(column)
                 aspects = [{a for a, row in chapter.aspects.items() if row[column - 1] == b}
