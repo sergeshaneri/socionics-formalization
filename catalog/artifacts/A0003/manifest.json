@@ -644,9 +644,12 @@
           "path": "2026-09-28-tetrad-classification/CHECKSUMS.json",
           "declared": 62,
           "matched": 62,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
           "missing": 0,
-          "mismatched": 0,
           "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
           "mismatched_paths": [],
           "status": "all_match"
         },
@@ -654,14 +657,35 @@
           "path": "2026-09-28-tetrad-classification/data/manifest.json",
           "declared": 4,
           "matched": 0,
-          "missing": 4,
-          "mismatched": 0,
+          "alternate_path_match_count": 2,
+          "alternate_path_matches": [
+            {
+              "declared_path": "data/classification.md",
+              "archive_paths": [
+                "2026-09-28-tetrad-classification/data/классификация разбиений и подгрупп.md",
+                "2026-09-28-tetrad-classification/originals/классификация разбиений и подгрупп.md"
+              ]
+            },
+            {
+              "declared_path": "data/tables.md",
+              "archive_paths": [
+                "2026-09-28-tetrad-classification/data/09-markdown-1-.md",
+                "2026-09-28-tetrad-classification/originals/09-markdown-1-.md"
+              ]
+            }
+          ],
+          "missing": 2,
           "missing_paths": [
+            "data/catalog.json",
+            "data/tetrachotomies-source-text.md"
+          ],
+          "path_missing_paths": [
             "data/catalog.json",
             "data/classification.md",
             "data/tables.md",
             "data/tetrachotomies-source-text.md"
           ],
+          "mismatched": 0,
           "mismatched_paths": [],
           "status": "incomplete_or_mismatch"
         }

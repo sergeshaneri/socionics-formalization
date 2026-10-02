@@ -1,6 +1,6 @@
 {
   "catalogued_on": "2026-10-02",
-  "stage": "pilot",
+  "stage": "inventory_complete_with_documented_gaps",
   "scope_roots": [
     "agent-researches",
     "audits",
@@ -13,49 +13,279 @@
   "scope_note": "Repository-relative inventory; primary author sources are recorded separately. .git, local handoff files, and unrelated active working areas are outside scope.",
   "totals": {
     "physical_files": 337,
-    "cataloged_source_files": 26,
+    "cataloged_source_files": 306,
     "source_records": 27,
     "excluded_files": 3,
     "administrative_files": 1,
-    "pending_files": 280,
-    "artifacts_with_cards": 6
+    "pending_files": 0,
+    "artifacts_with_cards": 52,
+    "expected_artifact_records": 7,
+    "promised_packages_absent": 1,
+    "promised_packages_partial_or_unverified": 3,
+    "external_reproduction_input_gaps": 1,
+    "incomplete_packages_by_manifest": 2
   },
+  "expected_artifacts": [
+    {
+      "id": "M0001",
+      "owner_artifact_id": "A0010",
+      "kind": "promised_computational_package",
+      "status": "partial_candidate",
+      "expected_members": [
+        "inputs/project_tables.md",
+        "inputs/models.txt",
+        "inputs/systems.json",
+        "code/reproduce.py",
+        "results/all_30_affine_structures.json",
+        "results/compatible_4_structures.json",
+        "results/affine_coefficients.csv",
+        "results/coefficient_groups.csv",
+        "results/balanced_coefficient_subspaces.json",
+        "results/minimal_model_a_invariants.json",
+        "results/system_invariant_profiles.json",
+        "results/partition_stabilizers.json",
+        "AFFINE_TRAITS_AND_NEW_SYSTEMS.md",
+        "results/checks.json",
+        "results/run.log",
+        "code/build_report.py",
+        "code/report_template.md",
+        "code/probe_affine.py",
+        "results/affine_probe.json",
+        "README.md",
+        "SHA256SUMS.txt"
+      ],
+      "observed_members": [
+        "inputs/models.txt",
+        "inputs/systems.json",
+        "code/reproduce.py",
+        "results/checks.json",
+        "results/run.log",
+        "README.md",
+        "SHA256SUMS.txt"
+      ],
+      "missing_members": [
+        "inputs/project_tables.md",
+        "results/all_30_affine_structures.json",
+        "results/compatible_4_structures.json",
+        "results/affine_coefficients.csv",
+        "results/coefficient_groups.csv",
+        "results/balanced_coefficient_subspaces.json",
+        "results/minimal_model_a_invariants.json",
+        "results/system_invariant_profiles.json",
+        "results/partition_stabilizers.json",
+        "AFFINE_TRAITS_AND_NEW_SYSTEMS.md",
+        "code/build_report.py",
+        "code/report_template.md",
+        "code/probe_affine.py",
+        "results/affine_probe.json"
+      ],
+      "candidate_artifact_ids": [
+        "A0011"
+      ],
+      "basis": "В A0010, §18, перечислены ожидаемые файлы пакета; A0011 — единственный тематически близкий ZIP, проверенный по точным относительным путям членов.",
+      "notes": "A0011 содержит 7 из 21 заявленного пути. Внутренний REPORT.md побайтно совпадает с A0012, а не с A0010; связь выпусков не установлена."
+    },
+    {
+      "id": "M0002",
+      "owner_artifact_id": "A0047",
+      "kind": "promised_computational_package",
+      "status": "partial_unverified",
+      "expected_members": [
+        "catalogue.md",
+        "catalogue.json",
+        "inputs.json",
+        "audit.py",
+        "statistics.json",
+        "README.md",
+        "копия формального отчёта внутри пакета"
+      ],
+      "observed_members": [
+        "agent-researches/catalogue.md"
+      ],
+      "missing_members": [
+        "catalogue.json",
+        "inputs.json",
+        "audit.py",
+        "statistics.json",
+        "README.md",
+        "копия отчёта внутри пакета (отдельно не проверена)"
+      ],
+      "candidate_artifact_ids": [
+        "A0044"
+      ],
+      "basis": "A0047, §13, перечисляет состав пакета; A0044 — отдельный читаемый каталог с теми же заявленными числами классов.",
+      "notes": "Совпадающий архив или распакованный выпуск не найден. A0044 — возможный сопровождающий результат, но принадлежность пакету и побайтное совпадение не установлены."
+    },
+    {
+      "id": "M0003",
+      "owner_artifact_id": "A0050",
+      "kind": "promised_computational_package",
+      "status": "absent_in_scope",
+      "expected_members": [
+        "inputs.json",
+        "catalogue.json",
+        "audit.py",
+        "build_report.py",
+        "statistics.json",
+        "README.md",
+        "source-conflict-semantics.png"
+      ],
+      "observed_members": [],
+      "missing_members": [
+        "inputs.json",
+        "catalogue.json",
+        "audit.py",
+        "build_report.py",
+        "statistics.json",
+        "README.md",
+        "source-conflict-semantics.png"
+      ],
+      "candidate_artifact_ids": [],
+      "basis": "A0050, §9.1, перечисляет файлы вычислительного приложения.",
+      "notes": "В выбранном охвате не найден соответствующий архив или распакованный пакет. Одноимённые файлы в других выпусках не отнесены к этому пакету."
+    },
+    {
+      "id": "M0004",
+      "owner_artifact_id": "A0030",
+      "kind": "promised_computational_package",
+      "status": "candidate_not_verified",
+      "expected_members": [
+        "src/analyze.py",
+        "src/report.py",
+        "README.md",
+        "таблицы исходных данных (имена не указаны)",
+        "35 подгрупп и данные включений",
+        "результаты для 140 тетрад",
+        "отчёт и PDF"
+      ],
+      "observed_members": [],
+      "missing_members": [
+        "архив и README соответствующего выпуска",
+        "src/analyze.py",
+        "манифест пакета и полные результаты"
+      ],
+      "candidate_artifact_ids": [
+        "A0034"
+      ],
+      "basis": "A0030, §10, приводит команды и описывает содержимое архива, но не указывает имя или путь архива.",
+      "notes": "A0034 — пакет от 25 сентября о ядрах орбит с исходными данными по подгруппам и src/report.py. В нём другой отчёт и src/analyze_kernels.py вместо src/analyze.py; он не считается обещанным пакетом A0030."
+    },
+    {
+      "id": "M0005",
+      "owner_artifact_id": "A0043",
+      "kind": "external_reproduction_inputs",
+      "status": "inputs_absent_from_scope",
+      "expected_members": [
+        "исходный Markdown из отдельного репозитория",
+        "tools/audit_dichotomy_source.py"
+      ],
+      "observed_members": [
+        "audits/dichotomy-source-audit.json (снимок исходных значений)",
+        "audits/aspect-pattern-checks.json (зафиксированные конечные проверки)"
+      ],
+      "missing_members": [
+        "исходный Markdown-файл",
+        "tools/audit_dichotomy_source.py"
+      ],
+      "candidate_artifact_ids": [
+        "A0036"
+      ],
+      "basis": "Раздел повторного запуска A0043 указывает внешний исходник, скрипт и архивный вход; исходник и скрипт находятся вне выбранных корней.",
+      "notes": "Отчёт и два JSON-результата доступны. Повторить аудит исходных формул только по этому репозиторию нельзя."
+    },
+    {
+      "id": "M0006",
+      "owner_artifact_id": "A0003",
+      "kind": "internal_manifest_members",
+      "status": "incomplete_by_internal_manifest",
+      "expected_members": [
+        "data/catalog.json",
+        "data/classification.md",
+        "data/tables.md",
+        "data/tetrachotomies-source-text.md"
+      ],
+      "observed_members": [
+        "data/classification.md: тот же SHA-256 у data/классификация разбиений и подгрупп.md",
+        "data/tables.md: тот же SHA-256 у data/09-markdown-1-.md"
+      ],
+      "missing_members": [
+        "data/catalog.json",
+        "data/tetrachotomies-source-text.md"
+      ],
+      "candidate_artifact_ids": [],
+      "basis": "Внутренний data/manifest.json перечисляет четыре SHA-256; их сопоставили по содержимому со всеми 63 ZIP-членами.",
+      "notes": "Два ожидаемых содержимых присутствуют под другими именами; два не найдены ни по пути, ни по SHA-256. Отдельный CHECKSUMS.json подтверждает 62/62 фактически перечисленных файла и не отменяет этот пробел."
+    },
+    {
+      "id": "M0007",
+      "owner_artifact_id": "A0006",
+      "kind": "internal_manifest_members",
+      "status": "incomplete_by_internal_manifest",
+      "expected_members": [
+        "sources/.codex-upload-6a83d91047714bdba4669fd6bda48e71",
+        "sources/.codex-upload-6e1a86afa65a4cfabfbb397c01c0efd1",
+        "sources/.codex-upload-6f77ab2b01c24b2dbf05a07e99139d62",
+        "statistics.json",
+        "verify_report.py"
+      ],
+      "observed_members": [
+        "sources/.codex-upload-6a83d91047714bdba4669fd6bda48e71: такой же SHA-256 имеет sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159"
+      ],
+      "missing_members": [
+        "sources/.codex-upload-6e1a86afa65a4cfabfbb397c01c0efd1 (нулевой размер по манифесту; путь отсутствует)",
+        "sources/.codex-upload-6f77ab2b01c24b2dbf05a07e99139d62",
+        "statistics.json",
+        "verify_report.py"
+      ],
+      "candidate_artifact_ids": [],
+      "basis": "Сопоставлены package-manifest.json (24 записи) и source-manifest.json (9 записей) с членами ZIP по относительному пути, размеру и SHA-256.",
+      "notes": "Манифест пакета: 19 точных совпадений, одно совпадение содержимого под другим путём, четыре отсутствующих содержимых. Манифест источников: 6 точных совпадений, одно под другим путём и два отсутствующих содержимых."
+    }
+  ],
   "files": [
     {
       "path": "agent-researches/2026-09-06-octochotomies.md",
       "size_bytes": 106763,
       "sha256": "b117ba1a1432ac78c6e676a7e8645baf1ee65303db762e5dd0574b46a353b3de",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0050"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-06_formuly-16-tetrahotoimij-reinin-tm.md",
       "size_bytes": 28551,
       "sha256": "ebe68fc81171b8346bd6eff2dc09da5e864318813c3b9fc86566bd8e339b6f8c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0052"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-06_tetrahomii_plus-minus_questimity_TM.pdf",
       "size_bytes": 146878,
       "sha256": "a88f89036bf9259f40aadc9df0e4a4499ae4e6f2b1008129d60b26d8bbe7e073",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0051"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-06_tetrahotoimii-Reinin-TM_zerkalnye-invarianty-2to4.md",
       "size_bytes": 15099,
       "sha256": "08238e0812d13f814f930e4ba3f213022c941b0b53224fd9178f2984ee689c87",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0051"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07-tencer-minaev-audit-FIXED.zip",
@@ -96,2334 +326,2832 @@
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible.zip",
       "size_bytes": 3528711,
       "sha256": "2644744c47d5f6947975965efc1fa769b4a4238a5343309c4652f3aee1671563",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/2026-09-07_reinin_relations_research.md",
       "size_bytes": 166654,
       "sha256": "0cb200186a379c68e3cb6424ae3db61f9de1d51b54d0737e25edb893c511a047",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007",
+        "A0008"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/README.md",
       "size_bytes": 7321,
       "sha256": "4dd1d0e4776510133d6cedf5585a4f60d10131f8af6060b4d4fde3490ecbb83d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/SHA256SUMS.json",
       "size_bytes": 6856,
       "sha256": "4254c38e790bfd5a70cc55473aa81f2c146f8c86a5d1efe6d93aafda8199de5c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/01-generations-list.md",
       "size_bytes": 509,
       "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/01-generations-list.md.clean.txt",
         "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/generations-list.md",
         "sources/primary/generations-list.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
       "size_bytes": 2522,
       "sha256": "3e36ff5cc85d6e763c41e30cf294d878686b10231df8352fd244850e1b5c5979",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/02-klassifikaciya-pravilnyh-razbienij-sociona.md.clean.txt",
         "sources/primary/klassifikaciya-pravilnyh-razbienij-sociona.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
       "size_bytes": 6029,
       "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
         "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/04-4-svezhak.md",
       "size_bytes": 180169,
       "sha256": "37fe6fd18c7c79f096b3234cda0c111ffcc19cfdd6731bf1c162064a338e6019",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/tencer-minaev-audit/sources/.codex-upload-1bc2daef8ed94733a6ce54683fef1532"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/05-oktohotomii.md",
       "size_bytes": 484914,
       "sha256": "5ab9ffda5bb417b42eab4e41128ae918ae5400041c7a66751131e0181b975ebf",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "sources/primary/oktohotomii.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/06-md",
       "size_bytes": 659186,
       "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/tencer-minaev-audit/sources/.codex-upload-0b144ff3bb4c4acda04e951ebdab9d9e",
         "agent-researches/tencer-minaev-audit/sources/.codex-upload-5292485034794826927931f372ddd4fb",
         "sources/primary/Системы Импримитивности в Соционике.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/07-md",
       "size_bytes": 1136724,
       "sha256": "f279abc0fb2ce14bb38778c3d8ef72d416e6be7edc5c983c11132af27b981e3b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/tencer-minaev-audit/sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159",
         "sources/primary/Обзор связи АРП и мА.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/08-formuly-dihotomij-arp.md",
       "size_bytes": 1742947,
       "sha256": "06e8fe2344369fa815cf4a6731ce59d0863f7a418b2d011fdef09b92cf78755f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/formuly-dihotomij-arp.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/09-tencer-minaev-and-reinin-dichotomies-formulae.md",
       "size_bytes": 6469,
       "sha256": "64c64c31fa378c4a471ed0338e964658e9e9142e3c35c0db1f45668b12bf7e35",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/09-tencer-minaev-and-reinin-dichotomies-formulae.md.clean.txt",
         "sources/primary/tencer-minaev-and-reinin-dichotomies-formulae.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-2fa897d46d0e4b43b7c47942e54a09d5.clean.txt",
       "size_bytes": 65538,
       "sha256": "59e09ca22d9dd8ccc5f2c51d78aec7d8fbcb938854958eb21efbc06876e1b6b8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-43f4140529764d56be77c6c0641bb95c.clean.txt",
       "size_bytes": 20344,
       "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-dadbd0fdb09443e78e22f1e3c333fadc.clean.txt",
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/07-md.clean.txt"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-614b735688994bbb847faab1bcdf2bf2.clean.txt",
       "size_bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-c2bf6d54dfcf41f6a27a11193d0cbaeb.clean.txt"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-c2bf6d54dfcf41f6a27a11193d0cbaeb.clean.txt",
       "size_bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-614b735688994bbb847faab1bcdf2bf2.clean.txt"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-dadbd0fdb09443e78e22f1e3c333fadc.clean.txt",
       "size_bytes": 20344,
       "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-43f4140529764d56be77c6c0641bb95c.clean.txt",
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/07-md.clean.txt"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/01-generations-list.md.clean.txt",
       "size_bytes": 509,
       "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/01-generations-list.md",
         "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/generations-list.md",
         "sources/primary/generations-list.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/02-klassifikaciya-pravilnyh-razbienij-sociona.md.clean.txt",
       "size_bytes": 2522,
       "sha256": "3e36ff5cc85d6e763c41e30cf294d878686b10231df8352fd244850e1b5c5979",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
         "sources/primary/klassifikaciya-pravilnyh-razbienij-sociona.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
       "size_bytes": 6029,
       "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
         "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/04-4-svezhak.md.clean.txt",
       "size_bytes": 138007,
       "sha256": "1bde849c80b0f219f535c44a0ed695ea39ebbb04f4abbdb871b59e12423da2e2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/05-oktohotomii.md.clean.txt",
       "size_bytes": 173204,
       "sha256": "73f4e0903ac34aa4d44f8bb4cafaca846fe2af1b15472d47a93123cc96c9dca9",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/06-md.clean.txt",
       "size_bytes": 19718,
       "sha256": "1c2580f482d0ad910d7f4dd15475200ef4f81b91d8f70a6a7ca78794fc19cdd9",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/07-md.clean.txt",
       "size_bytes": 20344,
       "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-43f4140529764d56be77c6c0641bb95c.clean.txt",
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-dadbd0fdb09443e78e22f1e3c333fadc.clean.txt"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/08-formuly-dihotomij-arp.md.clean.txt",
       "size_bytes": 69811,
       "sha256": "386f91f93789ff08611cedd1dd298a73ceab752e3c13b228e22ff6551f5f3859",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/09-tencer-minaev-and-reinin-dichotomies-formulae.md.clean.txt",
       "size_bytes": 6469,
       "sha256": "64c64c31fa378c4a471ed0338e964658e9e9142e3c35c0db1f45668b12bf7e35",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/09-tencer-minaev-and-reinin-dichotomies-formulae.md",
         "sources/primary/tencer-minaev-and-reinin-dichotomies-formulae.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/Pasted markdown.md.clean.txt",
       "size_bytes": 28230,
       "sha256": "796e8d46c320a7b4618ec7338f6e73f023f022d490d3adbcb38f5888d5a86522",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/upload/Pasted markdown.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/atoms.json",
       "size_bytes": 91041,
       "sha256": "47ca45feb5d8a615cfb3648deb446d3c98741b33afd26f55df998d795b5f02e2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/audit_sources.py",
       "size_bytes": 3943,
       "sha256": "7c0879c07c9c502774e4143517ce918fe790a859a19247478a2c3544ccab955f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/audit_sources_final_run.txt",
       "size_bytes": 5263,
       "sha256": "1b6225f3e5759a2a7ec6a8b355acd2a900f2da546c2ed1b7f1680ba38d367218",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue.json",
       "size_bytes": 921466,
       "sha256": "40f82b9f772394bec0f72164b436d6d7bd673667355025c7eaeb958340592fdf",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue.py",
       "size_bytes": 5719,
       "sha256": "9e2ef540b023d7a12b8d09ecc30ad989f955919c25cf748c5be6fada62bfef55",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue_final_run.txt",
       "size_bytes": 1949,
       "sha256": "a5646cbb43220a44e4c823e11de49ca50d66227deea398d02e8cd75b0bcd16d6",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/compute.py",
       "size_bytes": 17725,
       "sha256": "a2ce24b455914e87a5aefc9d19889e02c916bc75dd7d6f841026aee084b25ae9",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/compute_final_run.txt",
       "size_bytes": 6202,
       "sha256": "7ece175bfecb37297a1ce4495b425f86035b25a787046e8acd47a0f08792e2d8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/export_tables.py",
       "size_bytes": 11629,
       "sha256": "e7d22971430d80ff377c5dc79bd817ed079f3fe93ac91ea8dcc5eb916dfed860",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/export_tables_final_run.txt",
       "size_bytes": 50,
       "sha256": "b02596e1c0cc911d1ec09503dacb5a08d4f60d2242296a76dd9627dadaedc889",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/full_input_manifest.json",
       "size_bytes": 1844,
       "sha256": "45e5c8d3ae1a446c4ffa2a917bd6d3ec83d29d0641ac1b8e04abee11d37ea2f3",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/input_manifest.json",
       "size_bytes": 4410,
       "sha256": "3c8d3fbf64f524d29be22a1d0fb91f6c97746f220e6f065fa43e50fdc9c51a0b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/matching_predicates.json",
       "size_bytes": 60830,
       "sha256": "a42fa78e3d2149f2274b9821692e41a82ba92fde49f275cc7375347c36da0a9c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/normalized_data.json",
       "size_bytes": 209774,
       "sha256": "7eeb4cef7768ff8b42ce3af644f05c28c991dbf63f3a993e1b15754fcf53efed",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/source_audit.json",
       "size_bytes": 1073097,
       "sha256": "6caea292d8e27ce422006672beebd67d1934fc091402b0e7f5b8541ea59ee93b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/blocks.csv",
       "size_bytes": 36661,
       "sha256": "53544b54316668e2d05b89449e2966c75fb297434cdc023d5a5430f2ac8476fb",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/cayley.csv",
       "size_bytes": 715,
       "sha256": "4019d99f5515f5dd6664a978998204eb55b61da47d71f698e1094a60f98214f5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/missing_pairs.csv",
       "size_bytes": 439,
       "sha256": "b193df9f10a5e1a3f47de7fdfa333729bdd0db535386f27d1eea53af1c81f47d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/models.csv",
       "size_bytes": 836,
       "sha256": "6a31bc2ac4f98cf7c6b2be3ae971bb7132e9c202976516602dcebd0682666fe9",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/operator_dictionary.csv",
       "size_bytes": 1073,
       "sha256": "f59a134cd20f0dbb2868e5abe26361b7633aa1e7a0654190a9bff69c338f8192",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/partition_orbits.csv",
       "size_bytes": 2856,
       "sha256": "8aae6b51040cbc9dd46831a83b42554134df92b75f2aadb5abd8a66e305e9b4a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/partitions.csv",
       "size_bytes": 2498,
       "sha256": "f6d961d4b19a60d35dd4e7ebd4c1bad351ebc7620ac6054a7fd329ec010c0f46",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/positional_bounds.csv",
       "size_bytes": 96205,
       "sha256": "271f79136855a5b4aca3306e5aca166957d7c06314b2253c99801da0ca3248e7",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/reinin.csv",
       "size_bytes": 1001,
       "sha256": "6faa293a8687fe80ebd7d6c673880d9244287f291b6fbd62d2b30051f800881e",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/relative_operators.csv",
       "size_bytes": 866,
       "sha256": "66729c7c03a39781976034103fa25fc2b6f09591f11f8e92622675a50531879d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/source_all_formulas.csv",
       "size_bytes": 395350,
       "sha256": "8086c94e3e7891e2c52e4f9b813c3c22e223734abcadc94b45ec776882f63122",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/source_errors.csv",
       "size_bytes": 15071,
       "sha256": "63269ebcbbeae613c357728a7e3853fee1c8b4184d0e3f613ca08efbd17d3d14",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/trait_dictionary.csv",
       "size_bytes": 590,
       "sha256": "d40dd664dcd2acb31d1ad1d8357e1013e4e2ed7e4403f0b50f0897fa4065420b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/trans8.grp",
       "size_bytes": 7284,
       "sha256": "10e680dab894370ae8e9cb4a556f621779cbdee5b57740cf289c751d3caf8563",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verification_results.json",
       "size_bytes": 3882,
       "sha256": "63447a47b7ab29bf9e0b72782d5d5c5abeca38ef8915420ade7e5f452685e8bb",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verify.py",
       "size_bytes": 6487,
       "sha256": "1eaf24f1ad7dc522c1f29fff46a5e1034472dba0ba58c8d12cb3dd2f73b1704c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verify_final_run.txt",
       "size_bytes": 3883,
       "sha256": "b57620ec4bf97873ca1c869a0668e69b56711efefbf0bfbd11db516bfd712fb5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/upload/Pasted markdown.md",
       "size_bytes": 28230,
       "sha256": "796e8d46c320a7b4618ec7338f6e73f023f022d490d3adbcb38f5888d5a86522",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/Pasted markdown.md.clean.txt"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_reproducible/upload/Twisting Elementary Abelian Groups via Cocycles_ From E16 to D8 x C2.pdf",
       "size_bytes": 420154,
       "sha256": "18b23e56695fd7a57b9213fd7ec4d8e92374335cbfeef758d4d13a1dd8bfa24a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0007"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-07_reinin_relations_research.pdf",
       "size_bytes": 347670,
       "sha256": "a728979a717960996dce9cee74a7af8f4f0ee4693fdf34068a11c91fb27eaa78",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0008"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-08_model-a_2-cocycle.md",
       "size_bytes": 25401,
       "sha256": "4d7097d8a7725f82dfa6717c7192ca398ca591b51f199af7f979f48932fa86d3",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0009"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-08_model-a_systems_interpretation.md",
       "size_bytes": 54656,
       "sha256": "a36ed8c9b91fb329914c87e3f66104ae8ef631d8ef20aca7882214009560fbf5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0010"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-08_trait-systems_computations.zip",
       "size_bytes": 174653,
       "sha256": "bcb6441e2bf459cf33603407dfe7819ba88feba3e1a0f57263475f53f71a7d4b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0011"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-08_trait-systems_selectors_model-a.md",
       "size_bytes": 45712,
       "sha256": "0c90195f195e2d8ad098941fd30ab34baebbd808bc43e93d0d460bafc884a9cd",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0012"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-08_traits-relations_cocycles-braces_explained.md",
       "size_bytes": 74350,
       "sha256": "347b41e766247dcd59b4ed33268e5e78346accf4f47cfc27174f24bc717e2f94",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0013"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-08_waffle-systems_computations.zip",
       "size_bytes": 2263836,
       "sha256": "699f77190f86faa361a2e0f40c26a9a5c68a1b5e4aeb27efccd40364bb9540da",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0014"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-08_waffle-systems_pairings.md",
       "size_bytes": 44896,
       "sha256": "a87c0e321b1517dbf0ce8af9210416a0b028531acab48d48500c39fd479aa5d4",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0015"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/README.md",
       "size_bytes": 26733,
       "sha256": "5add430cdb43111aec138851049614cf4ae9f3e7fae6f63ae0ca89e9c56fe29c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0016",
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/REPORT_TEMPLATE.md",
       "size_bytes": 24739,
       "sha256": "98590f9d09eabe56be56c6f954ecd8857c75cea582dd3b004395140f4164f8e4",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/SHA256SUMS.json",
       "size_bytes": 26741,
       "sha256": "862d70ace2f352e54547f3fcacd57c8270c97dd9748a3303c98146e8d59606ca",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/WITNESSES.md",
       "size_bytes": 8620,
       "sha256": "e901fb171574814b3b5079e5910b7f9bcbe621ffef43bf6e9aba810fe3a1d523",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/archive.mjs",
       "size_bytes": 1372,
       "sha256": "c892fbd2bec9d28fbce8b99ea95bec220edfd83b621851d73b505a58cbbc6652",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/build_report.mjs",
       "size_bytes": 2460,
       "sha256": "840c978ab525ec4ad61af9546ef330a1dff82018a06b54fdd19d90f9a0d9e989",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/coupled.mjs",
       "size_bytes": 2845,
       "sha256": "92b82e88512fbae508de3f0eb31fe297da55f5d67984ae04b034237315bb4815",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/global.mjs",
       "size_bytes": 3915,
       "sha256": "632bd3288ee955499b4fcb17994348a20af2e265257d80f5cefc32967ac5ff83",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/formuly-dihotomij-arp.md",
       "size_bytes": 1742947,
       "sha256": "06e8fe2344369fa815cf4a6731ce59d0863f7a418b2d011fdef09b92cf78755f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/08-formuly-dihotomij-arp.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/generations-list.md",
       "size_bytes": 509,
       "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/01-generations-list.md",
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/01-generations-list.md.clean.txt",
         "sources/primary/generations-list.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md",
       "size_bytes": 6029,
       "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
         "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/spisok-formul-arp.md",
       "size_bytes": 8904,
       "sha256": "26e005a9fa33e238554581b054cd32c34ce8f718b07aea1c3e98d06f75876efd",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "sources/primary/spisok-formul-arp.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/Полная Формализация соционики.md",
       "size_bytes": 1961536,
       "sha256": "b1891d6caf6803ccaa40f3e856c00694ffb85aa33987622e7c8a27bef8d7a998",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "sources/primary/Полная Формализация соционики.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/inspect.mjs",
       "size_bytes": 3381,
       "sha256": "5ff03976be71c58c6985bb27bfea7765ee83127a53b8e6c80a5806fd6da06c66",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/research.mjs",
       "size_bytes": 14331,
       "sha256": "0ace8d0555869f7ac43c78292b0e31e6a8df0ac5ea15c23e9979f877c6cbb9ea",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/all_full_identity_original_parent_cases.json",
       "size_bytes": 5801,
       "sha256": "90b96ed5a0898344422b60d97c3d875f6e0d5180fe2a9ea0b31caa82e7d89c5a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/aspect_bases.json",
       "size_bytes": 248165,
       "sha256": "b074cb3564c699a3553ebbaac3d7f520e647f9b4573d0fdb336d9bdf548e9a92",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/cases/0_0_0.json",
       "size_bytes": 13743,
       "sha256": "76728d2fb8ad26de08191b1eb5b5fe5fc0d93763faf6d7e6751a7d15acbeba52",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/cases/0_0_1.json",
       "size_bytes": 13744,
       "sha256": "614a5e8533329de316368b4e715b719eebfb8f9c975c9fa21d0e024e915c688d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/cases/68_0_0.json",
       "size_bytes": 13746,
       "sha256": "29d308238fed3a09d6d9e4d43abd4ab021ffedfb830f96ce5873b76c1d637628",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/cases/68_0_2.json",
       "size_bytes": 13746,
       "sha256": "9095e2ce519ae657c7c6681a3da6daa2e8ba06f9e8e88de30b41120de7364c0d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/coupled_summary.json",
       "size_bytes": 41552,
       "sha256": "c5fd0087ae93b45b9b08ce79b76edffd9f4fcec1b24a457e6ae65e74e258b021",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/formula_verification.json",
       "size_bytes": 1968,
       "sha256": "2d5d96910e1573f8e4b16d3be8e84f5172a724999c2a92edb99c7fa4e7395be2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/global_formula_compatibility.json",
       "size_bytes": 19176,
       "sha256": "3c302215f52b07a31b819d864ec9db2f0af40c8bdd3d80bcaf1dce91cb07314a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_0.json",
       "size_bytes": 25597,
       "sha256": "c7e0409a76ffafe057c6d81b5b7f428bf962c71ca25b7a89e2c6ae390aa342c8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_1.json",
       "size_bytes": 25597,
       "sha256": "e4e20d00086be5fffc376dc5a1ab8e50d43ab6ff1aba2862da26db43f9b9799a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_2.json",
       "size_bytes": 25597,
       "sha256": "483ec181f72616c9391f8ecd94def2e4fa88c53ca95da6cb62ec626efc43bcbc",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_3.json",
       "size_bytes": 25597,
       "sha256": "aaa6e6dfe08caf81ffc9e58d98ccb69855786832d1cd1d613ec7af945051db17",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_4.json",
       "size_bytes": 25597,
       "sha256": "c98a7fda0fb5a1d730971391f52497a554607ffcec22c93d131c4484bd75bbfb",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_5.json",
       "size_bytes": 25596,
       "sha256": "f23932a86a473588824421ece2179343f306caf5b06ea3fd7da5d08905487723",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_6.json",
       "size_bytes": 25597,
       "sha256": "b0725f47999a15b433b77a3df2315e5bbd0ee606ca0384795737f4de0869dfa5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_7.json",
       "size_bytes": 25597,
       "sha256": "7bb30179a809128eda18bbd6df2c33e703a213cdefa6b84718bcaca53da9d360",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛЭ_0.json",
       "size_bytes": 25596,
       "sha256": "d0d953f24200b0c5f94898d56fd4d66b144f71b3beb6255a4b108b7a2dea0768",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛЭ_1.json",
       "size_bytes": 25597,
       "sha256": "4c06cf759575141bb1de57a37d9f1bb9261db0c726e75d0625dd42cdf2762ec0",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛЭ_2.json",
       "size_bytes": 25597,
       "sha256": "ea7c5a2c952e063eac9ad775c50a2b2deeff71e8851a8311366cda6f53350595",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛЭ_3.json",
       "size_bytes": 25597,
       "sha256": "4b30d3ce0366f168c53a13659aea757da2af432ccfba06669f29422e372fb9a2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛЭ_4.json",
       "size_bytes": 25597,
       "sha256": "5c4658a20fbfa21b5f6f74d62fa045b46b38a202edc3e78fafc46a2f6eac88c6",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛЭ_5.json",
       "size_bytes": 25597,
       "sha256": "f0cc45ac514f7fd6b44c7a00b769530ae55c7239efc04b7aa64e2797b0abe543",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛЭ_6.json",
       "size_bytes": 25597,
       "sha256": "289b85ad91f67773ad54e2644695d0d637f61f7a0848f657504439afeedf737f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛЭ_7.json",
       "size_bytes": 25597,
       "sha256": "1531ebaf386da500989b63b5278b49794a49ae5e7add369161f87a709d70e8a2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_0.json",
       "size_bytes": 25597,
       "sha256": "c7e0409a76ffafe057c6d81b5b7f428bf962c71ca25b7a89e2c6ae390aa342c8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЛИ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_1.json",
       "size_bytes": 25597,
       "sha256": "726ed70d8d5f8bd876e62106d47ec0c16682075bff635861c8c3e620ebd1aff5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_2.json",
       "size_bytes": 25597,
       "sha256": "9d678c628788543899783447ab2e8493f999420644e5834450047ff157aac0b8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_3.json",
       "size_bytes": 25597,
       "sha256": "1eabc8534a3a997a1eb6b08bb1d45169a037b1c7c1404cfdb6d77dc3f18029db",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_4.json",
       "size_bytes": 25597,
       "sha256": "830062787da01b57f36f228ac5c12ca7a7346b7f96a89d7dcc05065f99484c98",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_5.json",
       "size_bytes": 25596,
       "sha256": "a09bbce2f6d11300350b424db7a4596df2c79d7b18fa4596cfe7d1c17650606b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_6.json",
       "size_bytes": 25597,
       "sha256": "9dea061a502713ff62907d174409bdc854eccdd3be4a9015791b98169cd064d0",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭИ_7.json",
       "size_bytes": 25597,
       "sha256": "9abb9bcda05eeea1750c5cc4da37d6f91bc7c1889a6fe15beddecdbfaf474824",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭЭ_0.json",
       "size_bytes": 25596,
       "sha256": "7752f9aa9800a4cdf59c4852eb6e8612f9c7e8fb90681faa9648546d3b748f46",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭЭ_1.json",
       "size_bytes": 25597,
       "sha256": "10cb77103c8731e29209b7d81e652ac270431b8bb36e2d6a14340d8389cf38e2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭЭ_2.json",
       "size_bytes": 25597,
       "sha256": "22e1ba3e9574b58f3f62d43b988f7680b293f27fc248cafa46f6097727262df6",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭЭ_3.json",
       "size_bytes": 25597,
       "sha256": "6122483f0c6ca76473643fe0c1b55a17dd7ed59a3fdb4a35dc24c0398c0dcd6d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭЭ_4.json",
       "size_bytes": 25597,
       "sha256": "30433a5d79b0cbae1cfb7f23d11c8f8256c7518aa65a840991cc3ed401d91acd",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭЭ_5.json",
       "size_bytes": 25597,
       "sha256": "673751e5a562d7db600de26f7b6401332fd6c89d0d9064727563f89b5aa15c3c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭЭ_6.json",
       "size_bytes": 25597,
       "sha256": "6b82a262b6ee633735bca80b02c1faeff20dd5dc69e275ee3cf3d32a137e8b23",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ИЭЭ_7.json",
       "size_bytes": 25597,
       "sha256": "6cbd904405de644730b33779ff06c7a13a3434124256a66529fa365a3897451d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_0.json",
       "size_bytes": 25597,
       "sha256": "480fd99f85aa8c8fe058ffdee6e39ffc60d7fc7d0faa74f5e05aa1f478b6f201",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_1.json",
       "size_bytes": 25597,
       "sha256": "635083cb88bf43619d7341c8ab07b02fd62cbb18e8ce7cda5abd217fa23f2c0c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_2.json",
       "size_bytes": 25597,
       "sha256": "f005e8b760c9942848282bafe81b934fda81ba9921d32d2e8e1a33823f8dc25f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_3.json",
       "size_bytes": 25596,
       "sha256": "5998ec0026a6c07d29f19ec390b3e114040530f80325386a1dd8c837d456776e",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_4.json",
       "size_bytes": 25597,
       "sha256": "35322dc8d90daf7f029bd141eb9864bbbfafd661e1cb169c3caa747f3aeaab4b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_5.json",
       "size_bytes": 25597,
       "sha256": "b5de7d60d923b207b912335d98da4a27b2c12fa666b13257e35ff5afceed0da4",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_6.json",
       "size_bytes": 25597,
       "sha256": "bb20e8d1a72bb8a6dfbacdf635e69fb0c653470e4ec5079b3cfd841e52de3238",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_7.json",
       "size_bytes": 25597,
       "sha256": "54a68c5396d6cfd220eb0cd3d9f09fe7d48c86bda069a61109e5229595b6f3e5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_0.json",
       "size_bytes": 25597,
       "sha256": "a1263e1d447716d1c24ff96b65843561c85e020fef97400147d64723c771772c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_1.json",
       "size_bytes": 25597,
       "sha256": "856a6858e9d7f282059d371c583684fd391a3918558629332cee20d01e667a01",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_2.json",
       "size_bytes": 25597,
       "sha256": "4423d7e6f7336018bb02f5d5de950a9a08c9a61d09e2bf6d6784ff08430bc432",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_3.json",
       "size_bytes": 25597,
       "sha256": "ac73b10567f2a5f2690be6afa9a9c7379cc9e5919d2c1c126a3cd4a2d0fd00a5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_4.json",
       "size_bytes": 25597,
       "sha256": "888c5defa6a68546eac3ecbf639b1d42aa8c4304f1d18578fea0dc8cd7a772f3",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_5.json",
       "size_bytes": 25597,
       "sha256": "4be10364963137b4869ac6492ca43bada2282bb51323478987f31ce5822d9053",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_6.json",
       "size_bytes": 25596,
       "sha256": "ec17c8f34df9e9d9a4fe84183be3abbd4611de8665ec8cafd2723973a7c38be4",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_7.json",
       "size_bytes": 25597,
       "sha256": "39bc8a1b451fbdd310c766658d11cb26fee8fac9abe4d87404c1e40b2a268fb2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_0.json",
       "size_bytes": 25597,
       "sha256": "dbe9783152cf976f873ce0346038f4217a6d2f959bc6574a57819e31590801a8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_1.json",
       "size_bytes": 25597,
       "sha256": "93b17548cfa08385b48a93f4a631ea76738f4179302642b8ca5c50bdd6064e41",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_2.json",
       "size_bytes": 25597,
       "sha256": "3cf08246ef28e57ccdc1b8b67f80a2494c0a930826c8da625808d91a16eae931",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_3.json",
       "size_bytes": 25597,
       "sha256": "4536e8ef2b1fcc860369438e2a812bcb7172c41caf87ba16818b1b13cf8170e0",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_4.json",
       "size_bytes": 25597,
       "sha256": "293088f8949e1a9eaee7f5c8de3afe47825abb2fcd8408c3d58a77eab01d3a48",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_5.json",
       "size_bytes": 25597,
       "sha256": "7307c16e1c7bf3abb64d24de2578fe35283f422ca7c9d3220228c4614929f2ac",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_6.json",
       "size_bytes": 25597,
       "sha256": "4c09fbe115a8b0835fd50e81630c72c44e075bfd1cedf6c494a676628893e248",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_7.json",
       "size_bytes": 25596,
       "sha256": "aab070f46f753406ecda2e4468d9971beb57dba18148bdffd1b59ad1b40e40bb",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_0.json",
       "size_bytes": 25597,
       "sha256": "e029d2581b82cf990d030c1c48ca95841b6a32ce69e3507ac2fb5860ae89e01a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_1.json",
       "size_bytes": 25597,
       "sha256": "2e97c204045dfbaffd0d69d9b2d492f89b282082d99e92d0016bfd810d90c347",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_2.json",
       "size_bytes": 25596,
       "sha256": "f391857e92dae237d9a1fb5fad747a62fad0e4fc342a97e1321a6631d8d4d7aa",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_3.json",
       "size_bytes": 25597,
       "sha256": "f23636b1627c8ef4984fd15f025d069b6e72bffd454d0cc8c269348c9d868ec9",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_4.json",
       "size_bytes": 25597,
       "sha256": "6439741b46f2b2b9da043ac3dc21b151ba7a3a1bf93d7d71f5ac99f58a1c0493",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_5.json",
       "size_bytes": 25597,
       "sha256": "6aa7bb75a7c7265a0f32ce5d00479ba835007cc4a5b2383da9f10276ab7d7614",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_6.json",
       "size_bytes": 25597,
       "sha256": "16878a07a979117422041fd202a9301f33efc0d7f05cb5f659286b84ccbd6b2b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_7.json",
       "size_bytes": 25597,
       "sha256": "b4d1c6449fa1c1b522b8ef3a9f322ed403c512b7b75fd35d58c6567c5c39690f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_0.json",
       "size_bytes": 25597,
       "sha256": "6bc839aa1259b49ed332651ac8fab03c09466042ea38af4a3340da9a86b7d86a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_1.json",
       "size_bytes": 25596,
       "sha256": "b5f715ed555759cb2c3fc5f6d5b517e56dd646aadd1a59bffd5671b5cf51f8c0",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_2.json",
       "size_bytes": 25597,
       "sha256": "09d8d21e1beff57227c9604bf33f2556b7662721bce5731321beb84d4bdad4c9",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_3.json",
       "size_bytes": 25597,
       "sha256": "32df5bae3d9a23dd8116d5d3d0fa2fd32b350a128ad6995d3d02c103c4d5fac5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_4.json",
       "size_bytes": 25597,
       "sha256": "4bd2dfddf9ece930297950a53175ff3a85a28ab98206ac2742d2da739c4d66f3",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_5.json",
       "size_bytes": 25597,
       "sha256": "032021ecacb9f93b02a2170953b8737586cca8ec2a8141d6d0bcb2123476f3f8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_6.json",
       "size_bytes": 25597,
       "sha256": "7481fcd0a0c5b4764171c5370f042847c52325be916f482ad0a852dd81165459",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_7.json",
       "size_bytes": 25597,
       "sha256": "52d6513957347f136eb728a0d4560d32802ef6c431f49e67e18cc3f6faad2cae",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_0.json",
       "size_bytes": 25597,
       "sha256": "b04056b30bb516f262f38567f2addadd74e9ff84bd43c8f9e2c982bcc2f88067",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_1.json",
       "size_bytes": 25597,
       "sha256": "a7e1ccd884bd3ec69456193dbd20a459fcd9d8cec91373d9a3734a88713159de",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_2.json",
       "size_bytes": 25597,
       "sha256": "a6f0cdda8ed53f5b03be9eed214df89c85c6b1230de0f389f8dacdecd15ada1b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_3.json",
       "size_bytes": 25597,
       "sha256": "3834042527596cc1b89c95f5c4d9e80bf3a216b9815a836503b0aafb7df425b4",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_4.json",
       "size_bytes": 25596,
       "sha256": "afc910b238bdc768e142a1af83bd39d07a2598b6239f22d3b6e16a614036282d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_5.json",
       "size_bytes": 25597,
       "sha256": "25fb90b53268af9d872f713129f2985a89f376baecf52dae3d1ed1b9587d2912",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_6.json",
       "size_bytes": 25597,
       "sha256": "6b778fb29979d4c51dd32014c28f02c914a70098ff2a36347a56581ac51db900",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_7.json",
       "size_bytes": 25597,
       "sha256": "35750f545637371ff153066d58ea4c845a4081d3886a76ce797ec513564d4b4e",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_0.json",
       "size_bytes": 25597,
       "sha256": "6bc839aa1259b49ed332651ac8fab03c09466042ea38af4a3340da9a86b7d86a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛИ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_1.json",
       "size_bytes": 25596,
       "sha256": "5d02325744d5cba22f3de9eeece67d694a4f659540ec4a52d9e77035d17a6663",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_2.json",
       "size_bytes": 25597,
       "sha256": "6b2c8410413a4ff02e69168beb71bfdf6e5b6a35b177a1c2f8416434ab8e6a9c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_3.json",
       "size_bytes": 25597,
       "sha256": "f11c7f8784cefd83e473fe05b902928d7343b76e2aff4df2c5c4ce4771c12a49",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_4.json",
       "size_bytes": 25597,
       "sha256": "c40ac5556993c5edd1d9de598a2baf7acaf540d28bc51f6cbc4125f22894814b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_5.json",
       "size_bytes": 25597,
       "sha256": "0e9743de320183b815d7f6a96db5d6d83d01444290a136d5a2da528443a5ccc4",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_6.json",
       "size_bytes": 25597,
       "sha256": "3349428bf53124bea8b820fda397a5b1b34e8ec92939f7b816ce2e2429a6e3c4",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭИ_7.json",
       "size_bytes": 25597,
       "sha256": "d8b7577ca46a9be69f97fdab0f64ca7f324c6d4448c12dec097e79987fefc4d6",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_0.json",
       "size_bytes": 25597,
       "sha256": "b04056b30bb516f262f38567f2addadd74e9ff84bd43c8f9e2c982bcc2f88067",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЛЭ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_1.json",
       "size_bytes": 25597,
       "sha256": "f48dccd28e11c70fa1c8a2c896fee28ba702cb61a723b6e5cbaafeebdd590f4d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_2.json",
       "size_bytes": 25597,
       "sha256": "e0a34e31f55ba7c4252e4213fc11158d26d49dd9721de77d4e404dbec367bea1",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_3.json",
       "size_bytes": 25597,
       "sha256": "81a269fcbcb8aa56dd19a3d91dd85fb378e1cf9d4c2c40558f6d8d1fe780a8f7",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_4.json",
       "size_bytes": 25596,
       "sha256": "50afdc8d3a91bb1cc7349331f0ee5ebf416c19a78db09f7c42a0b1db83734efb",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_5.json",
       "size_bytes": 25597,
       "sha256": "78e5a42bffb5794d638b0450d2d90735657f3cbb0274c9510c9293a93d88bfa3",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_6.json",
       "size_bytes": 25597,
       "sha256": "46106546939dffe4b324a4ffb06fef37a0dacdb7e1fac984916385dc1cce8708",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_СЭЭ_7.json",
       "size_bytes": 25597,
       "sha256": "e18890fbe949b6b86f5f9924466e7d2ff2cad8d475d3edb2973f1bca448e678a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_0.json",
       "size_bytes": 25597,
       "sha256": "480fd99f85aa8c8fe058ffdee6e39ffc60d7fc7d0faa74f5e05aa1f478b6f201",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИИ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_1.json",
       "size_bytes": 25597,
       "sha256": "0226b9bab3addb5bf050d0a1fd1e66fcf2c92dad243098495dc06725668eb1a8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_2.json",
       "size_bytes": 25597,
       "sha256": "078fef0a90353c5b0ec9b4e0526fca3d24f5a7db32ddd1e450bbcb4d0b875aa2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_3.json",
       "size_bytes": 25596,
       "sha256": "ff2af72f59e8d870e9691757ce115d7c8de84e9767d06b44a4bbb0dfc14636c3",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_4.json",
       "size_bytes": 25597,
       "sha256": "09b7be696f49e7078f24733b190816a995babd6562af82c841fc764d39a9c683",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_5.json",
       "size_bytes": 25597,
       "sha256": "63734bdf1984988e03b43e5bd681f903f4daa55f1621ce5834d2c0a7a885b02a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_6.json",
       "size_bytes": 25597,
       "sha256": "d034604d2871407014d7a1e6f58f1d31db920f783bbf9cdefeed753527b42f52",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИИ_7.json",
       "size_bytes": 25597,
       "sha256": "7565e6c5670e1c15d6f102cd8a38eb48b990052197505b644a947786ae1ca3de",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_0.json",
       "size_bytes": 25597,
       "sha256": "a1263e1d447716d1c24ff96b65843561c85e020fef97400147d64723c771772c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛИЭ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_1.json",
       "size_bytes": 25597,
       "sha256": "a99005db8e002d680cb4a2fa985af5d11703191c1e401566204d71fec38c4a26",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_2.json",
       "size_bytes": 25597,
       "sha256": "f5bce163ae31cdbb46a8fba5354b086770b287fe186fbbde41e71b6561783534",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_3.json",
       "size_bytes": 25597,
       "sha256": "ba694e3ca37f85db024b88e8b35deab09a62d209fe5be316c6e662506cc0b0b9",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_4.json",
       "size_bytes": 25597,
       "sha256": "0e8e1fb5a442c7a998e2a4338ba280f73b6771c927c68cb05069fc1a1bb9fd65",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_5.json",
       "size_bytes": 25597,
       "sha256": "84c7c856468b8c257cdb6c98bdf18290b5f4fa8063cf97343ca062eb9e300f9f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_6.json",
       "size_bytes": 25596,
       "sha256": "a0e4247017831ef739aa75080a46f234f62032cb5ecd8bfed8ca0485c0b275c8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭИЭ_7.json",
       "size_bytes": 25597,
       "sha256": "7d2a641d56e0379443be308138e17ea26324cad199a53d59e6841a19dcb480ca",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_0.json",
       "size_bytes": 25597,
       "sha256": "dbe9783152cf976f873ce0346038f4217a6d2f959bc6574a57819e31590801a8",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСИ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_1.json",
       "size_bytes": 25597,
       "sha256": "a54e03619c732fcd4043399642d58a66b24e697b92fae41b502ca33a9eb4bf1c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_2.json",
       "size_bytes": 25597,
       "sha256": "299597b3244fc2e5003b72bac1e807f33ec08db0f2be514281a7a69ab2214c8c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_3.json",
       "size_bytes": 25597,
       "sha256": "5e0556a4ce2b6c2a46411381624e8f91a08897671cb49ab291c7c9ba38075737",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_4.json",
       "size_bytes": 25597,
       "sha256": "ce8f1c528b7d2b4d761210ae67acc3e2f065a3edbd61e8ee648bf6b944dbacfe",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_5.json",
       "size_bytes": 25597,
       "sha256": "248baa33bd759a733fbfce619d7317eac527744e97f147e981814d87c281788e",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_6.json",
       "size_bytes": 25597,
       "sha256": "f545cffff81f3c2886003ac530cb59bdaff28074344a5dce58f5415d38d685dc",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСИ_7.json",
       "size_bytes": 25596,
       "sha256": "1a38c1cf2db1d452e351080a980481c758c778069be896b2db797eb70b57aeb7",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_0.json",
       "size_bytes": 25597,
       "sha256": "e029d2581b82cf990d030c1c48ca95841b6a32ce69e3507ac2fb5860ae89e01a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЛСЭ_0.json"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_1.json",
       "size_bytes": 25597,
       "sha256": "fb2f7b2788fe212796a79b4f5794580995117df6592a182074f0fd3def2a8a2f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_2.json",
       "size_bytes": 25596,
       "sha256": "c478316cba406d46ef404b7458834328b9e84567351944dd8fd0e936643faa2f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_3.json",
       "size_bytes": 25597,
       "sha256": "9e18755729b24d54ef1af4d2a21df3c43a06ad0abcfd9b1462d44230ff835b44",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_4.json",
       "size_bytes": 25597,
       "sha256": "fd827904779fa0f7aa89332ce437ad198a1a0c7652948e77f72a08c9b738f7f4",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_5.json",
       "size_bytes": 25597,
       "sha256": "c6da4efff28986fcf3ac21aa713627507b019df20cfc96b3013124bb3ccaf73e",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_6.json",
       "size_bytes": 25597,
       "sha256": "fd72c977173b5090956b6503c9c609535cf3b3f14a8b984f60741c5cca9f1f29",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/identity_ЭСЭ_7.json",
       "size_bytes": 25597,
       "sha256": "48f19a0bc1219adfd28c72f2eefba9e9e34b1c9cebec6d55138902a364c84cbc",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/normalized_data.json",
       "size_bytes": 41642,
       "sha256": "3cca22cae33374b8a8378cff55a8150f93bdfd503d966fe7e1c9fa154042415b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/outcomes.csv",
       "size_bytes": 33933027,
       "sha256": "2d0c262c8ab6497a627292cf0ab6baadce865607e16a79ca19ed7c81e3d729dc",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/parent_compatibility.json",
       "size_bytes": 4665693,
       "sha256": "14e52fccb468ed509f11442290b361d6d2d801baf556f8819cc0eec6998bbe8e",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/source_audit.json",
       "size_bytes": 442,
       "sha256": "db4a638f6568338dcf42814fcac2f195990e34b733dc4331acefb0ef19f43626",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/source_manifest.json",
       "size_bytes": 816,
       "sha256": "c110518dd523536298e2938b85f169fa34fdf7b3f4f7eced076dd8ef13ed86f2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/source_original_comparison.json",
       "size_bytes": 456,
       "sha256": "55cd43f0fa2322403be125b9f031ac7e9aaeba88cbee77e4ed0509299a023694",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/summary.json",
       "size_bytes": 34310,
       "sha256": "960b54bbb1b16a4febafb7f1d0f814f7d3bfa992a18cb79516988b22d2e9f9f6",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/type_bases.jsonl",
       "size_bytes": 8657434,
       "sha256": "b5af1f6268e77102b8e2cf31c5c4afce2a5a5f6bd8e9a33e65e338d9d2088ef5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/results/verification.json",
       "size_bytes": 2837,
       "sha256": "8759eb4132443d7dcdc51d03ee0eef72a386dd2b262106a7495a518403fb9bf9",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/run_all.ps1",
       "size_bytes": 570,
       "sha256": "76bd1d294fdee5ba2d17b5b22c33d0355dc68d466f66212e4a2f0d369837f54d",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_fractal-generator-enumeration/verify.mjs",
       "size_bytes": 4621,
       "sha256": "ba6a8b37b0a10ea252f6d6fffff7f98f6ddd972fbd81fa3b1bba1814f55572ab",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0017"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_model-a_automorphisms_orbits (1).md",
       "size_bytes": 39180,
       "sha256": "4dd80ee19d2361eddec686fa2a8c5d3dbfcbcba8052407d09344fc78ddb9a968",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0018"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_model-a_automorphisms_orbits.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_model-a_automorphisms_orbits.md",
       "size_bytes": 39180,
       "sha256": "4dd80ee19d2361eddec686fa2a8c5d3dbfcbcba8052407d09344fc78ddb9a968",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0018"
+      ],
       "identical_copy_paths": [
         "agent-researches/2026-09-09_model-a_automorphisms_orbits (1).md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_model-a_automorphisms_orbits_computations.zip",
       "size_bytes": 143546,
       "sha256": "344551bfbbdbf36c087247ec212a830102df6cd96ea0fa01f2031a3c523f9570",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0019"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_new-systems_invariant-completeness.md",
       "size_bytes": 34852,
       "sha256": "c03b7f0154c4c8598ab90631aa05f29dbd122e1894c0a09b158a5f7a273477a5",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0020"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_new-systems_invariant-completeness_computations.zip",
       "size_bytes": 814105,
       "sha256": "e36f78db5b2759f722f4b8645acb037bf01bc0eedd81807a66ee9dd16965c00a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0021"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_new-systems_invariants.md",
       "size_bytes": 41404,
       "sha256": "4631e4c42fa99e6280538e16353cec9bf8a8c88df01eb45c20244f88f2265516",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0022"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-09_new-systems_invariants_computations.zip",
       "size_bytes": 1445128,
       "sha256": "289280a4ec7c2d16bddfe7663fffc9abc2aab46096c235a9be061aa524f2aada",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0023"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-14-memorandum-dlya-pereproverki-teorii-spleteniya.md",
       "size_bytes": 48865,
       "sha256": "cecd55196994e7fc046265e93bbd6aee13fbe9b8ae8fa02936b37c66ef3f2d55",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0024"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-14-teoriya-spleteniya.md",
       "size_bytes": 45414,
       "sha256": "379ef320b63f35024d8d53e23ff6e4688d4b13dfd6afab9e7fd087901ae1dea2",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0025"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-14-teoriya-spleteniya.pdf",
       "size_bytes": 147687,
       "sha256": "aed7c913566942ccb4d201e10ed394c0deeaf5dd36a67e74c0d18b10f8739559",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0025"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-14-transkript-doklada-teoriya-spleteniya.md",
       "size_bytes": 23308,
       "sha256": "6f04df667a8103b8c5214acd6a483c3f7dceb32e174bf473d70ceadbe6bd3f59",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0026"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-15-dual-tetrachotomies.md",
       "size_bytes": 41330,
       "sha256": "5f95ffa211731de289fad29bc3501714295ff33999b9c553d92548ce60cdc59b",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0027"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-15-dual-tetrachotomies.pdf",
       "size_bytes": 150117,
       "sha256": "eb61e8423cb90258ae26f4609003b79fb63c1007e7cd2ae83689a17a7091b42a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0027"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-15-spletenie-mental-i-tor-computations.zip",
       "size_bytes": 19181,
       "sha256": "0f76eb11454f3f1e3de6f728d26c8911c175a8dc08921aca8b06d6dce92bea09",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0029"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-15-spletenie-mental-i-tor.md",
       "size_bytes": 24951,
       "sha256": "8500df53be413124252ee3db7162c2b4b6645e6f49cd30bf8e5fbb44281cb45a",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0028"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-24-d8xc2-actions-plan.md",
@@ -2440,55 +3168,67 @@
       "path": "agent-researches/2026-09-24-subgroup-actions.md",
       "size_bytes": 29211,
       "sha256": "5bcf0904f63be284dd834fc7da4cf3ee77409abfdfe748c20f21988bd65cd0fc",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0030"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-24-subgroup-actions.pdf",
       "size_bytes": 119430,
       "sha256": "f080dcda14959fd8448efd217cf304b1375b5e97450925081350bdfae5d870b1",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0030"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-24-zadachi-invarianty-arp.md",
       "size_bytes": 28458,
       "sha256": "191adccf468bcd1b402d78086c8c7a6ddecee5e3af58b3c67cebce2d1424b08c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0031"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-25-doklad-ii-v-teoreticheskoy-sotsionike-plan.md",
       "size_bytes": 29992,
       "sha256": "27881052cd4a7a82234ef16b86612e5d279efcf4e1ee94f2d20fd5a78fd001fe",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0032"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-25-orbit-kernels.md",
       "size_bytes": 33381,
       "sha256": "c1ab63ff3e41bc8e78c5a0a0955ac9a5b96e87512a12977facc2d7e999574150",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0033"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-25-orbit-kernels.zip",
       "size_bytes": 155036,
       "sha256": "174b8d16400edaa925005ea6c2d8029dc1db5d86b321942fdde78b0c6526d76e",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0034"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-28-tetrad-classification.md",
@@ -2516,115 +3256,139 @@
       "path": "agent-researches/2026-09-29-dichotomy-formalization.md",
       "size_bytes": 44661,
       "sha256": "82bd59a3177427f5e364d992e4cc76211b1286d3becc8a8ea8a022b132f7faab",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0035"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-29-dichotomy-formalization.zip",
       "size_bytes": 1497740,
       "sha256": "48188889b0e35db26bc91aaf753f425f4106dc13760025076ecabc6e44f23403",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0036"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-29-fraktal-H16-8T9-vychisleniya.zip",
       "size_bytes": 94037,
       "sha256": "643509fa97da13a5e835c767938d520e115af563cc62996bd3f7d6871be272fe",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0038"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-29-fraktal-H16-i-gruppa-8T9.md",
       "size_bytes": 19781,
       "sha256": "113a2e92b4752b365eef89dacaf4ff0a40a5f742c2773c5808f6d9b0b0de99e3",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0037"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-29_8T9-chetnost-funkciy-i-most-E16.md",
       "size_bytes": 26918,
       "sha256": "3ca8d59bcbfe3a6d5a3ed7a4e26849ad37633917cd5594a061a51f250621e878",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0039"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/2026-09-29_8T9-chetnost-funkciy-i-most-E16.zip",
       "size_bytes": 90298,
       "sha256": "8e4bb402b7ef7b2e5970a44a8c842e772f6de0b9ebc90208934743f4f024f961",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0040"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/FORMALIZATION research",
       "size_bytes": 9953,
       "sha256": "f75f84f4196dc7ef5682a70696524ad08c3af36381a5298ee63066693e2caa5c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0041"
+      ],
       "identical_copy_paths": [
         "agent-researches/FORMALIZATION.md",
         "formalization/equivariant-8T9/FORMALIZATION.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/FORMALIZATION.md",
       "size_bytes": 9953,
       "sha256": "f75f84f4196dc7ef5682a70696524ad08c3af36381a5298ee63066693e2caa5c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0041"
+      ],
       "identical_copy_paths": [
         "agent-researches/FORMALIZATION research",
         "formalization/equivariant-8T9/FORMALIZATION.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/catalogue.md",
       "size_bytes": 44707,
       "sha256": "062e77004a8c3858a5fe5e4b98995879baeeaacd38700c869e77714c625969bb",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0044"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/chernovik-logicheskaya-formalizatsiya-arp.md",
       "size_bytes": 43037,
       "sha256": "e7a29e5d803e926c453d869557029da8d81ff5394126083ad9abb7eabd6a9a14",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0045"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/formalizaciya-sistemy-gulenko-nyumana.md",
       "size_bytes": 19885,
       "sha256": "6741da69bae596efd60ae98f72693315d63728ad62a7c2b902c9232b40543c87",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0046"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/invariants-dichotomies-tetrachotomies.md",
       "size_bytes": 42036,
       "sha256": "0ba2210154d70ea1eb7668aea5fa84e741d500a2819db25e643410b4c48e6227",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0047"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/repair_zip.py",
@@ -2640,10 +3404,12 @@
       "path": "agent-researches/sootvetstvie-35-tetrahotoimij-reinina-tencera-minaeva.md",
       "size_bytes": 13574,
       "sha256": "4339315bd64bb2fc9d49529ff75ca39c9038fe25369b056602748b54b1713515",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0048"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "agent-researches/tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.md",
@@ -2886,58 +3652,71 @@
       "path": "agent-researches/tetrad-invariants-positivism-questimity.md",
       "size_bytes": 17395,
       "sha256": "66b2d28dab9d65914014c9b59dfc7ba80c43b7ac277e04b6f83cfde5d1f486cc",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0049"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "audits/aspect-pattern-checks.json",
       "size_bytes": 454,
       "sha256": "eb2525cecf71092bb4db364a512e19033a506218e59ead192f3937e9c49ea905",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0043"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "audits/dichotomy-definitions-and-corrections.md",
       "size_bytes": 9156,
       "sha256": "8569d903331ed1b3dac4cbad3bcd2e1bee9649067fca7676fea5b212e0a48a24",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0043"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "audits/dichotomy-source-audit.json",
       "size_bytes": 73279,
       "sha256": "4822097f336759bdab88582dff84bbbf01abc8f646e4b00ba6352c4477f05943",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0043"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "formalization/equivariant-8T9/2026-09-29-fractal-8T9-check.py",
       "size_bytes": 9352,
       "sha256": "b4d2d79b20cd81609584f1a96e038ab964c42196588c48ddccc3069906f992a6",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0042"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "formalization/equivariant-8T9/FORMALIZATION.md",
       "size_bytes": 9953,
       "sha256": "f75f84f4196dc7ef5682a70696524ad08c3af36381a5298ee63066693e2caa5c",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0041",
+        "A0042"
+      ],
       "identical_copy_paths": [
         "agent-researches/FORMALIZATION research",
         "agent-researches/FORMALIZATION.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "formalization/equivariant-8T9/__pycache__/equivariant.cpython-311.pyc",
@@ -2963,30 +3742,36 @@
       "path": "formalization/equivariant-8T9/equivariant.py",
       "size_bytes": 2992,
       "sha256": "38b36f06fc2a63564138c4c17f45f6b85422c16d173acf5edc617e3c0ad22ddb",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0042"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
       "size_bytes": 7250,
       "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0042"
+      ],
       "identical_copy_paths": [
         "sources/primary/markdown таблицы.md"
       ],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "formalization/equivariant-8T9/test_equivariant.py",
       "size_bytes": 4395,
       "sha256": "db5cc3f7aa8a11886e4f29496c4881dc87fe79ab6d77cffd0cb719628501977f",
-      "artifact_ids": [],
+      "artifact_ids": [
+        "A0042"
+      ],
       "identical_copy_paths": [],
-      "record_type": "unassigned",
-      "catalog_status": "pending_review"
+      "record_type": "artifact_file",
+      "catalog_status": "cataloged"
     },
     {
       "path": "provenance/import-manifest.json",

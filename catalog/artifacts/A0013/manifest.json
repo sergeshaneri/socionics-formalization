@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0013",
+  "artifact_title": "Признаки, модели А и отношения: подробное объяснение 2-коцикла, суперэго и брейса",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-08_traits-relations_cocycles-braces_explained.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 74350,
+      "sha256": "347b41e766247dcd59b4ed33268e5e78346accf4f47cfc27174f24bc717e2f94"
+    }
+  ],
+  "archives": []
+}

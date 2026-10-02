@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0048",
+  "artifact_title": "Соответствие 35 тетрахотомий Рейнина и Тенсера—Минаева",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/sootvetstvie-35-tetrahotoimij-reinina-tencera-minaeva.md",
+      "roles": [
+        "primary_report"
+      ],
+      "size_bytes": 13574,
+      "sha256": "4339315bd64bb2fc9d49529ff75ca39c9038fe25369b056602748b54b1713515"
+    }
+  ],
+  "archives": []
+}

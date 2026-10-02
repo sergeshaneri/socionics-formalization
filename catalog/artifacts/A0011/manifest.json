@@ -1,0 +1,194 @@
+{
+  "artifact_id": "A0011",
+  "artifact_title": "Вычислительный пакет: 16 систем признаков и модель А",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-08_trait-systems_computations.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 174653,
+      "sha256": "bcb6441e2bf459cf33603407dfe7819ba88feba3e1a0f57263475f53f71a7d4b"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-08_trait-systems_computations.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 16,
+      "uncompressed_bytes": 7437370,
+      "members": [
+        {
+          "path": "README.md",
+          "role": "package_readme",
+          "size_bytes": 3610,
+          "compressed_bytes": 1912,
+          "sha256": "cee2136707ece1d666ab88ed419cdf6c71644c7ff601097e3691d07062df9bc1",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "REPORT.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 45712,
+          "compressed_bytes": 13523,
+          "sha256": "0c90195f195e2d8ad098941fd30ab34baebbd808bc43e93d0d460bafc884a9cd",
+          "same_bytes_as": [
+            "agent-researches/2026-09-08_trait-systems_selectors_model-a.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "SHA256SUMS.txt",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 1341,
+          "compressed_bytes": 757,
+          "sha256": "58e69b1ebf2726a57005cf2233353bfd35fa071da3833b3d3e83cef09cf5e404",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "code/reproduce.py",
+          "role": "program_source",
+          "size_bytes": 7233,
+          "compressed_bytes": 3020,
+          "sha256": "9d5411dc8c2e290345e7b72e7528abee282a668bd5540aac36529cd9d836dc91",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/model_a_source.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 6029,
+          "compressed_bytes": 1010,
+          "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/models.txt",
+          "role": "bundled_source_or_input",
+          "size_bytes": 832,
+          "compressed_bytes": 208,
+          "sha256": "9d8c4d2699d2cfb5f892e3be88bcf7f72cc0e4cc7e195ed722b6a116f84a6d43",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/systems.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 41415,
+          "compressed_bytes": 1788,
+          "sha256": "337937fa18cc816c1c740733389ee367795b34ec885344f494eb1346824407ec",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/all_type_pair_relations.csv",
+          "role": "saved_result",
+          "size_bytes": 118630,
+          "compressed_bytes": 17439,
+          "sha256": "40f5ad283c5ce8feb20655ca33346f43d0fbf9de80cb2ae021252b65a4c7f2c8",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/brace_counterexamples.json",
+          "role": "saved_result",
+          "size_bytes": 839,
+          "compressed_bytes": 107,
+          "sha256": "80f8ca01f60860450d5afeff606f2f199824198baf864de06bae341d8a5b180b",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/checks.json",
+          "role": "saved_result",
+          "size_bytes": 325,
+          "compressed_bytes": 191,
+          "sha256": "b94a6ba5e0eb1855e6ca56d4687612cde00ee97d5524be4485019b8beaa0a04c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/cocycles.csv",
+          "role": "saved_result",
+          "size_bytes": 9682,
+          "compressed_bytes": 2316,
+          "sha256": "e21f2f24f38d21ddd1b520a177e10a4a87384fe3df462258ed2636641865500e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/model_a_partition_invariants.json",
+          "role": "saved_result",
+          "size_bytes": 7180987,
+          "compressed_bytes": 127235,
+          "sha256": "c9cba37914f0965405e25c27caf19844905a47d1f3044c8b62d0ed6afc420a16",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/run.log",
+          "role": "saved_result",
+          "size_bytes": 7142,
+          "compressed_bytes": 877,
+          "sha256": "58c6ae378d00696a3542072ee65cc6c416110c7b3b1bc0b47343ac8a4735321b",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/selectors.csv",
+          "role": "saved_result",
+          "size_bytes": 5678,
+          "compressed_bytes": 1098,
+          "sha256": "9a117cca49fbf533e8bbf8a516b03ce2b4ebb8d69feaa8636b2b386b7027ba17",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/systems_summary.json",
+          "role": "saved_result",
+          "size_bytes": 7142,
+          "compressed_bytes": 877,
+          "sha256": "58c6ae378d00696a3542072ee65cc6c416110c7b3b1bc0b47343ac8a4735321b",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/type_coordinates.csv",
+          "role": "saved_result",
+          "size_bytes": 773,
+          "compressed_bytes": 357,
+          "sha256": "9e3c129de897463d599423699a1eb6bb5f02f1c23d7e46c130a6cb624ab5ddd3",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "SHA256SUMS.txt",
+          "declared": 15,
+          "matched": 15,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

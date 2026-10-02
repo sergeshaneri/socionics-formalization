@@ -1,0 +1,32 @@
+{
+  "artifact_id": "A0043",
+  "artifact_title": "Аудит соответствия авторских определений и формул дихотомий",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "audits/aspect-pattern-checks.json",
+      "roles": [
+        "machine_readable_frozen_checks"
+      ],
+      "size_bytes": 454,
+      "sha256": "eb2525cecf71092bb4db364a512e19033a506218e59ead192f3937e9c49ea905"
+    },
+    {
+      "path": "audits/dichotomy-definitions-and-corrections.md",
+      "roles": [
+        "audit_report"
+      ],
+      "size_bytes": 9156,
+      "sha256": "8569d903331ed1b3dac4cbad3bcd2e1bee9649067fca7676fea5b212e0a48a24"
+    },
+    {
+      "path": "audits/dichotomy-source-audit.json",
+      "roles": [
+        "machine_readable_baseline_results"
+      ],
+      "size_bytes": 73279,
+      "sha256": "4822097f336759bdab88582dff84bbbf01abc8f646e4b00ba6352c4477f05943"
+    }
+  ],
+  "archives": []
+}

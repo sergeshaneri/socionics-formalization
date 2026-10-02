@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0037",
+  "artifact_title": "От матрицы Адамара к группе перестановок модели А",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-29-fraktal-H16-i-gruppa-8T9.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 19781,
+      "sha256": "113a2e92b4752b365eef89dacaf4ff0a40a5f742c2773c5808f6d9b0b0de99e3"
+    }
+  ],
+  "archives": []
+}

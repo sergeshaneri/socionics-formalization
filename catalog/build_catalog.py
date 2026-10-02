@@ -97,7 +97,7 @@ def extract_manifest_rows(value):
                 continue
             path = item.get("path") or item.get("archive_path") or item.get("file")
             digest = item.get("sha256") or item.get("SHA256")
-            size = item.get("bytes") or item.get("size")
+            size = item.get("bytes") if item.get("bytes") is not None else item.get("size")
             if path and digest:
                 rows.append((str(path), str(digest).lower(), int(size) if size is not None else None))
     elif isinstance(value, dict):
@@ -110,7 +110,7 @@ def extract_manifest_rows(value):
                 rows.append((str(key), item.lower(), None))
             elif isinstance(item, dict):
                 digest = item.get("sha256") or item.get("SHA256")
-                size = item.get("bytes") or item.get("size")
+                size = item.get("bytes") if item.get("bytes") is not None else item.get("size")
                 if digest and re.fullmatch(r"[0-9a-fA-F]{64}", str(digest)):
                     rows.append((str(key), str(digest).lower(), int(size) if size is not None else None))
     # Stable de-duplication for shapes that repeat `files` at multiple levels.
@@ -186,7 +186,12 @@ def verify_internal_manifests(zf, infos, member_hashes):
             candidates.append(name)
     reports = []
     for manifest_name in candidates:
-        report = {"path": manifest_name, "declared": 0, "matched": 0, "missing": 0, "mismatched": 0, "missing_paths": [], "mismatched_paths": [], "status": "unparsed"}
+        report = {
+            "path": manifest_name, "declared": 0, "matched": 0,
+            "alternate_path_match_count": 0, "alternate_path_matches": [],
+            "missing": 0, "missing_paths": [], "path_missing_paths": [],
+            "mismatched": 0, "mismatched_paths": [], "status": "unparsed",
+        }
         try:
             raw = zf.read(manifest_name)
             if manifest_name.lower().endswith(".txt"):
@@ -211,8 +216,18 @@ def verify_internal_manifests(zf, infos, member_hashes):
                         candidates_for_row.append(norm_member((ancestor / raw_path).as_posix()))
                 resolved = next((candidate for candidate in candidates_for_row if candidate in rows_by_name), None)
                 if resolved is None:
-                    report["missing"] += 1
-                    report["missing_paths"].append(raw_path)
+                    report["path_missing_paths"].append(raw_path)
+                    alternate = [
+                        name for name, digest in member_hashes.items()
+                        if digest == expected_hash
+                        and (expected_size is None or rows_by_name[name].file_size == expected_size)
+                    ]
+                    if alternate:
+                        report["alternate_path_match_count"] += 1
+                        report["alternate_path_matches"].append({"declared_path": raw_path, "archive_paths": alternate})
+                    else:
+                        report["missing"] += 1
+                        report["missing_paths"].append(raw_path)
                     continue
                 info = rows_by_name[resolved]
                 if member_hashes[resolved] != expected_hash or (expected_size is not None and info.file_size != expected_size):
@@ -220,7 +235,12 @@ def verify_internal_manifests(zf, infos, member_hashes):
                     report["mismatched_paths"].append(raw_path)
                 else:
                     report["matched"] += 1
-            report["status"] = "all_match" if report["matched"] == report["declared"] else "incomplete_or_mismatch"
+            if report["matched"] == report["declared"]:
+                report["status"] = "all_match"
+            elif report["matched"] + report["alternate_path_match_count"] == report["declared"] and not report["missing"] and not report["mismatched"]:
+                report["status"] = "content_matches_but_paths_differ"
+            else:
+                report["status"] = "incomplete_or_mismatch"
         except Exception as exc:
             report["status"] = f"unreadable:{type(exc).__name__}"
         reports.append(report)
@@ -231,11 +251,13 @@ def artifact_file_specs(record):
     specs = []
     for item in record.get("source_files", []):
         specs.append((item["path"], item.get("role", "source_file")))
+    for item in record.get("representations", []):
+        specs.append((item["path"], "representation"))
     for tree in record.get("trees", []):
         base = validate_repo_path(tree["path"])
         if not base.is_dir():
             raise ValueError(f"Expected a directory for tree path: {tree['path']}")
-        for item in sorted(p for p in base.rglob("*") if p.is_file()):
+        for item in sorted(p for p in base.rglob("*") if p.is_file() and p.suffix.lower() != ".pyc" and "__pycache__" not in p.parts):
             member_role = content_role(item.relative_to(base).as_posix())
             specs.append((rel(item), f"{tree.get('role', 'package_member')}:{member_role}"))
     # Merge repeated physical paths but keep all roles explicit.
@@ -271,7 +293,7 @@ def validate_catalog_links():
         raise SystemExit("Broken catalogue links:\n" + "\n".join(failures))
 
 
-def render_card(record: dict, manifest: dict) -> str:
+def render_card(record: dict, manifest: dict, expected_records=()) -> str:
     artifact_dir = CATALOG / "artifacts" / record["id"]
     paths = [item["path"] for item in record.get("source_files", [])]
     paths.extend(item["path"] for item in record.get("trees", []))
@@ -329,6 +351,10 @@ def render_card(record: dict, manifest: dict) -> str:
     lines.extend(f"- {note}" for note in record.get("verification_notes", []))
     lines.extend(["", "## Ограничения и неопределённости", ""])
     lines.extend(f"- {item}" for item in record.get("limitations", []))
+    if expected_records:
+        lines.extend(["", "## Ожидаемые приложения", ""])
+        for item in expected_records:
+            lines.append(f"- `{item['id']}` — `{item['status']}`; подробности в [реестре ожидаемых приложений](../../expected-artifacts.md).")
     if related:
         lines.extend(["", "## Связи", ""])
         for item in related:
@@ -350,7 +376,9 @@ def render_verification(record: dict, manifest: dict) -> str:
         lines.append(f"- Небезопасных путей/ссылок: {len(archive['unsafe_members'])}.")
         if archive.get("internal_manifests"):
             for check in archive["internal_manifests"]:
-                lines.append(f"- Внутренний манифест `{check['path']}`: `{check['status']}`; записей {check['matched']}/{check['declared']}, отсутствует {check['missing']}, несовпадений {check['mismatched']}.")
+                lines.append(f"- Внутренний манифест `{check['path']}`: `{check['status']}`; точных совпадений {check['matched']}/{check['declared']}, содержимое по другому пути {check.get('alternate_path_match_count', 0)}, отсутствующих файлов {check['missing']}, несовпадений {check['mismatched']}.")
+                for alternate in check.get("alternate_path_matches", []):
+                    lines.append(f"  Путь `{alternate['declared_path']}`: содержимое найдено как " + ", ".join(f"`{x}`" for x in alternate["archive_paths"]) + ".")
                 if check.get("missing_paths"):
                     lines.append("  Отсутствующие записи: " + ", ".join(f"`{x}`" for x in check["missing_paths"]) + ".")
                 if check.get("mismatched_paths"):
@@ -381,6 +409,26 @@ def main() -> int:
                 raise SystemExit(f"Unknown relation target {rel_item['id']} in {record['id']}")
             if rel_item["type"] not in allowed_relations:
                 raise SystemExit(f"Unknown relation type {rel_item['type']!r} in {record['id']}")
+
+    expected_records = registry.get("expected_artifacts", [])
+    expected_ids = [item["id"] for item in expected_records]
+    if len(expected_ids) != len(set(expected_ids)):
+        raise SystemExit("Duplicate expected-artifact IDs")
+    allowed_expected_statuses = {
+        "absent_in_scope", "partial_candidate", "partial_unverified",
+        "candidate_not_verified", "inputs_absent_from_scope",
+        "incomplete_by_internal_manifest",
+    }
+    expected_by_owner = defaultdict(list)
+    for item in expected_records:
+        if item["owner_artifact_id"] not in id_set:
+            raise SystemExit(f"Unknown expected-artifact owner {item['owner_artifact_id']} in {item['id']}")
+        if item["status"] not in allowed_expected_statuses:
+            raise SystemExit(f"Unknown expected-artifact status {item['status']!r} in {item['id']}")
+        for candidate_id in item.get("candidate_artifact_ids", []):
+            if candidate_id not in id_set:
+                raise SystemExit(f"Unknown candidate artifact {candidate_id} in {item['id']}")
+        expected_by_owner[item["owner_artifact_id"]].append(item)
 
     all_paths = []
     for root_name in registry["scope_roots"]:
@@ -425,7 +473,7 @@ def main() -> int:
         }
         manifests[record["id"]] = manifest
         artifact_dir = CATALOG / "artifacts" / record["id"]
-        write_text(artifact_dir / "card.md", render_card(record, manifest))
+        write_text(artifact_dir / "card.md", render_card(record, manifest, expected_by_owner.get(record["id"], [])))
         write_text(artifact_dir / "manifest.json", json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
         write_text(artifact_dir / "verification.md", render_verification(record, manifest))
 
@@ -469,6 +517,11 @@ def main() -> int:
         "administrative_files": sum(x["record_type"] == "administrative" for x in inventory),
         "pending_files": sum(x["catalog_status"] == "pending_review" for x in inventory),
         "artifacts_with_cards": len(records),
+        "expected_artifact_records": len(expected_records),
+        "promised_packages_absent": sum(item["status"] == "absent_in_scope" for item in expected_records),
+        "promised_packages_partial_or_unverified": sum(item["status"] in {"partial_candidate", "partial_unverified", "candidate_not_verified"} for item in expected_records),
+        "external_reproduction_input_gaps": sum(item["status"] == "inputs_absent_from_scope" for item in expected_records),
+        "incomplete_packages_by_manifest": sum(item["status"] == "incomplete_by_internal_manifest" for item in expected_records),
     }
     ledger = {
         "catalogued_on": "2026-10-02",
@@ -477,6 +530,7 @@ def main() -> int:
         "administrative_paths": registry.get("administrative_paths", []),
         "scope_note": "Repository-relative inventory; primary author sources are recorded separately. .git, local handoff files, and unrelated active working areas are outside scope.",
         "totals": totals,
+        "expected_artifacts": expected_records,
         "files": inventory,
     }
     write_text(CATALOG / "inventory.json", json.dumps(ledger, ensure_ascii=False, indent=2) + "\n")
@@ -507,6 +561,43 @@ def main() -> int:
         question_lines.extend([f"## {item['id']}", "", item["text"], "", f"Основание: {refs}.", ""])
     write_text(CATALOG / "questions.md", "\n".join(question_lines))
 
+    record_by_id = {record["id"]: record for record in records}
+    expected_kind_labels = {
+        "promised_computational_package": "Заявленный вычислительный пакет",
+        "external_reproduction_inputs": "Внешние входы для воспроизведения",
+        "internal_manifest_members": "Неполный состав по внутреннему манифесту",
+    }
+    expected_status_labels = {
+        "absent_in_scope": "пакет в выбранном охвате не найден",
+        "partial_candidate": "кандидат содержит часть заявленных файлов; связь не установлена",
+        "partial_unverified": "возможное совпадение; принадлежность не подтверждена",
+        "candidate_not_verified": "содержательно близкий пакет не подтверждён как тот же выпуск",
+        "inputs_absent_from_scope": "исходные входы или скрипт находятся вне охвата",
+        "incomplete_by_internal_manifest": "внутренний манифест указывает на отсутствующие файлы",
+    }
+    expected_lines = ["# Ожидаемые приложения и пробелы охвата", "", "Записи отделяют обещанные, но отсутствующие файлы от вероятных совпадений и внешних входов. Одинаковое имя не считается доказательством принадлежности пакету.", ""]
+    if not expected_records:
+        expected_lines.append("В текущем охвате нет зарегистрированных ожиданий отсутствующих приложений.")
+    for item in expected_records:
+        owner = record_by_id[item["owner_artifact_id"]]
+        expected_lines.extend([
+            f"## {item['id']} — {expected_kind_labels.get(item['kind'], item['kind'])}", "",
+            f"- Связанный артефакт: [{owner['id']} — {owner['title']}](artifacts/{owner['id']}/card.md)",
+            f"- Статус: `{item['status']}` — {expected_status_labels.get(item['status'], item['status'])}.",
+            f"- Основание: {item['basis']}", "",
+            item["notes"], "",
+        ])
+        for label, key in [("Ожидалось", "expected_members"), ("Наблюдаемые совпадения/кандидаты", "observed_members"), ("Не найдено в подтверждённом составе", "missing_members")]:
+            values = item.get(key, [])
+            expected_lines.extend([f"### {label}", ""])
+            expected_lines.extend(f"- `{value}`" for value in values) if values else expected_lines.append("- Нет зарегистрированных записей.")
+            expected_lines.append("")
+        candidates = item.get("candidate_artifact_ids", [])
+        if candidates:
+            refs = ", ".join(f"[{candidate}](artifacts/{candidate}/card.md)" for candidate in candidates)
+            expected_lines.extend([f"Кандидаты для ручной сверки: {refs}.", ""])
+    write_text(CATALOG / "expected-artifacts.md", "\n".join(expected_lines))
+
     readme = [
         "# Каталог исследовательских артефактов", "",
         f"Состояние: **{registry.get('stage', 'in_progress')}**. Это рабочий слой для навигации по самостоятельным отчётам, планам, программным пакетам и результатам исследований.", "",
@@ -519,7 +610,8 @@ def main() -> int:
         "1. Начните с [тематической навигации](topics.md) или [полного реестра](inventory.json).",
         "2. Карточка описывает, что утверждает документ, где читать исходник и что проверял каталогизатор.",
         "3. Для ZIP откройте манифест файлов на карточке пакета: перечислены члены и контрольные суммы; извлечение и запуск кода в первом проходе не выполняются.",
-        "4. Сверяйте ограничения в карточке и [открытые вопросы](questions.md). Статус архивной проверки не является математическим аудитом.", "",
+        "4. Сверяйте ограничения в карточке и [открытые вопросы](questions.md). Статус архивной проверки не является математическим аудитом.",
+        "5. [Ожидаемые приложения](expected-artifacts.md) показывают отсутствующие пакеты, частичные совпадения и недостающие внешние входы.", "",
         "## Счётчики текущего этапа", "",
         f"- Физических файлов в реестре: {totals['physical_files']}",
         f"- Файлов, связанных с карточками: {totals['cataloged_source_files']}",
@@ -527,6 +619,16 @@ def main() -> int:
         f"- Исключено с причиной: {totals['excluded_files'] + totals['administrative_files']}",
         f"- Ожидает классификации: {totals['pending_files']}",
         f"- Карточек артефактов: {totals['artifacts_with_cards']}", "",
+        f"- Заявленных отсутствующих/неполных приложений: {totals['expected_artifact_records']}",
+        f"- Пакетов не найдено: {totals['promised_packages_absent']}",
+        f"- Частичных или неустановленных совпадений пакета: {totals['promised_packages_partial_or_unverified']}",
+        f"- Пакетов с пробелами по внутреннему манифесту: {totals['incomplete_packages_by_manifest']}",
+        f"- Внешних входов для повторной проверки не хватает: {totals['external_reproduction_input_gaps']}", "",
+        "## Следующая очередь", "",
+        "1. Получить решения по [Q0001 и Q0002](questions.md): редакции отчёта A0002/A0003 и происхождение исправленного пакета A0005/A0006.",
+        "2. Сверить ожидаемые выпуски и кандидатов M0001–M0005 по [реестру приложений](expected-artifacts.md); не приписывать совпадающие имена другому отчёту.",
+        "3. Запросить или найти отсутствующие члены по M0006/M0007; исторические ZIP и исходные файлы не изменять.",
+        "4. После разрешения пробелов отдельно планировать математический аудит и тематическую кластеризацию; в этот этап они не входили.", "",
         "По сообщению автора, коллекция создавалась в длительной работе с GPT Astra и Sol. Модель, запрос и дата конкретного артефакта указываются только при документированном основании; иначе отмечаются как не установленные.", "",
         "Пересборка реестра и карточек: `python catalog/build_catalog.py`. Скрипт читает исходники и ZIP, но не распаковывает архивы и не запускает содержащийся в них код.", "",
     ]

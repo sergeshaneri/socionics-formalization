@@ -1,0 +1,24 @@
+{
+  "artifact_id": "A0030",
+  "artifact_title": "Действия подгрупп социона на восьми функциях",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-24-subgroup-actions.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 29211,
+      "sha256": "5bcf0904f63be284dd834fc7da4cf3ee77409abfdfe748c20f21988bd65cd0fc"
+    },
+    {
+      "path": "agent-researches/2026-09-24-subgroup-actions.pdf",
+      "roles": [
+        "representation"
+      ],
+      "size_bytes": 119430,
+      "sha256": "f080dcda14959fd8448efd217cf304b1375b5e97450925081350bdfae5d870b1"
+    }
+  ],
+  "archives": []
+}

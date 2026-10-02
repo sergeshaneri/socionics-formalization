@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0032",
+  "artifact_title": "ИИ как инструмент работы с семантикой и структурой соционики: план доклада",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-25-doklad-ii-v-teoreticheskoy-sotsionike-plan.md",
+      "roles": [
+        "draft_talk_plan"
+      ],
+      "size_bytes": 29992,
+      "sha256": "27881052cd4a7a82234ef16b86612e5d279efcf4e1ee94f2d20fd5a78fd001fe"
+    }
+  ],
+  "archives": []
+}

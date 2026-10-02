@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0031",
+  "artifact_title": "Инварианты АРП в модели А: исследовательские и дидактические задачи",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-24-zadachi-invarianty-arp.md",
+      "roles": [
+        "task_list"
+      ],
+      "size_bytes": 28458,
+      "sha256": "191adccf468bcd1b402d78086c8c7a6ddecee5e3af58b3c67cebce2d1424b08c"
+    }
+  ],
+  "archives": []
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0039",
+  "artifact_title": "Чётность функций, действие 8T9 и связь группы отношений с признаками Рейнина",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-29_8T9-chetnost-funkciy-i-most-E16.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 26918,
+      "sha256": "3ca8d59bcbfe3a6d5a3ed7a4e26849ad37633917cd5594a061a51f250621e878"
+    }
+  ],
+  "archives": []
+}

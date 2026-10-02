@@ -1,0 +1,24 @@
+{
+  "artifact_id": "A0025",
+  "artifact_title": "Теория сплетения в соционике: результат и границы исследования",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-14-teoriya-spleteniya.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 45414,
+      "sha256": "379ef320b63f35024d8d53e23ff6e4688d4b13dfd6afab9e7fd087901ae1dea2"
+    },
+    {
+      "path": "agent-researches/2026-09-14-teoriya-spleteniya.pdf",
+      "roles": [
+        "representation"
+      ],
+      "size_bytes": 147687,
+      "sha256": "aed7c913566942ccb4d201e10ed394c0deeaf5dd36a67e74c0d18b10f8739559"
+    }
+  ],
+  "archives": []
+}

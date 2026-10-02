@@ -1,0 +1,1239 @@
+{
+  "artifact_id": "A0007",
+  "artifact_title": "Воспроизводимый пакет: признаки Рейнина и отношения модели А",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 3528711,
+      "sha256": "2644744c47d5f6947975965efc1fa769b4a4238a5343309c4652f3aee1671563"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/2026-09-07_reinin_relations_research.md",
+      "roles": [
+        "unpacked_package:research_text_or_documentation"
+      ],
+      "size_bytes": 166654,
+      "sha256": "0cb200186a379c68e3cb6424ae3db61f9de1d51b54d0737e25edb893c511a047"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/README.md",
+      "roles": [
+        "unpacked_package:package_readme"
+      ],
+      "size_bytes": 7321,
+      "sha256": "4dd1d0e4776510133d6cedf5585a4f60d10131f8af6060b4d4fde3490ecbb83d"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/SHA256SUMS.json",
+      "roles": [
+        "unpacked_package:integrity_or_provenance_manifest"
+      ],
+      "size_bytes": 6856,
+      "sha256": "4254c38e790bfd5a70cc55473aa81f2c146f8c86a5d1efe6d93aafda8199de5c"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/01-generations-list.md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 509,
+      "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 2522,
+      "sha256": "3e36ff5cc85d6e763c41e30cf294d878686b10231df8352fd244850e1b5c5979"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 6029,
+      "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/04-4-svezhak.md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 180169,
+      "sha256": "37fe6fd18c7c79f096b3234cda0c111ffcc19cfdd6731bf1c162064a338e6019"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/05-oktohotomii.md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 484914,
+      "sha256": "5ab9ffda5bb417b42eab4e41128ae918ae5400041c7a66751131e0181b975ebf"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/06-md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 659186,
+      "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/07-md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 1136724,
+      "sha256": "f279abc0fb2ce14bb38778c3d8ef72d416e6be7edc5c983c11132af27b981e3b"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/08-formuly-dihotomij-arp.md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 1742947,
+      "sha256": "06e8fe2344369fa815cf4a6731ce59d0863f7a418b2d011fdef09b92cf78755f"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/09-tencer-minaev-and-reinin-dichotomies-formulae.md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 6469,
+      "sha256": "64c64c31fa378c4a471ed0338e964658e9e9142e3c35c0db1f45668b12bf7e35"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-2fa897d46d0e4b43b7c47942e54a09d5.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 65538,
+      "sha256": "59e09ca22d9dd8ccc5f2c51d78aec7d8fbcb938854958eb21efbc06876e1b6b8"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-43f4140529764d56be77c6c0641bb95c.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 20344,
+      "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-614b735688994bbb847faab1bcdf2bf2.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-c2bf6d54dfcf41f6a27a11193d0cbaeb.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-dadbd0fdb09443e78e22f1e3c333fadc.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 20344,
+      "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/01-generations-list.md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 509,
+      "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/02-klassifikaciya-pravilnyh-razbienij-sociona.md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 2522,
+      "sha256": "3e36ff5cc85d6e763c41e30cf294d878686b10231df8352fd244850e1b5c5979"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 6029,
+      "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/04-4-svezhak.md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 138007,
+      "sha256": "1bde849c80b0f219f535c44a0ed695ea39ebbb04f4abbdb871b59e12423da2e2"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/05-oktohotomii.md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 173204,
+      "sha256": "73f4e0903ac34aa4d44f8bb4cafaca846fe2af1b15472d47a93123cc96c9dca9"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/06-md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 19718,
+      "sha256": "1c2580f482d0ad910d7f4dd15475200ef4f81b91d8f70a6a7ca78794fc19cdd9"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/07-md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 20344,
+      "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/08-formuly-dihotomij-arp.md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 69811,
+      "sha256": "386f91f93789ff08611cedd1dd298a73ceab752e3c13b228e22ff6551f5f3859"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/09-tencer-minaev-and-reinin-dichotomies-formulae.md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 6469,
+      "sha256": "64c64c31fa378c4a471ed0338e964658e9e9142e3c35c0db1f45668b12bf7e35"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/Pasted markdown.md.clean.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 28230,
+      "sha256": "796e8d46c320a7b4618ec7338f6e73f023f022d490d3adbcb38f5888d5a86522"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/atoms.json",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 91041,
+      "sha256": "47ca45feb5d8a615cfb3648deb446d3c98741b33afd26f55df998d795b5f02e2"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/audit_sources.py",
+      "roles": [
+        "unpacked_package:program_source"
+      ],
+      "size_bytes": 3943,
+      "sha256": "7c0879c07c9c502774e4143517ce918fe790a859a19247478a2c3544ccab955f"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/audit_sources_final_run.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 5263,
+      "sha256": "1b6225f3e5759a2a7ec6a8b355acd2a900f2da546c2ed1b7f1680ba38d367218"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue.json",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 921466,
+      "sha256": "40f82b9f772394bec0f72164b436d6d7bd673667355025c7eaeb958340592fdf"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue.py",
+      "roles": [
+        "unpacked_package:program_source"
+      ],
+      "size_bytes": 5719,
+      "sha256": "9e2ef540b023d7a12b8d09ecc30ad989f955919c25cf748c5be6fada62bfef55"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue_final_run.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 1949,
+      "sha256": "a5646cbb43220a44e4c823e11de49ca50d66227deea398d02e8cd75b0bcd16d6"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/compute.py",
+      "roles": [
+        "unpacked_package:program_source"
+      ],
+      "size_bytes": 17725,
+      "sha256": "a2ce24b455914e87a5aefc9d19889e02c916bc75dd7d6f841026aee084b25ae9"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/compute_final_run.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 6202,
+      "sha256": "7ece175bfecb37297a1ce4495b425f86035b25a787046e8acd47a0f08792e2d8"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/export_tables.py",
+      "roles": [
+        "unpacked_package:program_source"
+      ],
+      "size_bytes": 11629,
+      "sha256": "e7d22971430d80ff377c5dc79bd817ed079f3fe93ac91ea8dcc5eb916dfed860"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/export_tables_final_run.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 50,
+      "sha256": "b02596e1c0cc911d1ec09503dacb5a08d4f60d2242296a76dd9627dadaedc889"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/full_input_manifest.json",
+      "roles": [
+        "unpacked_package:integrity_or_provenance_manifest"
+      ],
+      "size_bytes": 1844,
+      "sha256": "45e5c8d3ae1a446c4ffa2a917bd6d3ec83d29d0641ac1b8e04abee11d37ea2f3"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/input_manifest.json",
+      "roles": [
+        "unpacked_package:integrity_or_provenance_manifest"
+      ],
+      "size_bytes": 4410,
+      "sha256": "3c8d3fbf64f524d29be22a1d0fb91f6c97746f220e6f065fa43e50fdc9c51a0b"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/matching_predicates.json",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 60830,
+      "sha256": "a42fa78e3d2149f2274b9821692e41a82ba92fde49f275cc7375347c36da0a9c"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/normalized_data.json",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 209774,
+      "sha256": "7eeb4cef7768ff8b42ce3af644f05c28c991dbf63f3a993e1b15754fcf53efed"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/source_audit.json",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 1073097,
+      "sha256": "6caea292d8e27ce422006672beebd67d1934fc091402b0e7f5b8541ea59ee93b"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/blocks.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 36661,
+      "sha256": "53544b54316668e2d05b89449e2966c75fb297434cdc023d5a5430f2ac8476fb"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/cayley.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 715,
+      "sha256": "4019d99f5515f5dd6664a978998204eb55b61da47d71f698e1094a60f98214f5"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/missing_pairs.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 439,
+      "sha256": "b193df9f10a5e1a3f47de7fdfa333729bdd0db535386f27d1eea53af1c81f47d"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/models.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 836,
+      "sha256": "6a31bc2ac4f98cf7c6b2be3ae971bb7132e9c202976516602dcebd0682666fe9"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/operator_dictionary.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 1073,
+      "sha256": "f59a134cd20f0dbb2868e5abe26361b7633aa1e7a0654190a9bff69c338f8192"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/partition_orbits.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 2856,
+      "sha256": "8aae6b51040cbc9dd46831a83b42554134df92b75f2aadb5abd8a66e305e9b4a"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/partitions.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 2498,
+      "sha256": "f6d961d4b19a60d35dd4e7ebd4c1bad351ebc7620ac6054a7fd329ec010c0f46"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/positional_bounds.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 96205,
+      "sha256": "271f79136855a5b4aca3306e5aca166957d7c06314b2253c99801da0ca3248e7"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/reinin.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 1001,
+      "sha256": "6faa293a8687fe80ebd7d6c673880d9244287f291b6fbd62d2b30051f800881e"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/relative_operators.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 866,
+      "sha256": "66729c7c03a39781976034103fa25fc2b6f09591f11f8e92622675a50531879d"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/source_all_formulas.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 395350,
+      "sha256": "8086c94e3e7891e2c52e4f9b813c3c22e223734abcadc94b45ec776882f63122"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/source_errors.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 15071,
+      "sha256": "63269ebcbbeae613c357728a7e3853fee1c8b4184d0e3f613ca08efbd17d3d14"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/trait_dictionary.csv",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 590,
+      "sha256": "d40dd664dcd2acb31d1ad1d8357e1013e4e2ed7e4403f0b50f0897fa4065420b"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/trans8.grp",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 7284,
+      "sha256": "10e680dab894370ae8e9cb4a556f621779cbdee5b57740cf289c751d3caf8563"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verification_results.json",
+      "roles": [
+        "unpacked_package:packaged_data_or_result"
+      ],
+      "size_bytes": 3882,
+      "sha256": "63447a47b7ab29bf9e0b72782d5d5c5abeca38ef8915420ade7e5f452685e8bb"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verify.py",
+      "roles": [
+        "unpacked_package:program_source"
+      ],
+      "size_bytes": 6487,
+      "sha256": "1eaf24f1ad7dc522c1f29fff46a5e1034472dba0ba58c8d12cb3dd2f73b1704c"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verify_final_run.txt",
+      "roles": [
+        "unpacked_package:package_member"
+      ],
+      "size_bytes": 3883,
+      "sha256": "b57620ec4bf97873ca1c869a0668e69b56711efefbf0bfbd11db516bfd712fb5"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/upload/Pasted markdown.md",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 28230,
+      "sha256": "796e8d46c320a7b4618ec7338f6e73f023f022d490d3adbcb38f5888d5a86522"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/upload/Twisting Elementary Abelian Groups via Cocycles_ From E16 to D8 x C2.pdf",
+      "roles": [
+        "unpacked_package:bundled_source_or_input"
+      ],
+      "size_bytes": 420154,
+      "sha256": "18b23e56695fd7a57b9213fd7ec4d8e92374335cbfeef758d4d13a1dd8bfa24a"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 61,
+      "uncompressed_bytes": 8410392,
+      "members": [
+        {
+          "path": "project_sources/01-generations-list.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 509,
+          "compressed_bytes": 305,
+          "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/01-generations-list.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/01-generations-list.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/generations-list.md",
+            "sources/primary/generations-list.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 2522,
+          "compressed_bytes": 889,
+          "sha256": "3e36ff5cc85d6e763c41e30cf294d878686b10231df8352fd244850e1b5c5979",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/02-klassifikaciya-pravilnyh-razbienij-sociona.md.clean.txt",
+            "sources/primary/klassifikaciya-pravilnyh-razbienij-sociona.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/03-markdown-.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 6029,
+          "compressed_bytes": 987,
+          "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/04-4-svezhak.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 180169,
+          "compressed_bytes": 42286,
+          "sha256": "37fe6fd18c7c79f096b3234cda0c111ffcc19cfdd6731bf1c162064a338e6019",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/04-4-svezhak.md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-1bc2daef8ed94733a6ce54683fef1532"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/05-oktohotomii.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 484914,
+          "compressed_bytes": 245484,
+          "sha256": "5ab9ffda5bb417b42eab4e41128ae918ae5400041c7a66751131e0181b975ebf",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/05-oktohotomii.md",
+            "sources/primary/oktohotomii.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/06-md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 659186,
+          "compressed_bytes": 489119,
+          "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/06-md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-0b144ff3bb4c4acda04e951ebdab9d9e",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-5292485034794826927931f372ddd4fb",
+            "sources/primary/Системы Импримитивности в Соционике.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/07-md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 1136724,
+          "compressed_bytes": 845897,
+          "sha256": "f279abc0fb2ce14bb38778c3d8ef72d416e6be7edc5c983c11132af27b981e3b",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/07-md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159",
+            "sources/primary/Обзор связи АРП и мА.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/08-formuly-dihotomij-arp.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 1742947,
+          "compressed_bytes": 1276510,
+          "sha256": "06e8fe2344369fa815cf4a6731ce59d0863f7a418b2d011fdef09b92cf78755f",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/08-formuly-dihotomij-arp.md",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/formuly-dihotomij-arp.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/09-tencer-minaev-and-reinin-dichotomies-formulae.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 6469,
+          "compressed_bytes": 1316,
+          "sha256": "64c64c31fa378c4a471ed0338e964658e9e9142e3c35c0db1f45668b12bf7e35",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/09-tencer-minaev-and-reinin-dichotomies-formulae.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/09-tencer-minaev-and-reinin-dichotomies-formulae.md.clean.txt",
+            "sources/primary/tencer-minaev-and-reinin-dichotomies-formulae.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "upload/Pasted markdown.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 28230,
+          "compressed_bytes": 7905,
+          "sha256": "796e8d46c320a7b4618ec7338f6e73f023f022d490d3adbcb38f5888d5a86522",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/Pasted markdown.md.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/upload/Pasted markdown.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "upload/Twisting Elementary Abelian Groups via Cocycles_ From E16 to D8 x C2.pdf",
+          "role": "bundled_source_or_input",
+          "size_bytes": 420154,
+          "compressed_bytes": 310534,
+          "sha256": "18b23e56695fd7a57b9213fd7ec4d8e92374335cbfeef758d4d13a1dd8bfa24a",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/upload/Twisting Elementary Abelian Groups via Cocycles_ From E16 to D8 x C2.pdf"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/.codex-upload-2fa897d46d0e4b43b7c47942e54a09d5.clean.txt",
+          "role": "package_member",
+          "size_bytes": 65538,
+          "compressed_bytes": 12843,
+          "sha256": "59e09ca22d9dd8ccc5f2c51d78aec7d8fbcb938854958eb21efbc06876e1b6b8",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-2fa897d46d0e4b43b7c47942e54a09d5.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/.codex-upload-43f4140529764d56be77c6c0641bb95c.clean.txt",
+          "role": "package_member",
+          "size_bytes": 20344,
+          "compressed_bytes": 5659,
+          "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-43f4140529764d56be77c6c0641bb95c.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-dadbd0fdb09443e78e22f1e3c333fadc.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/07-md.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/.codex-upload-614b735688994bbb847faab1bcdf2bf2.clean.txt",
+          "role": "package_member",
+          "size_bytes": 0,
+          "compressed_bytes": 2,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-614b735688994bbb847faab1bcdf2bf2.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-c2bf6d54dfcf41f6a27a11193d0cbaeb.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/.codex-upload-c2bf6d54dfcf41f6a27a11193d0cbaeb.clean.txt",
+          "role": "package_member",
+          "size_bytes": 0,
+          "compressed_bytes": 2,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-614b735688994bbb847faab1bcdf2bf2.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-c2bf6d54dfcf41f6a27a11193d0cbaeb.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/.codex-upload-dadbd0fdb09443e78e22f1e3c333fadc.clean.txt",
+          "role": "package_member",
+          "size_bytes": 20344,
+          "compressed_bytes": 5659,
+          "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-43f4140529764d56be77c6c0641bb95c.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-dadbd0fdb09443e78e22f1e3c333fadc.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/07-md.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/01-generations-list.md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 509,
+          "compressed_bytes": 305,
+          "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/01-generations-list.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/01-generations-list.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/generations-list.md",
+            "sources/primary/generations-list.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/02-klassifikaciya-pravilnyh-razbienij-sociona.md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 2522,
+          "compressed_bytes": 889,
+          "sha256": "3e36ff5cc85d6e763c41e30cf294d878686b10231df8352fd244850e1b5c5979",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/02-klassifikaciya-pravilnyh-razbienij-sociona.md.clean.txt",
+            "sources/primary/klassifikaciya-pravilnyh-razbienij-sociona.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/03-markdown-.md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 6029,
+          "compressed_bytes": 987,
+          "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/04-4-svezhak.md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 138007,
+          "compressed_bytes": 10254,
+          "sha256": "1bde849c80b0f219f535c44a0ed695ea39ebbb04f4abbdb871b59e12423da2e2",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/04-4-svezhak.md.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/05-oktohotomii.md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 173204,
+          "compressed_bytes": 8022,
+          "sha256": "73f4e0903ac34aa4d44f8bb4cafaca846fe2af1b15472d47a93123cc96c9dca9",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/05-oktohotomii.md.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/06-md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 19718,
+          "compressed_bytes": 5724,
+          "sha256": "1c2580f482d0ad910d7f4dd15475200ef4f81b91d8f70a6a7ca78794fc19cdd9",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/06-md.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/07-md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 20344,
+          "compressed_bytes": 5659,
+          "sha256": "c8a9ebc23a2d62998cd037b93731f7a3d7972637c422cc8145e5b99fb243488c",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-43f4140529764d56be77c6c0641bb95c.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/.codex-upload-dadbd0fdb09443e78e22f1e3c333fadc.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/07-md.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/08-formuly-dihotomij-arp.md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 69811,
+          "compressed_bytes": 13874,
+          "sha256": "386f91f93789ff08611cedd1dd298a73ceab752e3c13b228e22ff6551f5f3859",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/08-formuly-dihotomij-arp.md.clean.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/09-tencer-minaev-and-reinin-dichotomies-formulae.md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 6469,
+          "compressed_bytes": 1316,
+          "sha256": "64c64c31fa378c4a471ed0338e964658e9e9142e3c35c0db1f45668b12bf7e35",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/09-tencer-minaev-and-reinin-dichotomies-formulae.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/09-tencer-minaev-and-reinin-dichotomies-formulae.md.clean.txt",
+            "sources/primary/tencer-minaev-and-reinin-dichotomies-formulae.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/Pasted markdown.md.clean.txt",
+          "role": "package_member",
+          "size_bytes": 28230,
+          "compressed_bytes": 7905,
+          "sha256": "796e8d46c320a7b4618ec7338f6e73f023f022d490d3adbcb38f5888d5a86522",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/Pasted markdown.md.clean.txt",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/upload/Pasted markdown.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/compute.py",
+          "role": "program_source",
+          "size_bytes": 17725,
+          "compressed_bytes": 6548,
+          "sha256": "a2ce24b455914e87a5aefc9d19889e02c916bc75dd7d6f841026aee084b25ae9",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/compute.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/audit_sources.py",
+          "role": "program_source",
+          "size_bytes": 3943,
+          "compressed_bytes": 1796,
+          "sha256": "7c0879c07c9c502774e4143517ce918fe790a859a19247478a2c3544ccab955f",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/audit_sources.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/catalogue.py",
+          "role": "program_source",
+          "size_bytes": 5719,
+          "compressed_bytes": 2667,
+          "sha256": "9e2ef540b023d7a12b8d09ecc30ad989f955919c25cf748c5be6fada62bfef55",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/verify.py",
+          "role": "program_source",
+          "size_bytes": 6487,
+          "compressed_bytes": 2574,
+          "sha256": "1eaf24f1ad7dc522c1f29fff46a5e1034472dba0ba58c8d12cb3dd2f73b1704c",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verify.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/export_tables.py",
+          "role": "program_source",
+          "size_bytes": 11629,
+          "compressed_bytes": 4699,
+          "sha256": "e7d22971430d80ff377c5dc79bd817ed079f3fe93ac91ea8dcc5eb916dfed860",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/export_tables.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/normalized_data.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 209774,
+          "compressed_bytes": 11642,
+          "sha256": "7eeb4cef7768ff8b42ce3af644f05c28c991dbf63f3a993e1b15754fcf53efed",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/normalized_data.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/catalogue.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 921466,
+          "compressed_bytes": 38148,
+          "sha256": "40f82b9f772394bec0f72164b436d6d7bd673667355025c7eaeb958340592fdf",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/source_audit.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 1073097,
+          "compressed_bytes": 32304,
+          "sha256": "6caea292d8e27ce422006672beebd67d1934fc091402b0e7f5b8541ea59ee93b",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/source_audit.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/verification_results.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 3882,
+          "compressed_bytes": 728,
+          "sha256": "63447a47b7ab29bf9e0b72782d5d5c5abeca38ef8915420ade7e5f452685e8bb",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verification_results.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/atoms.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 91041,
+          "compressed_bytes": 22739,
+          "sha256": "47ca45feb5d8a615cfb3648deb446d3c98741b33afd26f55df998d795b5f02e2",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/atoms.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/matching_predicates.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 60830,
+          "compressed_bytes": 4750,
+          "sha256": "a42fa78e3d2149f2274b9821692e41a82ba92fde49f275cc7375347c36da0a9c",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/matching_predicates.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/input_manifest.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 4410,
+          "compressed_bytes": 1577,
+          "sha256": "3c8d3fbf64f524d29be22a1d0fb91f6c97746f220e6f065fa43e50fdc9c51a0b",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/input_manifest.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/full_input_manifest.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 1844,
+          "compressed_bytes": 804,
+          "sha256": "45e5c8d3ae1a446c4ffa2a917bd6d3ec83d29d0641ac1b8e04abee11d37ea2f3",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/full_input_manifest.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/trans8.grp",
+          "role": "packaged_data_or_result",
+          "size_bytes": 7284,
+          "compressed_bytes": 1655,
+          "sha256": "10e680dab894370ae8e9cb4a556f621779cbdee5b57740cf289c751d3caf8563",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/trans8.grp"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/blocks.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 36661,
+          "compressed_bytes": 5114,
+          "sha256": "53544b54316668e2d05b89449e2966c75fb297434cdc023d5a5430f2ac8476fb",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/blocks.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/cayley.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 715,
+          "compressed_bytes": 238,
+          "sha256": "4019d99f5515f5dd6664a978998204eb55b61da47d71f698e1094a60f98214f5",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/cayley.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/missing_pairs.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 439,
+          "compressed_bytes": 154,
+          "sha256": "b193df9f10a5e1a3f47de7fdfa333729bdd0db535386f27d1eea53af1c81f47d",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/missing_pairs.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/models.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 836,
+          "compressed_bytes": 241,
+          "sha256": "6a31bc2ac4f98cf7c6b2be3ae971bb7132e9c202976516602dcebd0682666fe9",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/models.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/operator_dictionary.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 1073,
+          "compressed_bytes": 541,
+          "sha256": "f59a134cd20f0dbb2868e5abe26361b7633aa1e7a0654190a9bff69c338f8192",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/operator_dictionary.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/partition_orbits.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 2856,
+          "compressed_bytes": 470,
+          "sha256": "8aae6b51040cbc9dd46831a83b42554134df92b75f2aadb5abd8a66e305e9b4a",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/partition_orbits.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/partitions.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 2498,
+          "compressed_bytes": 690,
+          "sha256": "f6d961d4b19a60d35dd4e7ebd4c1bad351ebc7620ac6054a7fd329ec010c0f46",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/partitions.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/positional_bounds.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 96205,
+          "compressed_bytes": 9304,
+          "sha256": "271f79136855a5b4aca3306e5aca166957d7c06314b2253c99801da0ca3248e7",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/positional_bounds.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/reinin.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 1001,
+          "compressed_bytes": 321,
+          "sha256": "6faa293a8687fe80ebd7d6c673880d9244287f291b6fbd62d2b30051f800881e",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/reinin.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/relative_operators.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 866,
+          "compressed_bytes": 273,
+          "sha256": "66729c7c03a39781976034103fa25fc2b6f09591f11f8e92622675a50531879d",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/relative_operators.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/source_all_formulas.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 395350,
+          "compressed_bytes": 19518,
+          "sha256": "8086c94e3e7891e2c52e4f9b813c3c22e223734abcadc94b45ec776882f63122",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/source_all_formulas.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/source_errors.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 15071,
+          "compressed_bytes": 1804,
+          "sha256": "63269ebcbbeae613c357728a7e3853fee1c8b4184d0e3f613ca08efbd17d3d14",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/source_errors.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/tables/trait_dictionary.csv",
+          "role": "packaged_data_or_result",
+          "size_bytes": 590,
+          "compressed_bytes": 351,
+          "sha256": "d40dd664dcd2acb31d1ad1d8357e1013e4e2ed7e4403f0b50f0897fa4065420b",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/tables/trait_dictionary.csv"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/audit_sources_final_run.txt",
+          "role": "package_member",
+          "size_bytes": 5263,
+          "compressed_bytes": 948,
+          "sha256": "1b6225f3e5759a2a7ec6a8b355acd2a900f2da546c2ed1b7f1680ba38d367218",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/audit_sources_final_run.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/catalogue_final_run.txt",
+          "role": "package_member",
+          "size_bytes": 1949,
+          "compressed_bytes": 463,
+          "sha256": "a5646cbb43220a44e4c823e11de49ca50d66227deea398d02e8cd75b0bcd16d6",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/catalogue_final_run.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/compute_final_run.txt",
+          "role": "package_member",
+          "size_bytes": 6202,
+          "compressed_bytes": 1859,
+          "sha256": "7ece175bfecb37297a1ce4495b425f86035b25a787046e8acd47a0f08792e2d8",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/compute_final_run.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/export_tables_final_run.txt",
+          "role": "package_member",
+          "size_bytes": 50,
+          "compressed_bytes": 50,
+          "sha256": "b02596e1c0cc911d1ec09503dacb5a08d4f60d2242296a76dd9627dadaedc889",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/export_tables_final_run.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_work/verify_final_run.txt",
+          "role": "package_member",
+          "size_bytes": 3883,
+          "compressed_bytes": 729,
+          "sha256": "b57620ec4bf97873ca1c869a0668e69b56711efefbf0bfbd11db516bfd712fb5",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/verify_final_run.txt"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "README.md",
+          "role": "package_readme",
+          "size_bytes": 7321,
+          "compressed_bytes": 2875,
+          "sha256": "4dd1d0e4776510133d6cedf5585a4f60d10131f8af6060b4d4fde3490ecbb83d",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/README.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-07_reinin_relations_research.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 166654,
+          "compressed_bytes": 37360,
+          "sha256": "0cb200186a379c68e3cb6424ae3db61f9de1d51b54d0737e25edb893c511a047",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/2026-09-07_reinin_relations_research.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "SHA256SUMS.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 6856,
+          "compressed_bytes": 2929,
+          "sha256": "4254c38e790bfd5a70cc55473aa81f2c146f8c86a5d1efe6d93aafda8199de5c",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/SHA256SUMS.json"
+          ],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "SHA256SUMS.json",
+          "declared": 60,
+          "matched": 60,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

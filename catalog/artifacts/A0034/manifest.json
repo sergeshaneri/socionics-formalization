@@ -1,0 +1,374 @@
+{
+  "artifact_id": "A0034",
+  "artifact_title": "Вычислительный пакет ядер орбитальных действий",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-25-orbit-kernels.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 155036,
+      "sha256": "174b8d16400edaa925005ea6c2d8029dc1db5d86b321942fdde78b0c6526d76e"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-25-orbit-kernels.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 33,
+      "uncompressed_bytes": 725149,
+      "members": [
+        {
+          "path": "2026-09-25-orbit-kernels.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 33381,
+          "compressed_bytes": 9459,
+          "sha256": "c1ab63ff3e41bc8e78c5a0a0955ac9a5b96e87512a12977facc2d7e999574150",
+          "same_bytes_as": [
+            "agent-researches/2026-09-25-orbit-kernels.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-25-orbit-kernels.pdf",
+          "role": "pdf_document_or_presentation",
+          "size_bytes": 83309,
+          "compressed_bytes": 82116,
+          "sha256": "98fce99d2c0b7d9a1f2fbe304d99b84c2b0e8366521c9fb82c594000739b3188",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "CHECKSUMS.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 3236,
+          "compressed_bytes": 1660,
+          "sha256": "54a2edb245bffde0ba237339e0ac9c5fd438ebb9e39c3c9670968cb3dd3636fb",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "README.md",
+          "role": "package_readme",
+          "size_bytes": 5171,
+          "compressed_bytes": 2096,
+          "sha256": "e6787a3b94cbdf03926dcd89273b8c686db26a8e1a82e58bdae1720b8d00686b",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/dichotomies.json",
+          "role": "saved_result",
+          "size_bytes": 1430,
+          "compressed_bytes": 269,
+          "sha256": "aaaab5a01e3c3dad739e12883d1bae8478a4a2414c79de06a4bfa2891ea91186",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/inclusions.json",
+          "role": "saved_result",
+          "size_bytes": 4227,
+          "compressed_bytes": 348,
+          "sha256": "f54681e3be0fe3e1c2e3ecf2b970edec9c8890d2c24453f12413a8e3fdcaf698",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/manifest.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 386,
+          "compressed_bytes": 252,
+          "sha256": "e53b8ae595268e875489feaa765c60922f01775c28301f7a03f52d4f81caa730",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/multiplication.json",
+          "role": "saved_result",
+          "size_bytes": 3278,
+          "compressed_bytes": 594,
+          "sha256": "793a4342440fbfcacf051f8beebc2a765a03f71d9682ad130016317510029eef",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/permutations.json",
+          "role": "saved_result",
+          "size_bytes": 3255,
+          "compressed_bytes": 631,
+          "sha256": "60e1ec1ac3b16153c5edabb77079d48d9ece38976fa79e3e8e6f1f40973b6a18",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/run.log",
+          "role": "saved_result",
+          "size_bytes": 4788,
+          "compressed_bytes": 1003,
+          "sha256": "0455e8fc34ac8dcddba8b16da303d3e5e5b2f97a73617cbfcd6e80f5fc29c99f",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/subgroups.csv",
+          "role": "saved_result",
+          "size_bytes": 6599,
+          "compressed_bytes": 1068,
+          "sha256": "4792e52bfe2b443a0ca37891c4a0be3bddc8f5ea13f46b6c64320c46d9790b4d",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/subgroups.json",
+          "role": "saved_result",
+          "size_bytes": 99926,
+          "compressed_bytes": 4461,
+          "sha256": "8d430e60c94f521cc575b0b137bf8776a7d5d62a0dfbdb7f661454a69ef353f4",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/summary.json",
+          "role": "saved_result",
+          "size_bytes": 4382,
+          "compressed_bytes": 800,
+          "sha256": "02f5ef8ccd88482cd22d861212d849c0d357b20fdda717498af9b0bbc76b9930",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/tetrachotomies.csv",
+          "role": "saved_result",
+          "size_bytes": 1989,
+          "compressed_bytes": 578,
+          "sha256": "cf557e9c5351b98e12496333fa091453318dd0e0f28cf1094889d207fbf14efb",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/tetrachotomies.json",
+          "role": "saved_result",
+          "size_bytes": 99884,
+          "compressed_bytes": 4561,
+          "sha256": "b08d9d0d49e08b0545125a1a1f53e83e3c1cb2d89be9dc19243db2aaee59764e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "baseline-results/type_to_relation.json",
+          "role": "saved_result",
+          "size_bytes": 1093,
+          "compressed_bytes": 331,
+          "sha256": "20471760a1bc56f304bd859ff6fad5030226b4a12b9eb83b0f34d1712b03a701",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "data/catalog.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 1112,
+          "compressed_bytes": 383,
+          "sha256": "c2c0734f8f881ce0b94e6d493cb56d8c100a6e01182a7f7561fdc6d49419f270",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "data/classification.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 4871,
+          "compressed_bytes": 1465,
+          "sha256": "702a2e8f8b6a38f8510fc7d9ba84eca12951e3db0b1ce7d3004d5b995d4fc0f2",
+          "same_bytes_as": [
+            "sources/primary/классификация разбиений и подгрупп.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "data/tables.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 7250,
+          "compressed_bytes": 1314,
+          "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0",
+          "same_bytes_as": [
+            "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
+            "sources/primary/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "data/tetrachotomies-source-text.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 137983,
+          "compressed_bytes": 10345,
+          "sha256": "ff443aea50617f80f703cf96abd525d40ef905356d9fade44a19b063554e3da5",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/all_140_tetrads.csv",
+          "role": "saved_result",
+          "size_bytes": 40731,
+          "compressed_bytes": 2632,
+          "sha256": "cd53707962ded183277f8632ed769294fed41097e8e78ea4443ab4f466971087",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/all_orbit_profiles.json",
+          "role": "saved_result",
+          "size_bytes": 98951,
+          "compressed_bytes": 3579,
+          "sha256": "7d89c9ccb3967963bfb8a3885ccaee4a33e7d24818962a4fba2e4a182d7a3421",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/checks.json",
+          "role": "saved_result",
+          "size_bytes": 475,
+          "compressed_bytes": 263,
+          "sha256": "ab931af39bdc0cead8bc6a3207186c63ebb4d2972bccf69cdc7bd3d3a3cd5934",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/diagonal_D8.json",
+          "role": "saved_result",
+          "size_bytes": 3961,
+          "compressed_bytes": 455,
+          "sha256": "1610e6c5b94f18bbda96eb971c1801f9729bb98e4ebc9da1b913d4e7e5c120e0",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/formula_groups.json",
+          "role": "saved_result",
+          "size_bytes": 431,
+          "compressed_bytes": 195,
+          "sha256": "0c72e06a9a3e2c4747e2c530de3ee42677e855efaeda60d211e146fb0b1ec702",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/input_sha256.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 1662,
+          "compressed_bytes": 830,
+          "sha256": "6261fe25b81eb70bfe5b2dc21d670b332fb02fe830314b510d56fc052b594760",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/nality_fiber_product.json",
+          "role": "saved_result",
+          "size_bytes": 3137,
+          "compressed_bytes": 359,
+          "sha256": "ecebc02f8f55203b9475ad358bcf3e2646dfbd325f2e071188963d83e55468cb",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/point_stabilizer_rule.json",
+          "role": "saved_result",
+          "size_bytes": 223,
+          "compressed_bytes": 55,
+          "sha256": "ee706554efa304a32854d58d4143e7120de270af4f630227696c327ceaddec8f",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/run.log",
+          "role": "saved_result",
+          "size_bytes": 508,
+          "compressed_bytes": 252,
+          "sha256": "a97a95a31f8d71e65461bf56e4429a75a879b3af7e4c957b0963ff4548865e2f",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/subgroup_incidence.json",
+          "role": "saved_result",
+          "size_bytes": 17677,
+          "compressed_bytes": 1419,
+          "sha256": "0ecb2168feb83cf813b8dae45663acb455b2ce32fb5d3fb5242febc9921a2721",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "src/analyze_kernels.py",
+          "role": "program_source",
+          "size_bytes": 7167,
+          "compressed_bytes": 2651,
+          "sha256": "d09d1df4ebf78013a245790de47cfdd5b2bc6e41cbdd29923ee645e44912e7c1",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "src/recompute_baseline.py",
+          "role": "program_source",
+          "size_bytes": 12807,
+          "compressed_bytes": 5108,
+          "sha256": "923b1436a70e0127f050573a19b7e4ff8bec92abd3e90e8ab4d3978ebe163f88",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "src/report.py",
+          "role": "program_source",
+          "size_bytes": 29869,
+          "compressed_bytes": 9216,
+          "sha256": "3deff7338e8de523f21bb7500ab0d508e9cbca6a33fd35f553f588c1a03518a0",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "CHECKSUMS.json",
+          "declared": 32,
+          "matched": 32,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        },
+        {
+          "path": "baseline-results/manifest.json",
+          "declared": 4,
+          "matched": 4,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        },
+        {
+          "path": "results/input_sha256.json",
+          "declared": 16,
+          "matched": 16,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

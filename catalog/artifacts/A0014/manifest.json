@@ -1,0 +1,298 @@
+{
+  "artifact_id": "A0014",
+  "artifact_title": "Вычислительный пакет произведений 16 систем признаков",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-08_waffle-systems_computations.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 2263836,
+      "sha256": "699f77190f86faa361a2e0f40c26a9a5c68a1b5e4aeb27efccd40364bb9540da"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-08_waffle-systems_computations.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 28,
+      "uncompressed_bytes": 6175628,
+      "members": [
+        {
+          "path": "ALL_WAFFLE_PARTITIONS.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 20674,
+          "compressed_bytes": 1849,
+          "sha256": "2597c1c34bb2fd4aadd48039d82d8c30a5b3390e9952cea3fcd9be8d1e2c3103",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "README.md",
+          "role": "package_readme",
+          "size_bytes": 3889,
+          "compressed_bytes": 2001,
+          "sha256": "0a3f5069844d9c0fe3ea908921a684a7ba1a6c99d0a46fad3aaf3df3dfc800a8",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "REPORT.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 44896,
+          "compressed_bytes": 12635,
+          "sha256": "a87c0e321b1517dbf0ce8af9210416a0b028531acab48d48500c39fd479aa5d4",
+          "same_bytes_as": [
+            "agent-researches/2026-09-08_waffle-systems_pairings.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "code/build_report.py",
+          "role": "program_source",
+          "size_bytes": 2819,
+          "compressed_bytes": 1385,
+          "sha256": "b2e9232aa7d861c962ada1844d200ee997acb5b0b6868b645f833c200825122b",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "code/report_template.md",
+          "role": "report_template",
+          "size_bytes": 39325,
+          "compressed_bytes": 11173,
+          "sha256": "90b615d18833bb5b88524867bfc95d1e905ff92807caead36bf7905209a9764c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "code/reproduce.py",
+          "role": "program_source",
+          "size_bytes": 10617,
+          "compressed_bytes": 4124,
+          "sha256": "2a97c80949ffdeb86f56a31fe0e4e8553e6c987490db282f3e663b79533e9c94",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/models.txt",
+          "role": "bundled_source_or_input",
+          "size_bytes": 832,
+          "compressed_bytes": 208,
+          "sha256": "9d8c4d2699d2cfb5f892e3be88bcf7f72cc0e4cc7e195ed722b6a116f84a6d43",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/systems.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 41415,
+          "compressed_bytes": 1788,
+          "sha256": "337937fa18cc816c1c740733389ee367795b34ec885344f494eb1346824407ec",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/user_waffle_diagram.png",
+          "role": "bundled_source_or_input",
+          "size_bytes": 1430775,
+          "compressed_bytes": 1428630,
+          "sha256": "82b00212b2d6f9381a578cfd3b6c713cde738a56c0f868fcfb76c5d72068ea82",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/all_120_system_pairs.csv",
+          "role": "saved_result",
+          "size_bytes": 2232,
+          "compressed_bytes": 573,
+          "sha256": "5adad4766e4fca1d3d05eeb65714b3c1ad4cc52815759d3d073c93bb86a8137a",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/all_120_waffle_traits.json",
+          "role": "saved_result",
+          "size_bytes": 61958,
+          "compressed_bytes": 2986,
+          "sha256": "8fb26bd8cae0a3d4eaa9bdee5df67586f3e013cfc6619f334d03deb7073eb4ac",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/checks.json",
+          "role": "saved_result",
+          "size_bytes": 471,
+          "compressed_bytes": 228,
+          "sha256": "c98f827b9ce2c6ec034b31176be764b483b9ac31c2992ed6bfcd8939f9e5659d",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/cubic_fano_geometry.json",
+          "role": "saved_result",
+          "size_bytes": 8381,
+          "compressed_bytes": 644,
+          "sha256": "ec07613ea50db3efce0fffb6a6d05e13fe3294b908d24a3603b86bbaa5f23f99",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/direction_triples.json",
+          "role": "saved_result",
+          "size_bytes": 1060,
+          "compressed_bytes": 164,
+          "sha256": "7caf3325f5296f5a822adf7ad1fb3751b99d0bd6c6a9a4f897ba83698083eb32",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/global256_functions.csv",
+          "role": "saved_result",
+          "size_bytes": 32034,
+          "compressed_bytes": 2712,
+          "sha256": "45e53436368399b1b7e09e8e3f95c71ce32ec7e82e3d885d8e222eb651bca538",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/group32_cayley.csv",
+          "role": "saved_result",
+          "size_bytes": 2845472,
+          "compressed_bytes": 517206,
+          "sha256": "451124c457f77d95b8fcb8a783f9675377038d08db0322f89277432b09ecf0bf",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/group32_elements.csv",
+          "role": "saved_result",
+          "size_bytes": 253865,
+          "compressed_bytes": 16440,
+          "sha256": "392fbdc311e3bef8cce17eaee9611e05d569693a704e96dbf99468a28f28001c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/group32_intersections.csv",
+          "role": "saved_result",
+          "size_bytes": 93163,
+          "compressed_bytes": 17227,
+          "sha256": "47021a8de32bbf75f06b7a1137f843366103c4423cde53f2853af672ade48c2e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/model_a_coordinates.csv",
+          "role": "saved_result",
+          "size_bytes": 782,
+          "compressed_bytes": 319,
+          "sha256": "ce36cafdaadbcd9e7268b68c2b238febc3a62ec5976f2fea4ba7bf4c97955687",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/pairing_matrix.csv",
+          "role": "saved_result",
+          "size_bytes": 710,
+          "compressed_bytes": 197,
+          "sha256": "64ae9862e5d60cdecfa4a55479b81996360908287d686dac8175d18e76129b4e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/quadratic_tetrads.json",
+          "role": "saved_result",
+          "size_bytes": 4501,
+          "compressed_bytes": 508,
+          "sha256": "3ef4354357a6b695267ebad65d9dfdb763fd53b981e05aa5c7892638ccd446bf",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/run.log",
+          "role": "saved_result",
+          "size_bytes": 471,
+          "compressed_bytes": 228,
+          "sha256": "c98f827b9ce2c6ec034b31176be764b483b9ac31c2992ed6bfcd8939f9e5659d",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/system_index.json",
+          "role": "saved_result",
+          "size_bytes": 1640,
+          "compressed_bytes": 428,
+          "sha256": "5aa5cc6ae8668d0cddd61d4c9435332bf92259558c455a2bcf61a0cd9c290c48",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/system_pair_products.csv",
+          "role": "saved_result",
+          "size_bytes": 706944,
+          "compressed_bytes": 133310,
+          "sha256": "4fd3a7736fb23fa081d27ac34f8bf374d0bcd8a828ab7ff2a60245aa5fbb5e72",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/waffle_products.csv",
+          "role": "saved_result",
+          "size_bytes": 367661,
+          "compressed_bytes": 69074,
+          "sha256": "8cc7993274c9dfa9f5dfa3db4ea172205ef35a5242e35bc59a76099a2708585b",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/waffle_summary.json",
+          "role": "saved_result",
+          "size_bytes": 6751,
+          "compressed_bytes": 673,
+          "sha256": "f4b7b6041c7e43d5a3e7e361fefb8d6d7b6ef7e78ab7b8b3c8f4bdf47cadacfd",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/wall_basis_correlations.csv",
+          "role": "saved_result",
+          "size_bytes": 189800,
+          "compressed_bytes": 32205,
+          "sha256": "f0ad8e7d3deda5f3772c7917a78a5883b1911e703ec3f94ed91f14292be7e8db",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "SHA256SUMS.txt",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 2490,
+          "compressed_bytes": 1381,
+          "sha256": "d8b68268a43511374faf58d2a1f53271e55ce4b2d5ff4bbfac6d5d5112aaee3d",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "SHA256SUMS.txt",
+          "declared": 27,
+          "matched": 27,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

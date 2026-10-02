@@ -2,15 +2,17 @@
 
 Уровень чтения: `overview`.
 
-- ZIP открыт; список элементов и пути проверены; CRC каждого элемента проверен через ZipFile.testzip(). Внутренние checksum/manifest-файлы будут сверены автоматическим сборщиком каталога. Код не запускался.
+- ZIP открыт; 63 записи; CRC пройден; небезопасных путей нет. Верхний CHECKSUMS.json совпадает с 62/62 перечисленными файлами. Внутренний data/manifest.json: точных совпадений путей 0/4; хеши двух записей найдены под другими именами; два ожидаемых содержимых не найдены. Код не запускался.
 
 ## Архив `agent-researches/2026-09-28-tetrad-classification.zip`
 
 - Открытие: `True`; CRC: `passed`.
 - Файловых записей: 63; распакованный объём: 8346716 байт.
 - Небезопасных путей/ссылок: 0.
-- Внутренний манифест `2026-09-28-tetrad-classification/CHECKSUMS.json`: `all_match`; записей 62/62, отсутствует 0, несовпадений 0.
-- Внутренний манифест `2026-09-28-tetrad-classification/data/manifest.json`: `incomplete_or_mismatch`; записей 0/4, отсутствует 4, несовпадений 0.
-  Отсутствующие записи: `data/catalog.json`, `data/classification.md`, `data/tables.md`, `data/tetrachotomies-source-text.md`.
+- Внутренний манифест `2026-09-28-tetrad-classification/CHECKSUMS.json`: `all_match`; точных совпадений 62/62, содержимое по другому пути 0, отсутствующих файлов 0, несовпадений 0.
+- Внутренний манифест `2026-09-28-tetrad-classification/data/manifest.json`: `incomplete_or_mismatch`; точных совпадений 0/4, содержимое по другому пути 2, отсутствующих файлов 2, несовпадений 0.
+  Путь `data/classification.md`: содержимое найдено как `2026-09-28-tetrad-classification/data/классификация разбиений и подгрупп.md`, `2026-09-28-tetrad-classification/originals/классификация разбиений и подгрупп.md`.
+  Путь `data/tables.md`: содержимое найдено как `2026-09-28-tetrad-classification/data/09-markdown-1-.md`, `2026-09-28-tetrad-classification/originals/09-markdown-1-.md`.
+  Отсутствующие записи: `data/catalog.json`, `data/tetrachotomies-source-text.md`.
 
 Независимый математический аудит и повторный запуск вычислительного кода в рамках каталогизации не выполнялись.

@@ -1,0 +1,384 @@
+{
+  "artifact_id": "A0019",
+  "artifact_title": "Вычислительный пакет автоморфизмов модели А и орбит систем",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-09_model-a_automorphisms_orbits_computations.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 143546,
+      "sha256": "344551bfbbdbf36c087247ec212a830102df6cd96ea0fa01f2031a3c523f9570"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-09_model-a_automorphisms_orbits_computations.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 37,
+      "uncompressed_bytes": 1808597,
+      "members": [
+        {
+          "path": "ORBIT_TABLES_AND_WITNESSES.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 20856,
+          "compressed_bytes": 3083,
+          "sha256": "b962ea85917f838296cdf4ef80b6a7f6c51542aa309bb8bf0917bde5601e64d1",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "README.md",
+          "role": "package_readme",
+          "size_bytes": 6134,
+          "compressed_bytes": 2751,
+          "sha256": "82eb65952f3093a7d31133f94667911545370e7e65cb46e9bd383abc0fc37552",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "REPORT.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 39180,
+          "compressed_bytes": 10623,
+          "sha256": "4dd80ee19d2361eddec686fa2a8c5d3dbfcbcba8052407d09344fc78ddb9a968",
+          "same_bytes_as": [
+            "agent-researches/2026-09-09_model-a_automorphisms_orbits (1).md",
+            "agent-researches/2026-09-09_model-a_automorphisms_orbits.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "code/build_report.py",
+          "role": "program_source",
+          "size_bytes": 7273,
+          "compressed_bytes": 3018,
+          "sha256": "f6376b4c22b7c814a76e90ee453034ec41994ea3ed67f8d72bb7379139eb03c2",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "code/probe.py",
+          "role": "program_source",
+          "size_bytes": 1033,
+          "compressed_bytes": 532,
+          "sha256": "c38cee39ff822b101adc60dedd3258219d48a2161b193a716aad14accc6251e7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "code/probe_orbits.py",
+          "role": "program_source",
+          "size_bytes": 1867,
+          "compressed_bytes": 942,
+          "sha256": "4e9b21f45c584c53a5eb951254080bce811917cf6ac7e54eed7c8548df8d05e1",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "code/report_template.md",
+          "role": "report_template",
+          "size_bytes": 35723,
+          "compressed_bytes": 9906,
+          "sha256": "3cc249a8471b698932350f8eb826b4adc32b4a87556d215dea9297ed30d63211",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "code/reproduce.py",
+          "role": "program_source",
+          "size_bytes": 17272,
+          "compressed_bytes": 6306,
+          "sha256": "8509de1b9e9bb212f39f584d3231aa2d84e20d6f539f7e1febe9a74fb1967ada",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/models.txt",
+          "role": "bundled_source_or_input",
+          "size_bytes": 832,
+          "compressed_bytes": 208,
+          "sha256": "9d8c4d2699d2cfb5f892e3be88bcf7f72cc0e4cc7e195ed722b6a116f84a6d43",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/new_systems_seed.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 10190,
+          "compressed_bytes": 1172,
+          "sha256": "e23f67e7a4d9818e11b97920e6e18973eda8bcd80c2e4107ab788890ec6f9a6d",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/project_tables.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 6029,
+          "compressed_bytes": 1010,
+          "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "inputs/systems.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 41415,
+          "compressed_bytes": 1788,
+          "sha256": "337937fa18cc816c1c740733389ee367795b34ec885344f494eb1346824407ec",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/abstract_automorphisms64.json",
+          "role": "saved_result",
+          "size_bytes": 16523,
+          "compressed_bytes": 948,
+          "sha256": "c6aaaa5d0c4870e55a565dcf88a4e1c82278bba1a6cbcdc450eb94d3677b1856",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/centralizer4.json",
+          "role": "saved_result",
+          "size_bytes": 1138,
+          "compressed_bytes": 142,
+          "sha256": "3033e2d4114c9c9de6245ff168cd35bb22f138fdc438dd50e4948e48f2b80f96",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/checks.json",
+          "role": "saved_result",
+          "size_bytes": 631,
+          "compressed_bytes": 288,
+          "sha256": "88183e4522156f5f2994a15c0a3cd108d6410e9fd5e90bd0f4b3c498346b9ff5",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/compatible_structures_orbits.json",
+          "role": "saved_result",
+          "size_bytes": 3512,
+          "compressed_bytes": 517,
+          "sha256": "ee669ff7ba6d6b420d62327ae087e727e6d16ef4bf458d63d47d00fd353e3434",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/duality_comparison.json",
+          "role": "saved_result",
+          "size_bytes": 1111,
+          "compressed_bytes": 335,
+          "sha256": "db8f0969b27a185c445fa846bad41bf61ed336cf5e2b3c4307c0b9e1d1507987",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/effective_actions256.json",
+          "role": "saved_result",
+          "size_bytes": 55591,
+          "compressed_bytes": 3913,
+          "sha256": "3a3133359f96282777f8a62e08027fe77fb4f0940fe0678a8720cab0ab6872f8",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/equivalence_levels.json",
+          "role": "saved_result",
+          "size_bytes": 40811,
+          "compressed_bytes": 4310,
+          "sha256": "8fe631da9e5e6084c28e28c3367664e04cef094072788bf51c3dcbac560c9aec",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/equivalence_witnesses.json",
+          "role": "saved_result",
+          "size_bytes": 3809,
+          "compressed_bytes": 405,
+          "sha256": "13aea69b9081a2b99fdbf55f822bc5ecd4cc3d5faa4a1f390c51042dae1bbba7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/group_generators.json",
+          "role": "saved_result",
+          "size_bytes": 1357,
+          "compressed_bytes": 221,
+          "sha256": "d27afbb1aec31bf0d2ba3b5b4cf3021a217c4a833b5d1d9b1cecdf777c2c1367",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/model_coordinates.csv",
+          "role": "saved_result",
+          "size_bytes": 473,
+          "compressed_bytes": 205,
+          "sha256": "9837c56bbbd4c1ddad2af8cb189debb744972cd55b2696b4be82c098bedfe237",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/nonrealizable_abstract_example.json",
+          "role": "saved_result",
+          "size_bytes": 263,
+          "compressed_bytes": 117,
+          "sha256": "a8fac0396d357e481995e8eff78620d1c9e0bbaa94265d15beca8a40dcb40a32",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/normalizer64.json",
+          "role": "saved_result",
+          "size_bytes": 18169,
+          "compressed_bytes": 1074,
+          "sha256": "c9c3ae34bbef12544ba522e52bdeb153911eccf4bd8c1ed35edc26a487e966a3",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/pole_orbits.json",
+          "role": "saved_result",
+          "size_bytes": 154743,
+          "compressed_bytes": 7045,
+          "sha256": "1cab16b435b63b151455f0ddb09f1950f85779b141893ffe66d0d0d0d71b2d30",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/probe.json",
+          "role": "saved_result",
+          "size_bytes": 372769,
+          "compressed_bytes": 13468,
+          "sha256": "7f3a010951bee93695c5019b7a3c20f6ef1681da6b540713f059fea2df7c19ed",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/probe.log",
+          "role": "saved_result",
+          "size_bytes": 48,
+          "compressed_bytes": 50,
+          "sha256": "1b6fcc36c6264bdbf1cf12544e86c99c6f4c1c355e6519c7ee6423fe5da12b87",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/probe_orbits.log",
+          "role": "saved_result",
+          "size_bytes": 683,
+          "compressed_bytes": 202,
+          "sha256": "d2f9202afbd05f68407b6c7400da75456a59ffae5fb7eaba99e273a5d80d4022",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/profile_representatives.json",
+          "role": "saved_result",
+          "size_bytes": 231754,
+          "compressed_bytes": 5089,
+          "sha256": "161145c71b576611ddfae11e2ab0978fabe71e0326e65fc5c03c0870858d1f86",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/run.log",
+          "role": "saved_result",
+          "size_bytes": 2877,
+          "compressed_bytes": 665,
+          "sha256": "97b14b203a8df26b7137fb398b018e31214b98404ca91fdebc2d4bc63519073e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/structure_actions.csv",
+          "role": "saved_result",
+          "size_bytes": 2421,
+          "compressed_bytes": 589,
+          "sha256": "1938e4e250b0887154e16aca6b87a11f48cbf49ebd7b40f2c0ce8cd92a7fb0e4",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/system_actions.csv",
+          "role": "saved_result",
+          "size_bytes": 83406,
+          "compressed_bytes": 16656,
+          "sha256": "fcc0b17f95ca97d5ca810277e2c8e97cf4284b7f5c649b2f4d0e0d3f838c986f",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/system_stabilizers.json",
+          "role": "saved_result",
+          "size_bytes": 126375,
+          "compressed_bytes": 6558,
+          "sha256": "9422c4b3174e8163e797a7abccd9152488cdad83bd77aaf6fed33d98df464306",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/systems24.json",
+          "role": "saved_result",
+          "size_bytes": 9994,
+          "compressed_bytes": 1470,
+          "sha256": "a359c7ff4225b89d322c00a081db8d0782ea2e1f89ef1cfba8b1b270a0efc7a9",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/table_automorphisms1024.json",
+          "role": "saved_result",
+          "size_bytes": 450261,
+          "compressed_bytes": 28118,
+          "sha256": "80906610c362034afb7a1778f9329e9dd6b2403700b77f468518c6206c1faf57",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "results/wall_transitivity.json",
+          "role": "saved_result",
+          "size_bytes": 38749,
+          "compressed_bytes": 3268,
+          "sha256": "282a784459be33823fa27301c247c3a48dc4a758856d405ace53019f7744071f",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "SHA256SUMS.txt",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 3325,
+          "compressed_bytes": 1866,
+          "sha256": "3a11d4236a3d978ef918915fe7aa813fe2f4b75ffbe3f1662339eb07e3a8d374",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "SHA256SUMS.txt",
+          "declared": 36,
+          "matched": 36,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

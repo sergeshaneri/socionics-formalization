@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0035",
+  "artifact_title": "Дихотомические инварианты и подгруппы 8T9",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-29-dichotomy-formalization.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 44661,
+      "sha256": "82bd59a3177427f5e364d992e4cc76211b1286d3becc8a8ea8a022b132f7faab"
+    }
+  ],
+  "archives": []
+}

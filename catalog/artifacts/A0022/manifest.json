@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0022",
+  "artifact_title": "Минимальные инварианты восьми новых систем признаков модели А",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-09_new-systems_invariants.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 41404,
+      "sha256": "4631e4c42fa99e6280538e16353cec9bf8a8c88df01eb45c20244f88f2265516"
+    }
+  ],
+  "archives": []
+}

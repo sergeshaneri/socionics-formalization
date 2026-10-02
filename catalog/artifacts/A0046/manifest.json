@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0046",
+  "artifact_title": "Система дихотомий Гуленко—Ньюмана: формальная реконструкция",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/formalizaciya-sistemy-gulenko-nyumana.md",
+      "roles": [
+        "reconstruction_report"
+      ],
+      "size_bytes": 19885,
+      "sha256": "6741da69bae596efd60ae98f72693315d63728ad62a7c2b902c9232b40543c87"
+    }
+  ],
+  "archives": []
+}

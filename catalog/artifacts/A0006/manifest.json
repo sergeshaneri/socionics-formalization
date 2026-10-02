@@ -418,15 +418,30 @@
           "path": "tencer-minaev-audit/package-manifest.json",
           "declared": 24,
           "matched": 19,
-          "missing": 5,
-          "mismatched": 0,
+          "alternate_path_match_count": 1,
+          "alternate_path_matches": [
+            {
+              "declared_path": "sources/.codex-upload-6a83d91047714bdba4669fd6bda48e71",
+              "archive_paths": [
+                "tencer-minaev-audit/sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159"
+              ]
+            }
+          ],
+          "missing": 4,
           "missing_paths": [
+            "sources/.codex-upload-6e1a86afa65a4cfabfbb397c01c0efd1",
+            "sources/.codex-upload-6f77ab2b01c24b2dbf05a07e99139d62",
+            "statistics.json",
+            "verify_report.py"
+          ],
+          "path_missing_paths": [
             "sources/.codex-upload-6a83d91047714bdba4669fd6bda48e71",
             "sources/.codex-upload-6e1a86afa65a4cfabfbb397c01c0efd1",
             "sources/.codex-upload-6f77ab2b01c24b2dbf05a07e99139d62",
             "statistics.json",
             "verify_report.py"
           ],
+          "mismatched": 0,
           "mismatched_paths": [],
           "status": "incomplete_or_mismatch"
         },
@@ -434,13 +449,26 @@
           "path": "tencer-minaev-audit/source-manifest.json",
           "declared": 9,
           "matched": 6,
-          "missing": 3,
-          "mismatched": 0,
+          "alternate_path_match_count": 1,
+          "alternate_path_matches": [
+            {
+              "declared_path": "sources/.codex-upload-6a83d91047714bdba4669fd6bda48e71",
+              "archive_paths": [
+                "tencer-minaev-audit/sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159"
+              ]
+            }
+          ],
+          "missing": 2,
           "missing_paths": [
+            "sources/.codex-upload-6e1a86afa65a4cfabfbb397c01c0efd1",
+            "sources/.codex-upload-6f77ab2b01c24b2dbf05a07e99139d62"
+          ],
+          "path_missing_paths": [
             "sources/.codex-upload-6a83d91047714bdba4669fd6bda48e71",
             "sources/.codex-upload-6e1a86afa65a4cfabfbb397c01c0efd1",
             "sources/.codex-upload-6f77ab2b01c24b2dbf05a07e99139d62"
           ],
+          "mismatched": 0,
           "mismatched_paths": [],
           "status": "incomplete_or_mismatch"
         }

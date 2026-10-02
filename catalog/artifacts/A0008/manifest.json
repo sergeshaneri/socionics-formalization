@@ -1,0 +1,24 @@
+{
+  "artifact_id": "A0008",
+  "artifact_title": "Признаки Рейнина и группа отношений модели А",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_reproducible/2026-09-07_reinin_relations_research.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 166654,
+      "sha256": "0cb200186a379c68e3cb6424ae3db61f9de1d51b54d0737e25edb893c511a047"
+    },
+    {
+      "path": "agent-researches/2026-09-07_reinin_relations_research.pdf",
+      "roles": [
+        "representation"
+      ],
+      "size_bytes": 347670,
+      "sha256": "a728979a717960996dce9cee74a7af8f4f0ee4693fdf34068a11c91fb27eaa78"
+    }
+  ],
+  "archives": []
+}

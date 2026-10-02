@@ -1,0 +1,293 @@
+{
+  "artifact_id": "A0023",
+  "artifact_title": "Вычислительный пакет минимальных инвариантов новых систем",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-09_new-systems_invariants_computations.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 1445128,
+      "sha256": "289280a4ec7c2d16bddfe7663fffc9abc2aab46096c235a9be061aa524f2aada"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-09_new-systems_invariants_computations.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 27,
+      "uncompressed_bytes": 17595079,
+      "members": [
+        {
+          "path": "new-system-invariants/README.md",
+          "role": "package_readme",
+          "size_bytes": 891,
+          "compressed_bytes": 505,
+          "sha256": "aac6d1270e33aedd57b12cb721aede71986dbc6a7fcb10f8a1e07c34e1d2a6cb",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/SHA256SUMS.txt",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 2318,
+          "compressed_bytes": 1308,
+          "sha256": "e88b99b646790b3e59953ec815a243f614de8f6401c580b8dfdfdb0b6862bd6a",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/code/analyze.py",
+          "role": "program_source",
+          "size_bytes": 4137,
+          "compressed_bytes": 1755,
+          "sha256": "aa01b8d46b18f6788a4042e84b45340fed65eaf59f0da3e8a390ea5797094993",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/code/build_report.py",
+          "role": "program_source",
+          "size_bytes": 41968,
+          "compressed_bytes": 12353,
+          "sha256": "5d705242539c5aa6e19fe9a5fd4499997aad23ea96a8f66b4902017f2df0ca14",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/code/reproduce.py",
+          "role": "program_source",
+          "size_bytes": 7984,
+          "compressed_bytes": 3147,
+          "sha256": "d91a2f50a9944ba6049602e284a583cabedacc0365b9741e8a438d1d4c603d33",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/inputs/models.txt",
+          "role": "bundled_source_or_input",
+          "size_bytes": 832,
+          "compressed_bytes": 208,
+          "sha256": "9d8c4d2699d2cfb5f892e3be88bcf7f72cc0e4cc7e195ed722b6a116f84a6d43",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/inputs/new_systems_seed.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 10190,
+          "compressed_bytes": 1172,
+          "sha256": "e23f67e7a4d9818e11b97920e6e18973eda8bcd80c2e4107ab788890ec6f9a6d",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/inputs/project_tables.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 6029,
+          "compressed_bytes": 1010,
+          "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/inputs/systems24.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 9994,
+          "compressed_bytes": 1470,
+          "sha256": "a359c7ff4225b89d322c00a081db8d0782ea2e1f89ef1cfba8b1b270a0efc7a9",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/inputs/table_automorphisms1024.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 450261,
+          "compressed_bytes": 28118,
+          "sha256": "80906610c362034afb7a1778f9329e9dd6b2403700b77f468518c6206c1faf57",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/report.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 41404,
+          "compressed_bytes": 11430,
+          "sha256": "4631e4c42fa99e6280538e16353cec9bf8a8c88df01eb45c20244f88f2265516",
+          "same_bytes_as": [
+            "agent-researches/2026-09-09_new-systems_invariants.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/additional_summary.json",
+          "role": "saved_result",
+          "size_bytes": 872,
+          "compressed_bytes": 262,
+          "sha256": "085f9a5f6dff0150eb8cc1c0fbc14af64ee03754e3f547287b969b9ffafa2acb",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/all_joint_extents.csv",
+          "role": "saved_result",
+          "size_bytes": 2336677,
+          "compressed_bytes": 343985,
+          "sha256": "114d028186ff96afad8cfaf4e0654745d9f1665710a28b5566aa0946610e30ac",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/all_unions.csv",
+          "role": "saved_result",
+          "size_bytes": 3018626,
+          "compressed_bytes": 507122,
+          "sha256": "1f1863f6cd34f1ddc10564fbd40d43989e33b22a0576a21e3fbea6e1e470faf7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/analysis.log",
+          "role": "saved_result",
+          "size_bytes": 2423,
+          "compressed_bytes": 576,
+          "sha256": "aa8098da478c62d5fed2071ff204fd4f42a272af5ac63d0449a64ff0c6056bc9",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/block_orbits.json",
+          "role": "saved_result",
+          "size_bytes": 120193,
+          "compressed_bytes": 11592,
+          "sha256": "28b173e13fdf2fd3b4c970b0b81ea33ff2046f93c5fba01d6fa82eb8e655561c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/catalog.md",
+          "role": "saved_result",
+          "size_bytes": 5000336,
+          "compressed_bytes": 203655,
+          "sha256": "49c4b45e8de65f5a9110a8de7a4c8eeb97bfadb5fac51f74df6aa504027759fe",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/checks.json",
+          "role": "saved_result",
+          "size_bytes": 231,
+          "compressed_bytes": 153,
+          "sha256": "bc154cc945f5dd1894f1c6952724b575ee5311e3a84337c8ae279d8025467b09",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/encoding.json",
+          "role": "saved_result",
+          "size_bytes": 2415,
+          "compressed_bytes": 555,
+          "sha256": "fe58bc46b2a32239716047709a06a10a3dd5fef8b7f2ed589de7e419ae5b1597",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/exact_invariant_orbits.json",
+          "role": "saved_result",
+          "size_bytes": 402523,
+          "compressed_bytes": 10096,
+          "sha256": "04d2d70bd52d58299b912fb5d0e74430e18f5557bb4de3c89665e0a07fe880d1",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/joint_invariants.json",
+          "role": "saved_result",
+          "size_bytes": 264958,
+          "compressed_bytes": 15235,
+          "sha256": "c8ff9ea392c5ff84158341c5b6897ada1939dec0e3c47de125b7abf4e4e223f3",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/partition_orbits.json",
+          "role": "saved_result",
+          "size_bytes": 32503,
+          "compressed_bytes": 2564,
+          "sha256": "f83ebf0929b3f78abd941b7a00284f9071f5bb6c8aee5909db133ca2c545c490",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/partitions.json",
+          "role": "saved_result",
+          "size_bytes": 153773,
+          "compressed_bytes": 12959,
+          "sha256": "fa1683a9f12894d13c2fb1c9cfaa560e240a6e35c0bc191a365cef112b0051df",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/profiles.json",
+          "role": "saved_result",
+          "size_bytes": 3920188,
+          "compressed_bytes": 199035,
+          "sha256": "d72f13152f661ad15daa7e01d4652913bf227fced21671ddf5cbdddb9bf59a91",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/refinements.json",
+          "role": "saved_result",
+          "size_bytes": 1728881,
+          "compressed_bytes": 69148,
+          "sha256": "9579b7d4185f5f5fdae0875737a1f73f3ba86f3cc1b09d6aba9b7a181989439e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/run.log",
+          "role": "saved_result",
+          "size_bytes": 3081,
+          "compressed_bytes": 419,
+          "sha256": "a8023947a26a890e55a70012c933b86ea7a8b41ea29a581e2ce498933e88d830",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "new-system-invariants/results/summary.json",
+          "role": "saved_result",
+          "size_bytes": 31391,
+          "compressed_bytes": 854,
+          "sha256": "16f482eea31aaeca1e913eee524176b6d3e2bf9dce0e5b02b96bcd3d0358cfed",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "new-system-invariants/SHA256SUMS.txt",
+          "declared": 26,
+          "matched": 26,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}
