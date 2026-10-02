@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0048",
+  "artifact_title": "Correspondence between the 35 Reinin and Tencer–Minaev tetrachotomies",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/sootvetstvie-35-tetrahotoimij-reinina-tencera-minaeva.md",
+      "roles": [
+        "primary_report"
+      ],
+      "size_bytes": 13574,
+      "sha256": "4339315bd64bb2fc9d49529ff75ca39c9038fe25369b056602748b54b1713515"
+    }
+  ],
+  "archives": []
+}

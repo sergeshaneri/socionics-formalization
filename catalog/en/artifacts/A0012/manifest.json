@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0012",
+  "artifact_title": "Other trait systems, super-ego selectors, and Model A",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-08_trait-systems_selectors_model-a.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 45712,
+      "sha256": "0c90195f195e2d8ad098941fd30ab34baebbd808bc43e93d0d460bafc884a9cd"
+    }
+  ],
+  "archives": []
+}

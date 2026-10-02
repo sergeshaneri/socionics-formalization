@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0050",
+  "artifact_title": "Socion octochotomies: classification and invariants of Model A types",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-06-octochotomies.md",
+      "roles": [
+        "primary_report"
+      ],
+      "size_bytes": 106763,
+      "sha256": "b117ba1a1432ac78c6e676a7e8645baf1ee65303db762e5dd0574b46a353b3de"
+    }
+  ],
+  "archives": []
+}

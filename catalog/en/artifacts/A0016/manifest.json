@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0016",
+  "artifact_title": "Enumeration of generators of fractal inheritance",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-09_fractal-generator-enumeration/README.md",
+      "roles": [
+        "primary_report_and_package_readme"
+      ],
+      "size_bytes": 26733,
+      "sha256": "5add430cdb43111aec138851049614cf4ae9f3e7fae6f63ae0ca89e9c56fe29c"
+    }
+  ],
+  "archives": []
+}

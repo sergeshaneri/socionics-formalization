@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0009",
+  "artifact_title": "Correction to the code difference: a 2-cocycle and the Model A group",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-08_model-a_2-cocycle.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 25401,
+      "sha256": "4d7097d8a7725f82dfa6717c7192ca398ca591b51f199af7f979f48932fa86d3"
+    }
+  ],
+  "archives": []
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0020",
+  "artifact_title": "Completeness of invariants for new Model A systems",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-09_new-systems_invariant-completeness.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 34852,
+      "sha256": "c03b7f0154c4c8598ab90631aa05f29dbd122e1894c0a09b158a5f7a273477a5"
+    }
+  ],
+  "archives": []
+}

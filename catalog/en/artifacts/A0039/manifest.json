@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0039",
+  "artifact_title": "Parity of functions, the 8T9 action, and the relation group’s connection to Reinin traits",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-29_8T9-chetnost-funkciy-i-most-E16.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 26918,
+      "sha256": "3ca8d59bcbfe3a6d5a3ed7a4e26849ad37633917cd5594a061a51f250621e878"
+    }
+  ],
+  "archives": []
+}

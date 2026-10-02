@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0010",
+  "artifact_title": "The set of Model A trait systems: interpretation, invariants, and an algebraic program",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-08_model-a_systems_interpretation.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 54656,
+      "sha256": "a36ed8c9b91fb329914c87e3f66104ae8ef631d8ef20aca7882214009560fbf5"
+    }
+  ],
+  "archives": []
+}

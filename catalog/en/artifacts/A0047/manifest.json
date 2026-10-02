@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0047",
+  "artifact_title": "Dichotomy and tetrachotomy invariants: formal description and completeness",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/invariants-dichotomies-tetrachotomies.md",
+      "roles": [
+        "primary_report"
+      ],
+      "size_bytes": 42036,
+      "sha256": "0ba2210154d70ea1eb7668aea5fa84e741d500a2819db25e643410b4c48e6227"
+    }
+  ],
+  "archives": []
+}

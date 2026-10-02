@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0015",
+  "artifact_title": "Products of 16 trait systems: waffle octads and pairings",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-08_waffle-systems_pairings.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 44896,
+      "sha256": "a87c0e321b1517dbf0ce8af9210416a0b028531acab48d48500c39fd479aa5d4"
+    }
+  ],
+  "archives": []
+}

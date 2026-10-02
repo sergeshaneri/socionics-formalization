@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0024",
+  "artifact_title": "Weaving theory in Socionics: a memo for independent rechecking",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-14-memorandum-dlya-pereproverki-teorii-spleteniya.md",
+      "roles": [
+        "primary_memo"
+      ],
+      "size_bytes": 48865,
+      "sha256": "cecd55196994e7fc046265e93bbd6aee13fbe9b8ae8fa02936b37c66ef3f2d55"
+    }
+  ],
+  "archives": []
+}

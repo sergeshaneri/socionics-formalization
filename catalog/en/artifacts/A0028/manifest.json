@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0028",
+  "artifact_title": "Weaving theory: mental on top and torus coordinates",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-15-spletenie-mental-i-tor.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 24951,
+      "sha256": "8500df53be413124252ee3db7162c2b4b6645e6f49cd30bf8e5fbb44281cb45a"
+    }
+  ],
+  "archives": []
+}
