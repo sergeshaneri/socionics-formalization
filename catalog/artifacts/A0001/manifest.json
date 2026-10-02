@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0001",
+  "artifact_title": "Действия подгрупп D8 × C2 на восьми функциях: постановка исследования",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-24-d8xc2-actions-plan.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 15843,
+      "sha256": "0e4d76433996cd88e00001480e2d782008ce284d6e311644e5bf7f00e6b24f3e"
+    }
+  ],
+  "archives": []
+}

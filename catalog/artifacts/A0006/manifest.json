@@ -1,0 +1,451 @@
+{
+  "artifact_id": "A0006",
+  "artifact_title": "Исправленный пакет аудита Тенсера—Минаева",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-07-tencer-minaev-audit-FIXED.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 4312080,
+      "sha256": "c87aab3fae1d90ee64aae8ed811a73c015c2e218591da793b2aac4041ed2a524"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.md",
+      "roles": [
+        "unpacked_representation:research_text_or_documentation"
+      ],
+      "size_bytes": 121571,
+      "sha256": "3c0b26984aef197ab78ced20c9ffcdcc07ae0834e56f758fa67897b646ac649e"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.pdf",
+      "roles": [
+        "unpacked_representation:pdf_document_or_presentation"
+      ],
+      "size_bytes": 164282,
+      "sha256": "831e8e3c1792f5c04027615a895a515f808208fea9067358cb3aabc4a3b7effc"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/README.md",
+      "roles": [
+        "unpacked_representation:package_readme"
+      ],
+      "size_bytes": 10498,
+      "sha256": "2a650c621040a94a1d3fcfd3928d3a50b4859e8f8a5ef3f6a0feb0bfe5997c2a"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/audit.py",
+      "roles": [
+        "unpacked_representation:program_source"
+      ],
+      "size_bytes": 25534,
+      "sha256": "e08eaf24aea0067ac8198938ad54fedb053512661cca0ec73e8db6d17fca44f4"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/build_pdf.py",
+      "roles": [
+        "unpacked_representation:program_source"
+      ],
+      "size_bytes": 1033,
+      "sha256": "8eee055ab449be323ade2b1aeac3c0afb68b12119e3d19e5929950b292fdbc4d"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/build_report.py",
+      "roles": [
+        "unpacked_representation:program_source"
+      ],
+      "size_bytes": 52212,
+      "sha256": "7ac9772fe7ad5df99d3ba131bafbba60211d8af967515b7e6af4808cd5f3a2b1"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/catalogue.json",
+      "roles": [
+        "unpacked_representation:packaged_data_or_result"
+      ],
+      "size_bytes": 9419788,
+      "sha256": "4c9e5976c3d01646562ef306c92fc493fb6bfa7992d2c4fa875cf7c04b42359a"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/emitted-formulas.json",
+      "roles": [
+        "unpacked_representation:packaged_data_or_result"
+      ],
+      "size_bytes": 42908,
+      "sha256": "0ad087889491f422e6544dd14afcc3fe3d02139a47ef0355465f1ff2d724acae"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/inputs.json",
+      "roles": [
+        "unpacked_representation:packaged_data_or_result"
+      ],
+      "size_bytes": 238228,
+      "sha256": "f5c7d5a3cdc40f8557fa927d3e284130d57f97b35fd1e6f4317e148a6140eb61"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/package-manifest.json",
+      "roles": [
+        "unpacked_representation:integrity_or_provenance_manifest"
+      ],
+      "size_bytes": 3785,
+      "sha256": "d527f1ee3fa34a59dc57898aeb861e231ae282442aca620d950fb46007dce66e"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/pdf-header.tex",
+      "roles": [
+        "unpacked_representation:research_text_or_documentation"
+      ],
+      "size_bytes": 743,
+      "sha256": "4f87dc4b442f96d5f8d0ddb83540b1213d3c2dfa587eac7a0464ca772f507c52"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/pdf-layout.lua",
+      "roles": [
+        "unpacked_representation:program_source"
+      ],
+      "size_bytes": 2740,
+      "sha256": "16707d21078af85cc06831c4ddb5a3efb73a6752b5126480411cd175b4378ced"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/report-verification.json",
+      "roles": [
+        "unpacked_representation:packaged_data_or_result"
+      ],
+      "size_bytes": 299,
+      "sha256": "f33f00c9f65a46c6aa17a41f88d35260ce8b1ee98de36b7bfd8e160b4763eddc"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/source-manifest.json",
+      "roles": [
+        "unpacked_representation:integrity_or_provenance_manifest"
+      ],
+      "size_bytes": 2223,
+      "sha256": "c5d0b6d10de8a814bdf47f5f8452b7a10f76bb707fd7c158b33f2ab105c6f5b3"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159",
+      "roles": [
+        "unpacked_representation:bundled_source_or_input"
+      ],
+      "size_bytes": 1136724,
+      "sha256": "f279abc0fb2ce14bb38778c3d8ef72d416e6be7edc5c983c11132af27b981e3b"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/sources/.codex-upload-03d1c9dc6d1c4e83b764bb6e9cceca5f",
+      "roles": [
+        "unpacked_representation:bundled_source_or_input"
+      ],
+      "size_bytes": 131072,
+      "sha256": "aa1e7a0aebb1ffda0a97d8d6679240efab05ba0c55ffdde9457377473f3a8098"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/sources/.codex-upload-0b144ff3bb4c4acda04e951ebdab9d9e",
+      "roles": [
+        "unpacked_representation:bundled_source_or_input"
+      ],
+      "size_bytes": 659186,
+      "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/sources/.codex-upload-0ef26f656b794715ab92c2f650df8d59",
+      "roles": [
+        "unpacked_representation:bundled_source_or_input"
+      ],
+      "size_bytes": 196608,
+      "sha256": "99978e1ece668a7aac1dd9e9072bde56091cc3be35eb2b9e139dca1a20b631be"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/sources/.codex-upload-1bc2daef8ed94733a6ce54683fef1532",
+      "roles": [
+        "unpacked_representation:bundled_source_or_input"
+      ],
+      "size_bytes": 180169,
+      "sha256": "37fe6fd18c7c79f096b3234cda0c111ffcc19cfdd6731bf1c162064a338e6019"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/sources/.codex-upload-5292485034794826927931f372ddd4fb",
+      "roles": [
+        "unpacked_representation:bundled_source_or_input"
+      ],
+      "size_bytes": 659186,
+      "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-07-tencer-minaev-audit-FIXED.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 20,
+      "uncompressed_bytes": 13048789,
+      "members": [
+        {
+          "path": "tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 121571,
+          "compressed_bytes": 20044,
+          "sha256": "3c0b26984aef197ab78ced20c9ffcdcc07ae0834e56f758fa67897b646ac649e",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07-tencer-minaev-invariants.md",
+            "agent-researches/tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.pdf",
+          "role": "pdf_document_or_presentation",
+          "size_bytes": 164282,
+          "compressed_bytes": 160565,
+          "sha256": "831e8e3c1792f5c04027615a895a515f808208fea9067358cb3aabc4a3b7effc",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.pdf"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/README.md",
+          "role": "package_readme",
+          "size_bytes": 10498,
+          "compressed_bytes": 3782,
+          "sha256": "2a650c621040a94a1d3fcfd3928d3a50b4859e8f8a5ef3f6a0feb0bfe5997c2a",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/README.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/audit.py",
+          "role": "program_source",
+          "size_bytes": 25534,
+          "compressed_bytes": 7653,
+          "sha256": "e08eaf24aea0067ac8198938ad54fedb053512661cca0ec73e8db6d17fca44f4",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/audit.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/build_pdf.py",
+          "role": "program_source",
+          "size_bytes": 1033,
+          "compressed_bytes": 564,
+          "sha256": "8eee055ab449be323ade2b1aeac3c0afb68b12119e3d19e5929950b292fdbc4d",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/build_pdf.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/build_report.py",
+          "role": "program_source",
+          "size_bytes": 52212,
+          "compressed_bytes": 15432,
+          "sha256": "7ac9772fe7ad5df99d3ba131bafbba60211d8af967515b7e6af4808cd5f3a2b1",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/build_report.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/catalogue.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 9419788,
+          "compressed_bytes": 2015936,
+          "sha256": "4c9e5976c3d01646562ef306c92fc493fb6bfa7992d2c4fa875cf7c04b42359a",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/catalogue.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/emitted-formulas.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 42908,
+          "compressed_bytes": 2583,
+          "sha256": "0ad087889491f422e6544dd14afcc3fe3d02139a47ef0355465f1ff2d724acae",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/emitted-formulas.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/inputs.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 238228,
+          "compressed_bytes": 13440,
+          "sha256": "f5c7d5a3cdc40f8557fa927d3e284130d57f97b35fd1e6f4317e148a6140eb61",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/inputs.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/package-manifest.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 3785,
+          "compressed_bytes": 1437,
+          "sha256": "d527f1ee3fa34a59dc57898aeb861e231ae282442aca620d950fb46007dce66e",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/package-manifest.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/pdf-header.tex",
+          "role": "research_text_or_documentation",
+          "size_bytes": 743,
+          "compressed_bytes": 440,
+          "sha256": "4f87dc4b442f96d5f8d0ddb83540b1213d3c2dfa587eac7a0464ca772f507c52",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/pdf-header.tex"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/pdf-layout.lua",
+          "role": "program_source",
+          "size_bytes": 2740,
+          "compressed_bytes": 912,
+          "sha256": "16707d21078af85cc06831c4ddb5a3efb73a6752b5126480411cd175b4378ced",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/pdf-layout.lua"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/report-verification.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 299,
+          "compressed_bytes": 184,
+          "sha256": "f33f00c9f65a46c6aa17a41f88d35260ce8b1ee98de36b7bfd8e160b4763eddc",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/report-verification.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/source-manifest.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 2223,
+          "compressed_bytes": 872,
+          "sha256": "c5d0b6d10de8a814bdf47f5f8452b7a10f76bb707fd7c158b33f2ab105c6f5b3",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/source-manifest.json"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159",
+          "role": "bundled_source_or_input",
+          "size_bytes": 1136724,
+          "compressed_bytes": 845897,
+          "sha256": "f279abc0fb2ce14bb38778c3d8ef72d416e6be7edc5c983c11132af27b981e3b",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/07-md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159",
+            "sources/primary/Обзор связи АРП и мА.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/sources/.codex-upload-03d1c9dc6d1c4e83b764bb6e9cceca5f",
+          "role": "bundled_source_or_input",
+          "size_bytes": 131072,
+          "compressed_bytes": 58054,
+          "sha256": "aa1e7a0aebb1ffda0a97d8d6679240efab05ba0c55ffdde9457377473f3a8098",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-03d1c9dc6d1c4e83b764bb6e9cceca5f"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/sources/.codex-upload-0b144ff3bb4c4acda04e951ebdab9d9e",
+          "role": "bundled_source_or_input",
+          "size_bytes": 659186,
+          "compressed_bytes": 489119,
+          "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/06-md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-0b144ff3bb4c4acda04e951ebdab9d9e",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-5292485034794826927931f372ddd4fb",
+            "sources/primary/Системы Импримитивности в Соционике.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/sources/.codex-upload-0ef26f656b794715ab92c2f650df8d59",
+          "role": "bundled_source_or_input",
+          "size_bytes": 196608,
+          "compressed_bytes": 140251,
+          "sha256": "99978e1ece668a7aac1dd9e9072bde56091cc3be35eb2b9e139dca1a20b631be",
+          "same_bytes_as": [
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-0ef26f656b794715ab92c2f650df8d59"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/sources/.codex-upload-1bc2daef8ed94733a6ce54683fef1532",
+          "role": "bundled_source_or_input",
+          "size_bytes": 180169,
+          "compressed_bytes": 42286,
+          "sha256": "37fe6fd18c7c79f096b3234cda0c111ffcc19cfdd6731bf1c162064a338e6019",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/04-4-svezhak.md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-1bc2daef8ed94733a6ce54683fef1532"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "tencer-minaev-audit/sources/.codex-upload-5292485034794826927931f372ddd4fb",
+          "role": "bundled_source_or_input",
+          "size_bytes": 659186,
+          "compressed_bytes": 489119,
+          "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/06-md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-0b144ff3bb4c4acda04e951ebdab9d9e",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-5292485034794826927931f372ddd4fb",
+            "sources/primary/Системы Импримитивности в Соционике.md"
+          ],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "tencer-minaev-audit/package-manifest.json",
+          "declared": 24,
+          "matched": 19,
+          "missing": 5,
+          "mismatched": 0,
+          "missing_paths": [
+            "sources/.codex-upload-6a83d91047714bdba4669fd6bda48e71",
+            "sources/.codex-upload-6e1a86afa65a4cfabfbb397c01c0efd1",
+            "sources/.codex-upload-6f77ab2b01c24b2dbf05a07e99139d62",
+            "statistics.json",
+            "verify_report.py"
+          ],
+          "mismatched_paths": [],
+          "status": "incomplete_or_mismatch"
+        },
+        {
+          "path": "tencer-minaev-audit/source-manifest.json",
+          "declared": 9,
+          "matched": 6,
+          "missing": 3,
+          "mismatched": 0,
+          "missing_paths": [
+            "sources/.codex-upload-6a83d91047714bdba4669fd6bda48e71",
+            "sources/.codex-upload-6e1a86afa65a4cfabfbb397c01c0efd1",
+            "sources/.codex-upload-6f77ab2b01c24b2dbf05a07e99139d62"
+          ],
+          "mismatched_paths": [],
+          "status": "incomplete_or_mismatch"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0002",
+  "artifact_title": "Полная конечная классификация тетрахотомий и тетрад в модели А",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-28-tetrad-classification.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 53882,
+      "sha256": "2a9cc20037270521e904317c063c0c81a968dafaa6953e1038a98b30e7d2bd18"
+    }
+  ],
+  "archives": []
+}

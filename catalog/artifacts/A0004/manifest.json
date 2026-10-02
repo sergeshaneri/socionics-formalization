@@ -1,0 +1,32 @@
+{
+  "artifact_id": "A0004",
+  "artifact_title": "Признаки Тенсера—Минаева: дихотомии, тетрахотомии и октохотомии",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-07-tencer-minaev-invariants.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 121571,
+      "sha256": "3c0b26984aef197ab78ced20c9ffcdcc07ae0834e56f758fa67897b646ac649e"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.md",
+      "roles": [
+        "byte_identical_package_copy"
+      ],
+      "size_bytes": 121571,
+      "sha256": "3c0b26984aef197ab78ced20c9ffcdcc07ae0834e56f758fa67897b646ac649e"
+    },
+    {
+      "path": "agent-researches/tencer-minaev-audit/2026-09-07-tencer-minaev-invariants.pdf",
+      "roles": [
+        "pdf_presentation_named_by_package_readme"
+      ],
+      "size_bytes": 164282,
+      "sha256": "831e8e3c1792f5c04027615a895a515f808208fea9067358cb3aabc4a3b7effc"
+    }
+  ],
+  "archives": []
+}

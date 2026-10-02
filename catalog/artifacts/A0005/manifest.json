@@ -1,0 +1,29 @@
+{
+  "artifact_id": "A0005",
+  "artifact_title": "Повреждённый ZIP пакета аудита Тенсера—Минаева",
+  "generated_by": "catalog/build_catalog.py",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-07-tencer-minaev-audit.zip",
+      "roles": [
+        "original_archive_candidate"
+      ],
+      "size_bytes": 4590395,
+      "sha256": "97f68454e801c7db2349e9df1c46aeff24142d3d20e30c78816e87ec276705a9"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-07-tencer-minaev-audit.zip",
+      "status": "unreadable",
+      "opens": false,
+      "crc_test": "not_run",
+      "unsafe_members": [],
+      "member_count": 0,
+      "uncompressed_bytes": 0,
+      "members": [],
+      "internal_manifests": [],
+      "error": "BadZipFile: File is not a zip file"
+    }
+  ]
+}
