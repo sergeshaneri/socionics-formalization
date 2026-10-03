@@ -106,9 +106,13 @@ class BaseExplanationsTests(unittest.TestCase):
         self.assertNotIn(r'\lambda(c)', main)
 
     def test_literal_product_examples_distinguish_the_two_groups(self):
-        text = (BASE / '01-hadamard-and-correspondence.md').read_text(encoding='utf-8')
+        main = (BASE / '01-hadamard-and-correspondence.md').read_text(encoding='utf-8')
+        text = (BASE / '01a-hadamard-technical.md').read_text(encoding='utf-8')
         header = '| Левый сомножитель | Правый сомножитель | Тип результата XNOR кодов | Тип результата композиции |'
-        self.assertTrue(header in text, 'The two group operations need literal examples')
+        self.assertNotIn(header, main)
+        self.assertIn('(01a-hadamard-technical.md#е-композиция-перестановок-и-xnor-кодов)', main)
+        self.assertIn(r't_b\circ t_a^{-1}', text)
+        self.assertTrue(header in text, 'The technical appendix needs the group-operation examples')
         table_lines = text.split(header, 1)[1].splitlines()
         records = []
         for line in table_lines:
@@ -132,6 +136,11 @@ class BaseExplanationsTests(unittest.TestCase):
             composed = tuple(permutations[left][f - 1] for f in permutations[right])
             self.assertEqual(code_labels[xnor], code_result)
             self.assertEqual(permutation_labels[composed], permutation_result)
+        for source, target in [('ЭСЭ', 'ЭИЭ'), ('ЭИЭ', 'ЭСЭ')]:
+            inverse = tuple(permutations[source].index(f) + 1 for f in range(1, 9))
+            transition = tuple(permutations[target][f - 1] for f in inverse)
+            self.assertEqual(transition, permutations['ИЭЭ'])
+            self.assertEqual(transition[0], 1)
         noncommuting = False
         for left, right in product(primary.TYPES, repeat=2):
             xnor = tuple(int(a == b) for a, b in
