@@ -1,0 +1,18 @@
+{
+  "build_model_a.py": {
+    "bytes": 4962,
+    "sha256": "adf3f3d3f48718cc5777910adc3d9fc57230a69d702e9ff1bee29166930a18ae"
+  },
+  "candidates.jsonl.gz": {
+    "bytes": 130297,
+    "sha256": "5d47e2b38cf1e21fc11ecb0aac5b8731b7497beb1fd0ec3712200a8e0b0cb4a8"
+  },
+  "inputs.json": {
+    "bytes": 857,
+    "sha256": "6051787814c256e891ea481f0026d846314cedfdad04b4a9e69a4301b9d1a8fc"
+  },
+  "summary.json": {
+    "bytes": 4185,
+    "sha256": "1e73413ec11e6f14dc30260b6421b055bf2432967533ecfff608df2e1a3fe616"
+  }
+}
