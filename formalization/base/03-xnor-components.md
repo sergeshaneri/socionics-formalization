@@ -2,7 +2,7 @@
 
 Статус: отложенная исследовательская заметка. Здесь предложена ассистентом запись авторского принципа для поточечных формул. Подтверждены тождества и три конкретных комбинирования; общая алгебра всех поколений ещё не установлена. Ближайшее построение моделей использует полные ограничения главы 2 и не требует завершения этой алгебры.
 
-Используем $\odot$ для XNOR и $t(i)$ для образа аспекта. Вертность, нальность и тальность записываются как $\operatorname{vert}$, $\operatorname{nal}$, $\operatorname{tal}$ на каждом уровне; кратия типа — $\operatorname{crat}(t)$. Индексные записи $\operatorname{dichI}_c$, $\operatorname{dichF}_c$, $\operatorname{dichT}_m$ сохраняются для сопоставления точных столбцов. Области и блоки записываются явно.
+Используем $\odot$ для XNOR и $t(i)$ для образа аспекта. Вертность, нальность и тальность записываются как $\operatorname{vert}$, $\operatorname{nal}$, $\operatorname{tal}$ на каждом уровне; кратия типа — $\operatorname{crat}(t)$. Индексные записи $\partial_c^{I}$, $\partial_c^{F}$, $\partial_m^{T}$ сохраняются для сопоставления точных столбцов. Области и блоки записываются явно.
 
 ## 3.1. Поточечное условие
 
@@ -45,35 +45,35 @@ $$
 Зависимости составляющих:
 
 $$
-\operatorname{dichI}_2\odot\operatorname{dichI}_7\odot\operatorname{dichI}_8=1,
+\partial_2^{I}\odot\partial_7^{I}\odot\partial_8^{I}=1,
 $$
 $$
-\operatorname{dichF}_2\odot\operatorname{dichF}_7\odot\operatorname{dichF}_8=1.
+\partial_2^{F}\odot\partial_7^{F}\odot\partial_8^{F}=1.
 $$
 
 Исходные условия на всех аспектах:
 
 $$
 \forall i\in I:\quad
-\operatorname{dichI}_2(i)\odot\operatorname{dichF}_2(t(i))\odot\operatorname{vert}(t)=1,
+\partial_2^{I}(i)\odot\partial_2^{F}(t(i))\odot\operatorname{vert}(t)=1,
 $$
 $$
 \forall i\in I:\quad
-\operatorname{dichI}_7(i)\odot\operatorname{dichF}_7(t(i))\odot\operatorname{dichT}_{15}(t)=1.
+\partial_7^{I}(i)\odot\partial_7^{F}(t(i))\odot\partial_{15}^{T}(t)=1.
 $$
 
 По X-01 и зависимостям составляющих получаем условие тальности:
 
 $$
 \forall i\in I:\quad
-\operatorname{dichI}_8(i)\odot\operatorname{dichF}_8(t(i))
-\odot\bigl(\operatorname{vert}(t)\odot\operatorname{dichT}_{15}(t)\bigr)=1.
+\partial_8^{I}(i)\odot\partial_8^{F}(t(i))
+\odot\bigl(\operatorname{vert}(t)\odot\partial_{15}^{T}(t)\bigr)=1.
 $$
 
 Соответствие столбцам Социона:
 
 $$
-\operatorname{dichT}_2\odot\operatorname{dichT}_{15}\odot\operatorname{dichT}_{16}=1.
+\partial_2^{T}\odot\partial_{15}^{T}\odot\partial_{16}^{T}=1.
 $$
 
 ## 3.4. Вертность и беспечность
@@ -82,24 +82,24 @@ $$
 
 $$
 \forall i\in\{\text{ЧИ},\text{БС},\text{ЧС},\text{БИ}\}:\quad
-\operatorname{dichI}_3(i)\odot\operatorname{dichF}_3(t(i))\odot\operatorname{dichT}_3(t)=1.
+\partial_3^{I}(i)\odot\partial_3^{F}(t(i))\odot\partial_3^{T}(t)=1.
 $$
 
 Для комбинирования правило вертности рассматривается на этих же аспектах. Зависимости составляющих:
 
 $$
-\operatorname{dichI}_2\odot\operatorname{dichI}_3\odot\operatorname{dichI}_4=1,
+\partial_2^{I}\odot\partial_3^{I}\odot\partial_4^{I}=1,
 $$
 $$
-\operatorname{dichF}_2\odot\operatorname{dichF}_3\odot\operatorname{dichF}_4=1.
+\partial_2^{F}\odot\partial_3^{F}\odot\partial_4^{F}=1.
 $$
 
 По X-01 получается
 
 $$
 \forall i\in\{\text{ЧИ},\text{БС},\text{ЧС},\text{БИ}\}:\quad
-\operatorname{dichI}_4(i)\odot\operatorname{dichF}_4(t(i))
-\odot\bigl(\operatorname{vert}(t)\odot\operatorname{dichT}_3(t)\bigr)=1.
+\partial_4^{I}(i)\odot\partial_4^{F}(t(i))
+\odot\bigl(\operatorname{vert}(t)\odot\partial_3^{T}(t)\bigr)=1.
 $$
 
 Это условие интуиции/сенсорики: аспектный столбец 4 различает интуитивные и сенсорные аспекты внутри выбранной области, функциональный столбец 4 — сильные и слабые функции. При полюсе 1 интуитивные аспекты размещаются в сильных функциях, сенсорные — в слабых; при полюсе 0 назначения меняются.
@@ -107,7 +107,7 @@ $$
 Соответствие столбцам Социона:
 
 $$
-\operatorname{dichT}_2\odot\operatorname{dichT}_3\odot\operatorname{dichT}_4=1.
+\partial_2^{T}\odot\partial_3^{T}\odot\partial_4^{T}=1.
 $$
 
 Полная формула вертности остаётся условием на всех аспектах. Для вычисления этого произведения использована её часть на иррациональных аспектах.
@@ -117,26 +117,26 @@ $$
 Обе формулы действуют на иррациональных аспектах, используя столбцы 3 и 5 соответственно. Зависимости составляющих:
 
 $$
-\operatorname{dichI}_3\odot\operatorname{dichI}_5\odot\operatorname{dichI}_7=1,
+\partial_3^{I}\odot\partial_5^{I}\odot\partial_7^{I}=1,
 $$
 $$
-\operatorname{dichF}_3\odot\operatorname{dichF}_5\odot\operatorname{dichF}_7=1.
+\partial_3^{F}\odot\partial_5^{F}\odot\partial_7^{F}=1.
 $$
 
 По X-01 получается условие нальности на иррациональных аспектах:
 
 $$
 \forall i\in\{\text{ЧИ},\text{БС},\text{ЧС},\text{БИ}\}:\quad
-\operatorname{dichI}_7(i)\odot\operatorname{dichF}_7(t(i))
-\odot\bigl(\operatorname{dichT}_3(t)\odot\operatorname{dichT}_{13}(t)\bigr)=1.
+\partial_7^{I}(i)\odot\partial_7^{F}(t(i))
+\odot\bigl(\partial_3^{T}(t)\odot\partial_{13}^{T}(t)\bigr)=1.
 $$
 
-Иррациональные аспекты имеют $\operatorname{dichI}_7=1$. Поэтому результирующее условие размещает их в функциональной тетраде выбранного полюса. Биективность определяет размещение остальных аспектов в противоположной тетраде; для этой конкретной пары получено полное правило нальности.
+Иррациональные аспекты имеют $\partial_7^{I}=1$. Поэтому результирующее условие размещает их в функциональной тетраде выбранного полюса. Биективность определяет размещение остальных аспектов в противоположной тетраде; для этой конкретной пары получено полное правило нальности.
 
 Соответствие столбцам Социона:
 
 $$
-\operatorname{dichT}_3\odot\operatorname{dichT}_{13}\odot\operatorname{dichT}_{15}=1.
+\partial_3^{T}\odot\partial_{13}^{T}\odot\partial_{15}^{T}=1.
 $$
 
 ## 3.6. Отложенные незавершённые случаи
@@ -144,7 +144,7 @@ $$
 Для различных областей действия X-01 применяется там, где одновременно выполняются оба исходных условия. В частности, беспечность и уступчивость действуют на противоположных нальностях. Их XNOR как столбцов удовлетворяет
 
 $$
-\operatorname{dichT}_3\odot\operatorname{dichT}_7\odot\operatorname{dichT}_5=1.
+\partial_3^{T}\odot\partial_7^{T}\odot\partial_5^{T}=1.
 $$
 
 Требуется разработать запись, которая из двух исходных структурных формул получает парное условие демократии. Согласованность столбцов установлена; механизм комбинирования геометрических составляющих в этом случае ещё не задан. Авторская нотация этого механизма пока не существовала; следующая конструкция должна быть явно обозначена как предложенная формализация.

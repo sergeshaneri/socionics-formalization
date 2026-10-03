@@ -82,9 +82,9 @@ class BaseExplanationsTests(unittest.TestCase):
             for alias, column in zip(('vert', 'nal', 'tal'), columns):
                 index = str(column) if column < 10 else f'{{{column}}}'
                 definition = (rf'\operatorname{{{alias}}}({argument})='
-                              rf'\operatorname{{dich{domain}}}_{index}({argument})')
+                              rf'\partial_{index}^{{{domain}}}({argument})')
                 self.assertIn(definition, main)
-        self.assertIn(r'\operatorname{crat}(t)=\operatorname{dichT}_5(t)', main)
+        self.assertIn(r'\operatorname{crat}(t)=\partial_5^{T}(t)', main)
         for rows, columns in [(self.data.aspect_rows, (2, 7, 8)),
                               (self.data.function_rows, (2, 7, 8)),
                               (self.data.trait_rows, (2, 15, 16))]:

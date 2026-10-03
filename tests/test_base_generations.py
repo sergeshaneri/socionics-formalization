@@ -67,8 +67,8 @@ class BaseGenerationsTests(unittest.TestCase):
 
     def test_three_feature_diad_classes_match_literal_chapter(self):
         for header, columns in [
-            ('| $\\operatorname{dichI}_3$ | $\\operatorname{dichI}_5$ | $\\operatorname{dichI}_7$ | Диада |', (3, 5, 7)),
-            ('| $\\operatorname{dichI}_4$ | $\\operatorname{dichI}_6$ | $\\operatorname{dichI}_7$ | Диада |', (4, 6, 7)),
+            ('| $\\partial_3^{I}$ | $\\partial_5^{I}$ | $\\partial_7^{I}$ | Диада |', (3, 5, 7)),
+            ('| $\\partial_4^{I}$ | $\\partial_6^{I}$ | $\\partial_7^{I}$ | Диада |', (4, 6, 7)),
         ]:
             records = self.table(header)
             self.assertEqual(len(records), 4)

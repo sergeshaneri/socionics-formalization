@@ -29,12 +29,12 @@
 На обеих областях три общих признака сохраняют прежние определения:
 
 $$
-\operatorname{vert}=\operatorname{dich}_2,\qquad
-\operatorname{nal}=\operatorname{dich}_7,\qquad
-\operatorname{tal}=\operatorname{dich}_8,
+\operatorname{vert}=\partial_2,\qquad
+\operatorname{nal}=\partial_7,\qquad
+\operatorname{tal}=\partial_8,
 $$
 
-где $\operatorname{dich}$ означает $\operatorname{dichI}$ на аспектах и $\operatorname{dichF}$ на функциях. Четыре остальные дихотомии отличаются от четырёх остальных классических столбцов. Поэтому их значения задаются собственной таблицей.
+где $\partial$ означает $\partial^{I}$ на аспектах и $\partial^{F}$ на функциях. Четыре остальные дихотомии отличаются от четырёх остальных классических столбцов. Поэтому их значения задаются собственной таблицей.
 
 Для каждого из семи признаков $a$ опорная модель сохраняет значения:
 
