@@ -1,0 +1,48 @@
+{
+  "artifact_id": "A0042",
+  "artifact_title": "Code and tests for the equivariant algebra of traits on 8T9",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "formalization/equivariant-8T9/2026-09-29-fractal-8T9-check.py",
+      "roles": [
+        "computational_package:program_source"
+      ],
+      "size_bytes": 9352,
+      "sha256": "b4d2d79b20cd81609584f1a96e038ab964c42196588c48ddccc3069906f992a6"
+    },
+    {
+      "path": "formalization/equivariant-8T9/FORMALIZATION.md",
+      "roles": [
+        "computational_package:research_text_or_documentation"
+      ],
+      "size_bytes": 9953,
+      "sha256": "f75f84f4196dc7ef5682a70696524ad08c3af36381a5298ee63066693e2caa5c"
+    },
+    {
+      "path": "formalization/equivariant-8T9/equivariant.py",
+      "roles": [
+        "computational_package:program_source"
+      ],
+      "size_bytes": 2992,
+      "sha256": "38b36f06fc2a63564138c4c17f45f6b85422c16d173acf5edc617e3c0ad22ddb"
+    },
+    {
+      "path": "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
+      "roles": [
+        "computational_package:bundled_source_or_input"
+      ],
+      "size_bytes": 7250,
+      "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0"
+    },
+    {
+      "path": "formalization/equivariant-8T9/test_equivariant.py",
+      "roles": [
+        "computational_package:program_source"
+      ],
+      "size_bytes": 4395,
+      "sha256": "db5cc3f7aa8a11886e4f29496c4881dc87fe79ab6d77cffd0cb719628501977f"
+    }
+  ],
+  "archives": []
+}

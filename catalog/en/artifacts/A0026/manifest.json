@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0026",
+  "artifact_title": "Weaving theory in Socionics: edited talk transcript",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-14-transkript-doklada-teoriya-spleteniya.md",
+      "roles": [
+        "edited_transcript"
+      ],
+      "size_bytes": 23308,
+      "sha256": "6f04df667a8103b8c5214acd6a483c3f7dceb32e174bf473d70ceadbe6bd3f59"
+    }
+  ],
+  "archives": []
+}

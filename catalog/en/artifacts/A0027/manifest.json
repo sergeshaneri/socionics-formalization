@@ -1,0 +1,24 @@
+{
+  "artifact_id": "A0027",
+  "artifact_title": "Socion tetrachotomy duality: annihilators and orbits",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-15-dual-tetrachotomies.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 41330,
+      "sha256": "5f95ffa211731de289fad29bc3501714295ff33999b9c553d92548ce60cdc59b"
+    },
+    {
+      "path": "agent-researches/2026-09-15-dual-tetrachotomies.pdf",
+      "roles": [
+        "representation"
+      ],
+      "size_bytes": 150117,
+      "sha256": "eb61e8423cb90258ae26f4609003b79fb63c1007e7cd2ae83689a17a7091b42a"
+    }
+  ],
+  "archives": []
+}

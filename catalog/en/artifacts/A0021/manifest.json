@@ -1,0 +1,284 @@
+{
+  "artifact_id": "A0021",
+  "artifact_title": "Computational package for analyzing the completeness of invariants for new systems",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-09_new-systems_invariant-completeness_computations.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 814105,
+      "sha256": "e36f78db5b2759f722f4b8645acb037bf01bc0eedd81807a66ee9dd16965c00a"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-09_new-systems_invariant-completeness_computations.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 26,
+      "uncompressed_bytes": 22256869,
+      "members": [
+        {
+          "path": "invariant-completeness/README.md",
+          "role": "package_readme",
+          "size_bytes": 738,
+          "compressed_bytes": 458,
+          "sha256": "a171533f010e671f4eb8db5aae42b1c60247f6c92f7aa1037ec992dfa9449ca9",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/SHA256SUMS.txt",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 2238,
+          "compressed_bytes": 1252,
+          "sha256": "4989f6d4eb54dfa8c96e21ea0a5714d7600486abdf1543ddaa809a9fe1c473b7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/code/build_report.py",
+          "role": "program_source",
+          "size_bytes": 36388,
+          "compressed_bytes": 10200,
+          "sha256": "6758e8f04ce3a93010fafc2eb1c0e56c22856b831aa0637bd70959d8d7c88606",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/code/reproduce.py",
+          "role": "program_source",
+          "size_bytes": 10160,
+          "compressed_bytes": 3928,
+          "sha256": "816e2295e6d31478e316d8c01acf00ab9138ac81d563ac198cf2b888e0795a56",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/code/verify_archive.py",
+          "role": "program_source",
+          "size_bytes": 694,
+          "compressed_bytes": 421,
+          "sha256": "afe1bad58fc28cbe864033fce5ba355e29d202b2b041dc99680f040c450e07ec",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/best_formulas.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 14074962,
+          "compressed_bytes": 374212,
+          "sha256": "17ec437cb275a868997b1270c72c8443e94d1dbbc16fdb3aec4d1ac49650d17c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/block_orbits.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 120193,
+          "compressed_bytes": 11592,
+          "sha256": "28b173e13fdf2fd3b4c970b0b81ea33ff2046f93c5fba01d6fa82eb8e655561c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/exact_invariant_orbits.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 402523,
+          "compressed_bytes": 10096,
+          "sha256": "04d2d70bd52d58299b912fb5d0e74430e18f5557bb4de3c89665e0a07fe880d1",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/models.txt",
+          "role": "bundled_source_or_input",
+          "size_bytes": 832,
+          "compressed_bytes": 208,
+          "sha256": "9d8c4d2699d2cfb5f892e3be88bcf7f72cc0e4cc7e195ed722b6a116f84a6d43",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/partitions.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 153773,
+          "compressed_bytes": 12959,
+          "sha256": "fa1683a9f12894d13c2fb1c9cfaa560e240a6e35c0bc191a365cef112b0051df",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/profiles.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 3920188,
+          "compressed_bytes": 199035,
+          "sha256": "d72f13152f661ad15daa7e01d4652913bf227fced21671ddf5cbdddb9bf59a91",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/project_tables.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 6029,
+          "compressed_bytes": 1010,
+          "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/systems24.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 9994,
+          "compressed_bytes": 1470,
+          "sha256": "a359c7ff4225b89d322c00a081db8d0782ea2e1f89ef1cfba8b1b270a0efc7a9",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/inputs/table_automorphisms1024.json",
+          "role": "bundled_source_or_input",
+          "size_bytes": 450261,
+          "compressed_bytes": 28118,
+          "sha256": "80906610c362034afb7a1778f9329e9dd6b2403700b77f468518c6206c1faf57",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/report.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 34852,
+          "compressed_bytes": 9334,
+          "sha256": "c03b7f0154c4c8598ab90631aa05f29dbd122e1894c0a09b158a5f7a273477a5",
+          "same_bytes_as": [
+            "agent-researches/2026-09-09_new-systems_invariant-completeness.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/blocks.json",
+          "role": "saved_result",
+          "size_bytes": 2208897,
+          "compressed_bytes": 95487,
+          "sha256": "f534202b87c2fcf27ce7a594d6f69ed0cce539c58cb240356b0a0ddb225a58b7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/catalog.md",
+          "role": "saved_result",
+          "size_bytes": 58267,
+          "compressed_bytes": 3062,
+          "sha256": "61888a30350fe92e20b59aa5cf4f523b5bc5cbe9175d81786ddd90c78e3c5853",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/checks.json",
+          "role": "saved_result",
+          "size_bytes": 437,
+          "compressed_bytes": 219,
+          "sha256": "449cd729fb21ae0b4f184754b55c6f6a570ce1cf8ba48ee5f966569ca19a3b4b",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/classification.json",
+          "role": "saved_result",
+          "size_bytes": 391083,
+          "compressed_bytes": 11760,
+          "sha256": "f83f64f9ffb4ce9e0a3605fd0cc95d982144588d9a132c6c6f78727f28377cfd",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/collisions.json",
+          "role": "saved_result",
+          "size_bytes": 43740,
+          "compressed_bytes": 1806,
+          "sha256": "187459d322721dcd7cbdf59ee62c65f5c40355312c69b38f834b55de716d9f20",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/encoding.json",
+          "role": "saved_result",
+          "size_bytes": 823,
+          "compressed_bytes": 269,
+          "sha256": "cdeda36ae288b3d2ab02f8ef9e26788ce62d2863aa479a8df57c7469e58e1ae9",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/marked_relation_collisions.json",
+          "role": "saved_result",
+          "size_bytes": 1799,
+          "compressed_bytes": 313,
+          "sha256": "9e873fe15a8fff508c4a1d0845b412d25bd1fdbe1bc202af0cc7eb0c78e89c02",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/orbits.json",
+          "role": "saved_result",
+          "size_bytes": 317678,
+          "compressed_bytes": 31800,
+          "sha256": "cc4cbbd03767befb270a493d412bee3540010a577f605b71d24441b641d191de",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/run.log",
+          "role": "saved_result",
+          "size_bytes": 1232,
+          "compressed_bytes": 165,
+          "sha256": "7fa2f4ebe168fb3d86138edad0a0d4a8422b899fd45c2dc89a7dbb0bce9434f8",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/system_orbits.json",
+          "role": "saved_result",
+          "size_bytes": 682,
+          "compressed_bytes": 201,
+          "sha256": "4bfcb5e3ab6c50fed3a779e0a86a9a0f6ec8c232a4d42ebc97eb0a76542c94cb",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "invariant-completeness/results/unary_collision_witnesses.json",
+          "role": "saved_result",
+          "size_bytes": 8406,
+          "compressed_bytes": 382,
+          "sha256": "2dba3ee3631ab0e00b9b3c59f9f1513dde260d3133b6b36a6b27ef93a62cbfa8",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "invariant-completeness/SHA256SUMS.txt",
+          "declared": 25,
+          "matched": 25,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

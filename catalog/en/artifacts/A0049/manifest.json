@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0049",
+  "artifact_title": "Invariants of eight tetrachotomies with +/− and ?/!",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/tetrad-invariants-positivism-questimity.md",
+      "roles": [
+        "primary_formula_catalogue"
+      ],
+      "size_bytes": 17395,
+      "sha256": "66b2d28dab9d65914014c9b59dfc7ba80c43b7ac277e04b6f83cfde5d1f486cc"
+    }
+  ],
+  "archives": []
+}

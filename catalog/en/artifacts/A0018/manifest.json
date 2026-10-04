@@ -1,0 +1,24 @@
+{
+  "artifact_id": "A0018",
+  "artifact_title": "Model A automorphisms and orbits of 24 trait systems",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-09_model-a_automorphisms_orbits (1).md",
+      "roles": [
+        "byte_identical_copy"
+      ],
+      "size_bytes": 39180,
+      "sha256": "4dd80ee19d2361eddec686fa2a8c5d3dbfcbcba8052407d09344fc78ddb9a968"
+    },
+    {
+      "path": "agent-researches/2026-09-09_model-a_automorphisms_orbits.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 39180,
+      "sha256": "4dd80ee19d2361eddec686fa2a8c5d3dbfcbcba8052407d09344fc78ddb9a968"
+    }
+  ],
+  "archives": []
+}

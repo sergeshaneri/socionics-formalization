@@ -1,0 +1,32 @@
+{
+  "artifact_id": "A0041",
+  "artifact_title": "First formal layer: equivariant algebra of traits on 8T9",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/FORMALIZATION research",
+      "roles": [
+        "byte_identical_copy_name_variant"
+      ],
+      "size_bytes": 9953,
+      "sha256": "f75f84f4196dc7ef5682a70696524ad08c3af36381a5298ee63066693e2caa5c"
+    },
+    {
+      "path": "agent-researches/FORMALIZATION.md",
+      "roles": [
+        "primary_report"
+      ],
+      "size_bytes": 9953,
+      "sha256": "f75f84f4196dc7ef5682a70696524ad08c3af36381a5298ee63066693e2caa5c"
+    },
+    {
+      "path": "formalization/equivariant-8T9/FORMALIZATION.md",
+      "roles": [
+        "byte_identical_copy"
+      ],
+      "size_bytes": 9953,
+      "sha256": "f75f84f4196dc7ef5682a70696524ad08c3af36381a5298ee63066693e2caa5c"
+    }
+  ],
+  "archives": []
+}

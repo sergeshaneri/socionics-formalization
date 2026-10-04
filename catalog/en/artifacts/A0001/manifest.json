@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0001",
+  "artifact_title": "Actions of D8 × C2 subgroups on eight functions: research formulation",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-24-d8xc2-actions-plan.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 15843,
+      "sha256": "0e4d76433996cd88e00001480e2d782008ce284d6e311644e5bf7f00e6b24f3e"
+    }
+  ],
+  "archives": []
+}

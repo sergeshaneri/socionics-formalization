@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0044",
+  "artifact_title": "Catalogue of 170 dichotomy and tetrachotomy invariants",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/catalogue.md",
+      "roles": [
+        "readable_results_export"
+      ],
+      "size_bytes": 44707,
+      "sha256": "062e77004a8c3858a5fe5e4b98995879baeeaacd38700c869e77714c625969bb"
+    }
+  ],
+  "archives": []
+}

@@ -1,0 +1,121 @@
+{
+  "artifact_id": "A0040",
+  "artifact_title": "Computational package for function parity and the E16–8T9 bridge",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-29_8T9-chetnost-funkciy-i-most-E16.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 90298,
+      "sha256": "8e4bb402b7ef7b2e5970a44a8c842e772f6de0b9ebc90208934743f4f024f961"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-29_8T9-chetnost-funkciy-i-most-E16.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 8,
+      "uncompressed_bytes": 133641,
+      "members": [
+        {
+          "path": "research_8t9_2026-09-29/2026-09-29_8T9-chetnost-funkciy-i-most-E16.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 26918,
+          "compressed_bytes": 8641,
+          "sha256": "3ca8d59bcbfe3a6d5a3ed7a4e26849ad37633917cd5594a061a51f250621e878",
+          "same_bytes_as": [
+            "agent-researches/2026-09-29_8T9-chetnost-funkciy-i-most-E16.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "research_8t9_2026-09-29/2026-09-29_8T9-chetnost-funkciy-i-most-E16.pdf",
+          "role": "pdf_document_or_presentation",
+          "size_bytes": 71021,
+          "compressed_bytes": 70219,
+          "sha256": "659361c735bb9abe9c4b6dd99292f5541ba9900e0e265638400995a88caa94e8",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "research_8t9_2026-09-29/README.md",
+          "role": "package_readme",
+          "size_bytes": 2002,
+          "compressed_bytes": 1050,
+          "sha256": "8522dea8fa552d613c5b6b5c7bf9a5203e8ff120c8e209bb7eb48fd8235564a0",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "research_8t9_2026-09-29/analyze.py",
+          "role": "program_source",
+          "size_bytes": 15428,
+          "compressed_bytes": 5070,
+          "sha256": "1481945d4b4b3c246d8bf98102eea8d4f967645b721c6167525a40de3c448580",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "research_8t9_2026-09-29/manifest.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 1106,
+          "compressed_bytes": 529,
+          "sha256": "5566875f40497290183c2261cc68c8c9f76198e6bcb1502c84454767872bd3a3",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "research_8t9_2026-09-29/results/results.json",
+          "role": "saved_result",
+          "size_bytes": 9174,
+          "compressed_bytes": 1748,
+          "sha256": "a7b5fb70fccedc8e5ead63ad0f9cff6c6194416aa3ce47ec9c7442be1b42a9b3",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "research_8t9_2026-09-29/results/traits.csv",
+          "role": "saved_result",
+          "size_bytes": 742,
+          "compressed_bytes": 365,
+          "sha256": "fc3d1235f618edb2b0fe6596fc240cf7d51d4fd654c45f4380e824ab21aa28c7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "research_8t9_2026-09-29/source/markdown_tables.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 7250,
+          "compressed_bytes": 1290,
+          "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0",
+          "same_bytes_as": [
+            "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
+            "sources/primary/markdown таблицы.md"
+          ],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "research_8t9_2026-09-29/manifest.json",
+          "declared": 7,
+          "matched": 7,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

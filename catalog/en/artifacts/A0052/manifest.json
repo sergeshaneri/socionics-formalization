@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0052",
+  "artifact_title": "Formulas for the 16 Reinin and Tencer–Minaev tetrachotomies",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-06_formuly-16-tetrahotoimij-reinin-tm.md",
+      "roles": [
+        "primary_formula_report"
+      ],
+      "size_bytes": 28551,
+      "sha256": "ebe68fc81171b8346bd6eff2dc09da5e864318813c3b9fc86566bd8e339b6f8c"
+    }
+  ],
+  "archives": []
+}

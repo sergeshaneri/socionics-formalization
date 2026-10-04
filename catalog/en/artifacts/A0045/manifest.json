@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0045",
+  "artifact_title": "Logical formalization of ARP invariants — draft",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/chernovik-logicheskaya-formalizatsiya-arp.md",
+      "roles": [
+        "draft"
+      ],
+      "size_bytes": 43037,
+      "sha256": "e7a29e5d803e926c453d869557029da8d81ff5394126083ad9abb7eabd6a9a14"
+    }
+  ],
+  "archives": []
+}

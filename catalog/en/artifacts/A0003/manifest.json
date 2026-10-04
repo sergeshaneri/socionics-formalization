@@ -1,0 +1,696 @@
+{
+  "artifact_id": "A0003",
+  "artifact_title": "Computational package for the classification of tetrachotomies and tetrads (2026-09-28)",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-28-tetrad-classification.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 3248636,
+      "sha256": "2c7bdebf652ac6b9a701a2099d86a3e5f8f12d0f89c16955d7656a2b25e32120"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-28-tetrad-classification.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 63,
+      "uncompressed_bytes": 8346716,
+      "members": [
+        {
+          "path": "2026-09-28-tetrad-classification/2026-09-28-tetrad-classification.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 53168,
+          "compressed_bytes": 12699,
+          "sha256": "8d06cc431f7b876bad263aa69aa75ea261036b2d58bef1098f25ab4a99b96769",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/2026-09-28-tetrad-classification.pdf",
+          "role": "pdf_document_or_presentation",
+          "size_bytes": 99194,
+          "compressed_bytes": 83334,
+          "sha256": "a63c3a1d9af03f333d30ca59de3d743f3707b0c852069629a4d533c84d7bed92",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/CHECKSUMS.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 6457,
+          "compressed_bytes": 3050,
+          "sha256": "ffe11e5b5ff87c9a95a660cb5726d1d60e24e33ce98f5e86fecea2720d9226da",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/README.md",
+          "role": "package_readme",
+          "size_bytes": 3828,
+          "compressed_bytes": 1623,
+          "sha256": "1d5461de2e0e3056359bc708bb997cad5249a0b043264fa65dff7b16ae6ef460",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/01-generations-list.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 508,
+          "compressed_bytes": 305,
+          "sha256": "e53398bef9324d2e689b751bdb179cc9bf4693e58a7341129012673033a39aec",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 2521,
+          "compressed_bytes": 889,
+          "sha256": "c449d35e0fd90512cd433da8a1b8c4a8db8a5c82afc33a89de14c83d89ac4920",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/03-4-svezhak.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 137982,
+          "compressed_bytes": 10345,
+          "sha256": "0f5efd750890cc42892cd779b17195ac1c3b7b1461d7f213b9765f48708c9347",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/04-oktohotomii.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 173179,
+          "compressed_bytes": 8120,
+          "sha256": "12564f858cedaa3e19baf9ba9f075bed0be30ae7674615a31997d7f08943fc83",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/05-md",
+          "role": "package_member",
+          "size_bytes": 19618,
+          "compressed_bytes": 5716,
+          "sha256": "5dd30ba336f837ba95168630e9d881455e32073530daefb243fb872e12880d50",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/06-md",
+          "role": "package_member",
+          "size_bytes": 29772,
+          "compressed_bytes": 13066,
+          "sha256": "c8ecf8172a9bb04e0d1879f4652bf237ba104464433bac330da85af0b88964cb",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/07-formuly-dihotomij-arp.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 69611,
+          "compressed_bytes": 13994,
+          "sha256": "6fe186314479aa49beee9078f93adb0babdb0dc478b049554530e0369c7dc4d7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/08-tencer-minaev-and-reinin-dichotomies-formulae.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 6468,
+          "compressed_bytes": 1316,
+          "sha256": "eb7cccdeba8e6da1525bf9b44f006d6cdf75360b5915e07a739120957d51e2f0",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/09-markdown-1-.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 7250,
+          "compressed_bytes": 1314,
+          "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0",
+          "same_bytes_as": [
+            "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
+            "sources/primary/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/2026-09-06_tetrahotoimii-Reinin-TM_zerkalnye-invarianty-2to4(1).md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 15099,
+          "compressed_bytes": 4622,
+          "sha256": "08238e0812d13f814f930e4ba3f213022c941b0b53224fd9178f2984ee689c87",
+          "same_bytes_as": [
+            "agent-researches/2026-09-06_tetrahotoimii-Reinin-TM_zerkalnye-invarianty-2to4.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/dichotomies.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 1430,
+          "compressed_bytes": 269,
+          "sha256": "aaaab5a01e3c3dad739e12883d1bae8478a4a2414c79de06a4bfa2891ea91186",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/inclusions.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 4227,
+          "compressed_bytes": 348,
+          "sha256": "f54681e3be0fe3e1c2e3ecf2b970edec9c8890d2c24453f12413a8e3fdcaf698",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/klassifikaciya-tetrahotomij-po-formulam.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 7384,
+          "compressed_bytes": 2017,
+          "sha256": "6142f2fd117200078fd4d6b355276c8361c4fa0313a0d922e6269347bfdab10e",
+          "same_bytes_as": [
+            "sources/primary/klassifikaciya-tetrahotomij-po-formulam.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/manifest.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 386,
+          "compressed_bytes": 252,
+          "sha256": "e53b8ae595268e875489feaa765c60922f01775c28301f7a03f52d4f81caa730",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/multiplication.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 3278,
+          "compressed_bytes": 594,
+          "sha256": "793a4342440fbfcacf051f8beebc2a765a03f71d9682ad130016317510029eef",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/permutations.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 3255,
+          "compressed_bytes": 631,
+          "sha256": "60e1ec1ac3b16153c5edabb77079d48d9ece38976fa79e3e8e6f1f40973b6a18",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/subgroups.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 99926,
+          "compressed_bytes": 4461,
+          "sha256": "8d430e60c94f521cc575b0b137bf8776a7d5d62a0dfbdb7f661454a69ef353f4",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/summary.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 4382,
+          "compressed_bytes": 800,
+          "sha256": "02f5ef8ccd88482cd22d861212d849c0d357b20fdda717498af9b0bbc76b9930",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/tetrachotomies.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 99884,
+          "compressed_bytes": 4561,
+          "sha256": "b08d9d0d49e08b0545125a1a1f53e83e3c1cb2d89be9dc19243db2aaee59764e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/type_to_relation.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 1093,
+          "compressed_bytes": 331,
+          "sha256": "20471760a1bc56f304bd859ff6fad5030226b4a12b9eb83b0f34d1712b03a701",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/классификация разбиений и подгрупп.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 4871,
+          "compressed_bytes": 1465,
+          "sha256": "702a2e8f8b6a38f8510fc7d9ba84eca12951e3db0b1ce7d3004d5b995d4fc0f2",
+          "same_bytes_as": [
+            "sources/primary/классификация разбиений и подгрупп.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/01-generations-list.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 509,
+          "compressed_bytes": 305,
+          "sha256": "c3ef47574846cc2b9331d1e9a8aa507a592e7feee04703b4dbcae868e7d291a5",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/01-generations-list.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/01-generations-list.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/generations-list.md",
+            "sources/primary/generations-list.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 2522,
+          "compressed_bytes": 889,
+          "sha256": "3e36ff5cc85d6e763c41e30cf294d878686b10231df8352fd244850e1b5c5979",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/02-klassifikaciya-pravilnyh-razbienij-sociona.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/02-klassifikaciya-pravilnyh-razbienij-sociona.md.clean.txt",
+            "sources/primary/klassifikaciya-pravilnyh-razbienij-sociona.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/03-4-svezhak.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 180169,
+          "compressed_bytes": 42405,
+          "sha256": "37fe6fd18c7c79f096b3234cda0c111ffcc19cfdd6731bf1c162064a338e6019",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/04-4-svezhak.md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-1bc2daef8ed94733a6ce54683fef1532"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/04-oktohotomii.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 484914,
+          "compressed_bytes": 245625,
+          "sha256": "5ab9ffda5bb417b42eab4e41128ae918ae5400041c7a66751131e0181b975ebf",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/05-oktohotomii.md",
+            "sources/primary/oktohotomii.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/05-md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 659186,
+          "compressed_bytes": 489128,
+          "sha256": "b4e17c984ae6cf98f02e3941cac152f61a81ab57de79fb86c267be3f0588153f",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/06-md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-0b144ff3bb4c4acda04e951ebdab9d9e",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-5292485034794826927931f372ddd4fb",
+            "sources/primary/Системы Импримитивности в Соционике.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/06-md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 1136724,
+          "compressed_bytes": 845913,
+          "sha256": "f279abc0fb2ce14bb38778c3d8ef72d416e6be7edc5c983c11132af27b981e3b",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/07-md",
+            "agent-researches/tencer-minaev-audit/sources/.codex-upload-01e6b54f44f84d1e9359afde19d38159",
+            "sources/primary/Обзор связи АРП и мА.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/07-formuly-dihotomij-arp.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 1742947,
+          "compressed_bytes": 1276658,
+          "sha256": "06e8fe2344369fa815cf4a6731ce59d0863f7a418b2d011fdef09b92cf78755f",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/08-formuly-dihotomij-arp.md",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/formuly-dihotomij-arp.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/08-tencer-minaev-and-reinin-dichotomies-formulae.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 6469,
+          "compressed_bytes": 1316,
+          "sha256": "64c64c31fa378c4a471ed0338e964658e9e9142e3c35c0db1f45668b12bf7e35",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/09-tencer-minaev-and-reinin-dichotomies-formulae.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/09-tencer-minaev-and-reinin-dichotomies-formulae.md.clean.txt",
+            "sources/primary/tencer-minaev-and-reinin-dichotomies-formulae.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/09-markdown-1-.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 7250,
+          "compressed_bytes": 1314,
+          "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0",
+          "same_bytes_as": [
+            "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
+            "sources/primary/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/2026-09-06_tetrahotoimii-Reinin-TM_zerkalnye-invarianty-2to4(1).md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 15099,
+          "compressed_bytes": 4622,
+          "sha256": "08238e0812d13f814f930e4ba3f213022c941b0b53224fd9178f2984ee689c87",
+          "same_bytes_as": [
+            "agent-researches/2026-09-06_tetrahotoimii-Reinin-TM_zerkalnye-invarianty-2to4.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/klassifikaciya-tetrahotomij-po-formulam.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 7384,
+          "compressed_bytes": 2017,
+          "sha256": "6142f2fd117200078fd4d6b355276c8361c4fa0313a0d922e6269347bfdab10e",
+          "same_bytes_as": [
+            "sources/primary/klassifikaciya-tetrahotomij-po-formulam.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/originals/классификация разбиений и подгрупп.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 4871,
+          "compressed_bytes": 1465,
+          "sha256": "702a2e8f8b6a38f8510fc7d9ba84eca12951e3db0b1ce7d3004d5b995d4fc0f2",
+          "same_bytes_as": [
+            "sources/primary/классификация разбиений и подгрупп.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/4-svezhak-corrected.md",
+          "role": "saved_result",
+          "size_bytes": 137982,
+          "compressed_bytes": 10344,
+          "sha256": "21ca41abb57f76da6151dec00cb117d9c5e0f3ca90e2391c36702da6aaa638e1",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/audit.log",
+          "role": "saved_result",
+          "size_bytes": 5432,
+          "compressed_bytes": 1215,
+          "sha256": "663159a32dc242dbc9c1d71c0cc3749fc72f9c1e0e8ee229bd9dbf8a36d84919",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/corrected-audit.log",
+          "role": "saved_result",
+          "size_bytes": 4167,
+          "compressed_bytes": 897,
+          "sha256": "2c77136f91942ce1865f17d01c2c6686fe4861caf012317a0080b132a88359ad",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/corrected_formula_audit.json",
+          "role": "saved_result",
+          "size_bytes": 375735,
+          "compressed_bytes": 14415,
+          "sha256": "349d8d3426b9fd347e7c0389aef7c2245e0f50f36e47801df3f8a609d557e28e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/corrected_formula_audit_conjunctions.json",
+          "role": "saved_result",
+          "size_bytes": 23522,
+          "compressed_bytes": 1446,
+          "sha256": "53da22b8babb978493db6083fbf81768e42e00b4c86e7813ffa8fb8ca5a0d440",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/corrections.log",
+          "role": "saved_result",
+          "size_bytes": 1172,
+          "compressed_bytes": 240,
+          "sha256": "c6797a06ffe09391f7dea64149ec86a068e0fb49803dd076cff597be7ca4de0f",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/dichotomies.json",
+          "role": "saved_result",
+          "size_bytes": 106008,
+          "compressed_bytes": 6615,
+          "sha256": "b442149696709ba0b4ef0c37bf08b3cd017a10a9a90834bbc1acf23e622ce645",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/final_checks.json",
+          "role": "saved_result",
+          "size_bytes": 154,
+          "compressed_bytes": 112,
+          "sha256": "8fa93eb04797e5914b913a71b15a398283fcf62bd383516a0062e67332796a9d",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/invariant_partitions.json",
+          "role": "saved_result",
+          "size_bytes": 1405027,
+          "compressed_bytes": 35076,
+          "sha256": "534a38fa411fede923f3e3c116dd3f71435c1d7f9514bce9accdaf2c5c912943",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/normalizer.json",
+          "role": "saved_result",
+          "size_bytes": 8049,
+          "compressed_bytes": 696,
+          "sha256": "5be9c164291bad46000822e85d1cd7736333e57ee1f0f748e31c0cee54c63ebf",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/pair_orbits.json",
+          "role": "saved_result",
+          "size_bytes": 117672,
+          "compressed_bytes": 4225,
+          "sha256": "a3535af147de3a771ea4194209217999cb2dda87daa383fbde9c7d48a6618a57",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/relation_graphs.json",
+          "role": "saved_result",
+          "size_bytes": 55274,
+          "compressed_bytes": 2753,
+          "sha256": "ea2263a97a38988e672e5786dc1a0396cbb95cc367a9201372a0bc393485138f",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/run.log",
+          "role": "saved_result",
+          "size_bytes": 3931,
+          "compressed_bytes": 771,
+          "sha256": "0fbf5f6b4f3ffdbc311ec1ee801f3a08fc900d4588b765d123d573f5a59e5797",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/source_corrections.json",
+          "role": "saved_result",
+          "size_bytes": 3156,
+          "compressed_bytes": 552,
+          "sha256": "61c2b38e3f21c9a0ca7835fae87db0aa720d35ade56c3a352d9be4d5266ddb97",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/source_formula_audit.json",
+          "role": "saved_result",
+          "size_bytes": 371572,
+          "compressed_bytes": 14638,
+          "sha256": "b6d46528af870ac91471b06846733d884fa9b6586124c459f2d2d08fd75364d1",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/source_header_corrections.json",
+          "role": "saved_result",
+          "size_bytes": 1171,
+          "compressed_bytes": 240,
+          "sha256": "74ddea72efe33621ffff9e21d5fac285327deb845ab4d22228dbed683be367c4",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/summary.json",
+          "role": "saved_result",
+          "size_bytes": 3500,
+          "compressed_bytes": 704,
+          "sha256": "94b903acd152543a805a28f49d63b91e5834a1cdf64b07f42b02ab83ebb372d8",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/tetrachotomies.csv",
+          "role": "saved_result",
+          "size_bytes": 2339,
+          "compressed_bytes": 659,
+          "sha256": "bb242e4517debf7fe2891e72821fdd57c0de7e686112b517a179f5ccec855a80",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/tetrachotomies.json",
+          "role": "saved_result",
+          "size_bytes": 44019,
+          "compressed_bytes": 1915,
+          "sha256": "b3ece7b9804d1681d05c41f1a77d02762f59d121d19dfbfa19b3c0b0b45b32b5",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/tetrads.csv",
+          "role": "saved_result",
+          "size_bytes": 12215,
+          "compressed_bytes": 2233,
+          "sha256": "1d230b68c16f79d552b2fbfea0969ef9f3b90fca444d482970282bb5e7cccd92",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/results/tetrads.json",
+          "role": "saved_result",
+          "size_bytes": 508118,
+          "compressed_bytes": 29453,
+          "sha256": "4d62610bea858e4821dd54c5137324dc5ac10e539088a6fb8cde7e36a202a725",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/src/audit.py",
+          "role": "program_source",
+          "size_bytes": 3327,
+          "compressed_bytes": 1446,
+          "sha256": "8d2b4850072c21345c28a0ff41e63adacde3b8b58249d29dbec265932dd6c617",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/src/classify.py",
+          "role": "program_source",
+          "size_bytes": 11493,
+          "compressed_bytes": 4172,
+          "sha256": "fbccb15812ba195d7271752fb754b60b85923aab18a26d7b07e2d24391c77d78",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/src/pdf_report.py",
+          "role": "program_source",
+          "size_bytes": 3859,
+          "compressed_bytes": 1792,
+          "sha256": "6f6f94b4807b229f8c2750391073299248e8eb7c1cb762df32dba9a752db18cf",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/src/report.py",
+          "role": "program_source",
+          "size_bytes": 30919,
+          "compressed_bytes": 9864,
+          "sha256": "19558ccb2e8f73ec357161c096d86413cc1f8cd9ad0f320b2037dbcf5b513f3e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/src/source_corrections.py",
+          "role": "program_source",
+          "size_bytes": 4088,
+          "compressed_bytes": 1654,
+          "sha256": "608cfb81a4ff0f430600f7db4d3ae8bd5315938c13acc540214c412139c6aca9",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "2026-09-28-tetrad-classification/CHECKSUMS.json",
+          "declared": 62,
+          "matched": 62,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        },
+        {
+          "path": "2026-09-28-tetrad-classification/data/manifest.json",
+          "declared": 4,
+          "matched": 0,
+          "alternate_path_match_count": 2,
+          "alternate_path_matches": [
+            {
+              "declared_path": "data/classification.md",
+              "archive_paths": [
+                "2026-09-28-tetrad-classification/data/классификация разбиений и подгрупп.md",
+                "2026-09-28-tetrad-classification/originals/классификация разбиений и подгрупп.md"
+              ]
+            },
+            {
+              "declared_path": "data/tables.md",
+              "archive_paths": [
+                "2026-09-28-tetrad-classification/data/09-markdown-1-.md",
+                "2026-09-28-tetrad-classification/originals/09-markdown-1-.md"
+              ]
+            }
+          ],
+          "missing": 2,
+          "missing_paths": [
+            "data/catalog.json",
+            "data/tetrachotomies-source-text.md"
+          ],
+          "path_missing_paths": [
+            "data/catalog.json",
+            "data/classification.md",
+            "data/tables.md",
+            "data/tetrachotomies-source-text.md"
+          ],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "incomplete_or_mismatch"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "artifact_id": "A0029",
+  "artifact_title": "Computational package for the weaving and torus-coordinates supplement",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-15-spletenie-mental-i-tor-computations.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 19181,
+      "sha256": "0f76eb11454f3f1e3de6f728d26c8911c175a8dc08921aca8b06d6dce92bea09"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-15-spletenie-mental-i-tor-computations.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 9,
+      "uncompressed_bytes": 85848,
+      "members": [
+        {
+          "path": "spletenie-2026-09-15/2026-09-15-spletenie-mental-i-tor.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 24951,
+          "compressed_bytes": 7576,
+          "sha256": "8500df53be413124252ee3db7162c2b4b6645e6f49cd30bf8e5fbb44281cb45a",
+          "same_bytes_as": [
+            "agent-researches/2026-09-15-spletenie-mental-i-tor.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "spletenie-2026-09-15/README.md",
+          "role": "package_readme",
+          "size_bytes": 3113,
+          "compressed_bytes": 1346,
+          "sha256": "17bcaacc540ec1b3eebb74d1faf425e53627e67f92ad4533b9897d717af31d77",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "spletenie-2026-09-15/SHA256SUMS.txt",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 670,
+          "compressed_bytes": 426,
+          "sha256": "8245f0b7aed0654626852bac1ca81b06aa2591ec480c00db22d195516e009d07",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "spletenie-2026-09-15/results-new.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 8949,
+          "compressed_bytes": 751,
+          "sha256": "a68e286080fbd3abe84acbfd5b4f9004963ed0cff58848e8954dd527a48b744d",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "spletenie-2026-09-15/results.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 28448,
+          "compressed_bytes": 2056,
+          "sha256": "b776a5d63113c348439d76ed1b62f06ee2844e5e31180f28436984e445a672e7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "spletenie-2026-09-15/source-tables.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 6029,
+          "compressed_bytes": 1010,
+          "sha256": "878ea2f3c8716ab4c33c514cff7b5b5351d315ce7638c15a3f96e97e9c303c74",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/03-markdown-.md",
+            "agent-researches/2026-09-07_reinin_relations_reproducible/research_work/03-markdown-.md.clean.txt",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "spletenie-2026-09-15/stimulus-source.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 5098,
+          "compressed_bytes": 859,
+          "sha256": "36beb5da73395ee07267257a396f0dd86d438a42614b5fbf7b388e21e8da143c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "spletenie-2026-09-15/verify_base.py",
+          "role": "program_source",
+          "size_bytes": 6495,
+          "compressed_bytes": 2743,
+          "sha256": "986257c82bee4173b443477d07e9cbb2577bb608752ed44e95477a60c54a790c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "spletenie-2026-09-15/verify_new.py",
+          "role": "program_source",
+          "size_bytes": 2095,
+          "compressed_bytes": 1034,
+          "sha256": "ea6c3b21b99c70d88799ab50cd495297002cbe8d14922d0e0c28ed168a609a1a",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "spletenie-2026-09-15/SHA256SUMS.txt",
+          "declared": 8,
+          "matched": 8,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

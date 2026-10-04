@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0046",
+  "artifact_title": "Gulenko–Newman dichotomy system: formal reconstruction",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/formalizaciya-sistemy-gulenko-nyumana.md",
+      "roles": [
+        "reconstruction_report"
+      ],
+      "size_bytes": 19885,
+      "sha256": "6741da69bae596efd60ae98f72693315d63728ad62a7c2b902c9232b40543c87"
+    }
+  ],
+  "archives": []
+}

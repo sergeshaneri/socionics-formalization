@@ -1,0 +1,24 @@
+{
+  "artifact_id": "A0051",
+  "artifact_title": "Mirror 2→4 invariants in Reinin and Tencer–Minaev spaces",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-06_tetrahomii_plus-minus_questimity_TM.pdf",
+      "roles": [
+        "representation"
+      ],
+      "size_bytes": 146878,
+      "sha256": "a88f89036bf9259f40aadc9df0e4a4499ae4e6f2b1008129d60b26d8bbe7e073"
+    },
+    {
+      "path": "agent-researches/2026-09-06_tetrahotoimii-Reinin-TM_zerkalnye-invarianty-2to4.md",
+      "roles": [
+        "primary_report"
+      ],
+      "size_bytes": 15099,
+      "sha256": "08238e0812d13f814f930e4ba3f213022c941b0b53224fd9178f2984ee689c87"
+    }
+  ],
+  "archives": []
+}

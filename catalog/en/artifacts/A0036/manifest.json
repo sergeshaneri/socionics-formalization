@@ -1,0 +1,365 @@
+{
+  "artifact_id": "A0036",
+  "artifact_title": "Computational package for dichotomy invariants and 8T9 subgroups",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-29-dichotomy-formalization.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 1497740,
+      "sha256": "48188889b0e35db26bc91aaf753f425f4106dc13760025076ecabc6e44f23403"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-29-dichotomy-formalization.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 34,
+      "uncompressed_bytes": 2529777,
+      "members": [
+        {
+          "path": "2026-09-29-dichotomy-formalization/2026-09-29-dichotomy-formalization.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 44661,
+          "compressed_bytes": 13066,
+          "sha256": "82bd59a3177427f5e364d992e4cc76211b1286d3becc8a8ea8a022b132f7faab",
+          "same_bytes_as": [
+            "agent-researches/2026-09-29-dichotomy-formalization.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/2026-09-29-dichotomy-formalization.pdf",
+          "role": "pdf_document_or_presentation",
+          "size_bytes": 116335,
+          "compressed_bytes": 114848,
+          "sha256": "8b55825f134efe70fc55e698e31c4549bc76ed43c4c9437fa2bdf7e64e69cdb5",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/CHECKSUMS.json",
+          "role": "integrity_or_provenance_manifest",
+          "size_bytes": 3299,
+          "compressed_bytes": 1644,
+          "sha256": "33d34e01c9ceb4d3ee0d7775dc1d8dc2ffe4a750298d891863b5668f1e57b3ba",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/README.md",
+          "role": "package_readme",
+          "size_bytes": 2973,
+          "compressed_bytes": 1437,
+          "sha256": "b30071a905feddcb893a1e9f856b6d0c0217ba396b993d8044a6298ffb144724",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/data/author-formulae.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 69611,
+          "compressed_bytes": 13994,
+          "sha256": "6fe186314479aa49beee9078f93adb0babdb0dc478b049554530e0369c7dc4d7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/data/multiplication.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 3278,
+          "compressed_bytes": 594,
+          "sha256": "793a4342440fbfcacf051f8beebc2a765a03f71d9682ad130016317510029eef",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/data/permutations.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 3255,
+          "compressed_bytes": 631,
+          "sha256": "60e1ec1ac3b16153c5edabb77079d48d9ece38976fa79e3e8e6f1f40973b6a18",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/data/subgroups.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 99926,
+          "compressed_bytes": 4461,
+          "sha256": "8d430e60c94f521cc575b0b137bf8776a7d5d62a0dfbdb7f661454a69ef353f4",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/data/tables.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 7250,
+          "compressed_bytes": 1314,
+          "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0",
+          "same_bytes_as": [
+            "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
+            "sources/primary/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/data/terminology-draft.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 51450,
+          "compressed_bytes": 12437,
+          "sha256": "f9baabe939f54f9ca365f3b3b5d631810db56184686bf0d14b3d970ab34f96cf",
+          "same_bytes_as": [
+            "sources/context/gpt-output.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/data/tetrachotomies.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 99884,
+          "compressed_bytes": 4561,
+          "sha256": "b08d9d0d49e08b0545125a1a1f53e83e3c1cb2d89be9dc19243db2aaee59764e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/data/type_to_relation.json",
+          "role": "packaged_data_or_result",
+          "size_bytes": 1093,
+          "compressed_bytes": 331,
+          "sha256": "20471760a1bc56f304bd859ff6fad5030226b4a12b9eb83b0f34d1712b03a701",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/originals/author-formulae.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 1742947,
+          "compressed_bytes": 1276658,
+          "sha256": "06e8fe2344369fa815cf4a6731ce59d0863f7a418b2d011fdef09b92cf78755f",
+          "same_bytes_as": [
+            "agent-researches/2026-09-07_reinin_relations_reproducible/project_sources/08-formuly-dihotomij-arp.md",
+            "agent-researches/2026-09-09_fractal-generator-enumeration/inputs/formuly-dihotomij-arp.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/originals/tables.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 7250,
+          "compressed_bytes": 1314,
+          "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0",
+          "same_bytes_as": [
+            "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
+            "sources/primary/markdown таблицы.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/originals/terminology-draft.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 51450,
+          "compressed_bytes": 12437,
+          "sha256": "f9baabe939f54f9ca365f3b3b5d631810db56184686bf0d14b3d970ab34f96cf",
+          "same_bytes_as": [
+            "sources/context/gpt-output.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/affine_coordinate_anf.json",
+          "role": "saved_result",
+          "size_bytes": 2878,
+          "compressed_bytes": 379,
+          "sha256": "45049a3652294dad44e51bc3cea6f3bd5cad4ee2ff104f7ba9dd69c23662eca2",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/affine_realization.json",
+          "role": "saved_result",
+          "size_bytes": 3122,
+          "compressed_bytes": 378,
+          "sha256": "d25bb436a4fb36a50ff64ae96decf153978ce29da5192f6f6d1334a5d3547dda",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/central_extension.json",
+          "role": "saved_result",
+          "size_bytes": 1206,
+          "compressed_bytes": 296,
+          "sha256": "65221367bf54672999bd126ad25786ab1794805a25c9146b8a2db4898adcfa69",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/character_basis.json",
+          "role": "saved_result",
+          "size_bytes": 1059,
+          "compressed_bytes": 252,
+          "sha256": "83a3d11ebb57f85ff0df357281be7d0f8566aabcd9ace020877f8f5a71ed416b",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/checks.json",
+          "role": "saved_result",
+          "size_bytes": 566,
+          "compressed_bytes": 281,
+          "sha256": "575574f84565ccb351bad82d07ce6c5668473b1e2aedf5c3399473ee98b1cd6a",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/coset_tetrad_links.json",
+          "role": "saved_result",
+          "size_bytes": 16076,
+          "compressed_bytes": 853,
+          "sha256": "4cd692661560654f571592c87a4d9cf17b7f4e190248807820ef5fbbb3760651",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/formula_profiles.json",
+          "role": "saved_result",
+          "size_bytes": 21284,
+          "compressed_bytes": 1992,
+          "sha256": "10690c334df42926745fafdf01df79edda7ec95a8fa857cbe87230a40b0e5cf9",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/incidence_quotient_actions.json",
+          "role": "saved_result",
+          "size_bytes": 10524,
+          "compressed_bytes": 541,
+          "sha256": "78bcb4df82a37753ee4fb6156c8c0344abab1e889565f7eafc8a722b7265ecf7",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/left_actions.json",
+          "role": "saved_result",
+          "size_bytes": 50863,
+          "compressed_bytes": 1239,
+          "sha256": "e543a6f01caf8ac915c73a33f24e02d7a4e3ea45ec338a41b48c2f2cd736ce8c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/orbital_profiles.json",
+          "role": "saved_result",
+          "size_bytes": 22323,
+          "compressed_bytes": 883,
+          "sha256": "9911e4fbcf18090a217a4875310a76f09d4ecdb62c850667bfeb48f205361dc8",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/representation_profiles.json",
+          "role": "saved_result",
+          "size_bytes": 3660,
+          "compressed_bytes": 455,
+          "sha256": "55f780366c91b256c8df1d92376c093033ec9e5a664e763df887285604458268",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/run.log",
+          "role": "saved_result",
+          "size_bytes": 6039,
+          "compressed_bytes": 1064,
+          "sha256": "99dd5dbd6504901dc5f33072e767df31e78db8a56d594113e69f397f7569f249",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/source_extraction.json",
+          "role": "saved_result",
+          "size_bytes": 2721,
+          "compressed_bytes": 427,
+          "sha256": "311ed8a7a9bb1462e40d0baf24e847646ab0126ad09608fcea35dc2911bfb954",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/summary.json",
+          "role": "saved_result",
+          "size_bytes": 679,
+          "compressed_bytes": 345,
+          "sha256": "3b9a4c76618acb1ae85ed1087aab183509e4591da23e263f914259abe055049e",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/trait_product_table.json",
+          "role": "saved_result",
+          "size_bytes": 14354,
+          "compressed_bytes": 1374,
+          "sha256": "a0aaad6f6f8e7324cf81533f07925bc4fd6d14c3933af9d434e5d7d20aa91f95",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/results/two_dimensional_representations.json",
+          "role": "saved_result",
+          "size_bytes": 8696,
+          "compressed_bytes": 486,
+          "sha256": "2f7dabfcb8854f61727c850978022ae34d9f6ca4c742b10db6ba1c208d1ea746",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/src/analyze.py",
+          "role": "program_source",
+          "size_bytes": 17357,
+          "compressed_bytes": 6716,
+          "sha256": "0b664fab8995d184fdd4bc999b79ed40a6c533a76eb05ba6f4ea35cf98401391",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/src/pdf-header.tex",
+          "role": "program_source",
+          "size_bytes": 408,
+          "compressed_bytes": 239,
+          "sha256": "4900ac27d100a92a6b3791c08874d467ed7bc59fba648b062895c08d03f0c9fa",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-dichotomy-formalization/src/report.py",
+          "role": "program_source",
+          "size_bytes": 41300,
+          "compressed_bytes": 13089,
+          "sha256": "ccaaa6d54b616a841a426b4e0ac8045c4752fe72984d4840b069393ab25eccba",
+          "same_bytes_as": [],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [
+        {
+          "path": "2026-09-29-dichotomy-formalization/CHECKSUMS.json",
+          "declared": 33,
+          "matched": 33,
+          "alternate_path_match_count": 0,
+          "alternate_path_matches": [],
+          "missing": 0,
+          "missing_paths": [],
+          "path_missing_paths": [],
+          "mismatched": 0,
+          "mismatched_paths": [],
+          "status": "all_match"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

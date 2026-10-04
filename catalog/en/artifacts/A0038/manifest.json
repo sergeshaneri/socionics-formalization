@@ -1,0 +1,91 @@
+{
+  "artifact_id": "A0038",
+  "artifact_title": "Verifiable package for H16 and 8T9",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-29-fraktal-H16-8T9-vychisleniya.zip",
+      "roles": [
+        "archive"
+      ],
+      "size_bytes": 94037,
+      "sha256": "643509fa97da13a5e835c767938d520e115af563cc62996bd3f7d6871be272fe"
+    }
+  ],
+  "archives": [
+    {
+      "path": "agent-researches/2026-09-29-fraktal-H16-8T9-vychisleniya.zip",
+      "status": "readable",
+      "opens": true,
+      "crc_test": "passed",
+      "unsafe_members": [],
+      "member_count": 6,
+      "uncompressed_bytes": 121562,
+      "members": [
+        {
+          "path": "README.md",
+          "role": "package_readme",
+          "size_bytes": 1093,
+          "compressed_bytes": 680,
+          "sha256": "12fad3bf68df8b8652041f0020e7325865e77d64660387076b07f4fbb9d422a0",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-fraktal-H16-i-gruppa-8T9.md",
+          "role": "research_text_or_documentation",
+          "size_bytes": 19781,
+          "compressed_bytes": 6588,
+          "sha256": "113a2e92b4752b365eef89dacaf4ff0a40a5f742c2773c5808f6d9b0b0de99e3",
+          "same_bytes_as": [
+            "agent-researches/2026-09-29-fraktal-H16-i-gruppa-8T9.md"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-fraktal-H16-i-gruppa-8T9.pdf",
+          "role": "pdf_document_or_presentation",
+          "size_bytes": 81215,
+          "compressed_bytes": 80061,
+          "sha256": "56408c862d39c0b1df72bd91302cee30d8e375a9fe29516cae44c6ed3a49249d",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-fractal-8T9-check.py",
+          "role": "program_source",
+          "size_bytes": 9352,
+          "compressed_bytes": 3349,
+          "sha256": "b4d2d79b20cd81609584f1a96e038ab964c42196588c48ddccc3069906f992a6",
+          "same_bytes_as": [
+            "formalization/equivariant-8T9/2026-09-29-fractal-8T9-check.py"
+          ],
+          "safe_path": true
+        },
+        {
+          "path": "2026-09-29-fractal-8T9-results.txt",
+          "role": "package_member",
+          "size_bytes": 2871,
+          "compressed_bytes": 1199,
+          "sha256": "cc0c8af1ad11ac4ef7549396934447604461eaf0042f5f39300b297da7adde7c",
+          "same_bytes_as": [],
+          "safe_path": true
+        },
+        {
+          "path": "project_sources/09-markdown-1-.md",
+          "role": "bundled_source_or_input",
+          "size_bytes": 7250,
+          "compressed_bytes": 1314,
+          "sha256": "92f80485da50f096f4094668db9a36be735e75c468e59adeef05c14f8fbea5f0",
+          "same_bytes_as": [
+            "formalization/equivariant-8T9/project_sources/09-markdown-1-.md",
+            "sources/primary/markdown таблицы.md"
+          ],
+          "safe_path": true
+        }
+      ],
+      "internal_manifests": [],
+      "error": null
+    }
+  ]
+}

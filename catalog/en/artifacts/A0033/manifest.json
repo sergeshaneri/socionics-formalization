@@ -1,0 +1,16 @@
+{
+  "artifact_id": "A0033",
+  "artifact_title": "Kernel of an action on an orbit and the distribution of tetrachotomies",
+  "generated_by": "catalog/en/build_indexes.py; file data copied from catalog/artifacts",
+  "files": [
+    {
+      "path": "agent-researches/2026-09-25-orbit-kernels.md",
+      "roles": [
+        "primary_markdown"
+      ],
+      "size_bytes": 33381,
+      "sha256": "c1ab63ff3e41bc8e78c5a0a0955ac9a5b96e87512a12977facc2d7e999574150"
+    }
+  ],
+  "archives": []
+}
